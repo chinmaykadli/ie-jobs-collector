@@ -99,7 +99,7 @@ def normalize(source, payload):
         if not url or not url.startswith('https://'): raise ValueError('Missing authoritative job link')
         ireland=irish_location(loc)
         remote_uncertain=remote_ireland_pending(loc, ireland)
-        normalized.append({'key':f"{ats}:{source['token']}:{j['id']}",'company':source['company'],'ats':ats,'id':str(j['id']),'title':title,'location':loc,'irish_location_match':ireland,'remote_ireland_eligibility_unverified':bool(remote_uncertain),'context_candidate':bool(LANES.search(title+' '+description)),'job_url':url,'apply_url':j.get('applyUrl'),'source_posted_at':posted,'source_posted_at_utc':posted_utc(posted,dtype),'source_posted_at_original':posted,'source_updated_at':updated,'timestamp_semantics':dtype,'employment_type':j.get('employmentType') or j.get('commitment'),'description':description,'review_state':'NOT_REVIEWED','source_url':source['url'],**({'content_schema_version':2} if ats=='lever' else {})})
+        normalized.append({'key':f"{ats}:{source['token']}:{j['id']}",'company':source['company'],'ats':ats,'id':str(j['id']),'title':title,'location':loc,'irish_location_match':ireland,'remote_ireland_eligibility_unverified':bool(remote_uncertain),'context_candidate':bool(LANES.search(title+' '+description)),'job_url':url,'apply_url':j.get('applyUrl'),'source_posted_at':posted,'source_posted_at_utc':posted_utc(posted,dtype),'source_posted_at_original':posted,'source_updated_at':updated,'timestamp_semantics':dtype,'employment_type':j.get('employmentType') or j.get('commitment'),'description':description[:4000],'review_state':'NOT_REVIEWED','source_url':source['url'],**({'content_schema_version':2} if ats=='lever' else {})})
     return normalized
 
 def ats_schema_upgrade(previous,job):

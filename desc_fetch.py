@@ -113,7 +113,7 @@ def enrich_missing_descriptions(jobs, state, sleep_s=1.2, max_per_run=250, fetch
             _, payload = fetcher(url)
             desc = extract_description(ats, payload)
             if desc:
-                job["description"] = desc
+                job["description"] = desc[:4000]
                 dfstate[key] = {"state": "ok", "url": url, "attempts": (prior or {}).get("attempts", 0) + 1}
                 enriched += 1
             else:

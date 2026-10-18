@@ -111,7 +111,7 @@ def normalize(source, payload):
                     'context_candidate': bool(I.LANES.search(title + ' ' + desc)) and not nodesc, 'description_state': 'MISSING' if nodesc else 'PRESENT', 'coverage_scope': ('BOUNDED_SEARCH_IRELAND_NOT_GLOBAL' if ats == 'workday' else 'FULL_FEED_PAGINATION_PER_RECEIPT'), 'job_url': url, 'apply_url': None,
                     'source_posted_at': posted, 'source_posted_at_utc': I.posted_utc(posted, dtype) if dtype in ('releasedDate', 'published_at', 'first_published_at') else None,
                     'source_posted_at_original': posted, 'source_updated_at': upd, 'timestamp_semantics': dtype, 'employment_type': None,
-                    'description': desc, 'review_state': 'NOT_REVIEWED', 'source_url': source['url']})
+                    'description': desc[:4000], 'review_state': 'NOT_REVIEWED', 'source_url': source['url']})
     return _merge_dupes(res)
 
 def _merge_dupes(res):
