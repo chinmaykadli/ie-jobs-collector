@@ -16,14 +16,14 @@ jobs:
       - name: restore state
         run: |
           mkdir -p out
-          cp state/state.json out/state.json 2>/dev/null || echo "no prior state"
+          gunzip -c state/state.json.gz > out/state.json 2>/dev/null || echo "no prior state"
       - name: run collector
         run: python3 run_collector.py --sources sources.json --output out
       - name: commit public job data and state
         run: |
           mkdir -p docs-data state
           cp out/raw-irish-queue.json out/last-changes.json out/health.json docs-data/
-          cp out/state.json state/state.json
+          gzip -9 -c out/state.json > state/state.json.gz
           git config user.name "ie-jobs-collector-bot"
           git config user.email "actions@github.com"
           git add docs-data/ state/
