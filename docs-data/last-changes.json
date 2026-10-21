@@ -1,356 +1,1205 @@
 [
   {
-    "key": "greenhouse:tines:6231156004",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
+    "key": "greenhouse:intercom:7994073",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
   },
   {
-    "key": "greenhouse:stripe:8204649",
+    "key": "ashby:ashby:40320f3a-9d7d-4d53-a30e-a1bf7d74793b",
     "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
+    "at": "2026-10-21T17:57:02.246187+00:00"
   },
   {
-    "key": "greenhouse:stripe:8241571",
+    "key": "ashby:ashby:9599c771-a837-462f-8e03-39d18be54a51",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:stripe:8282859",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:datadog:8003181",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "description",
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:datadog:7874990",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:mongodb:8170634",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "description",
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:mongodb:8167173",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "description",
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:mongodb:8126598",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:okta:7013622",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:stripe:8076151",
+    "key": "greenhouse:okta:8041551",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
-      "source_updated_at"
+      "source_updated_at",
+      "title"
     ]
   },
   {
-    "key": "greenhouse:stripe:8162189",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:stripe:8189015",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:stripe:8126047",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:stripe:8284974",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:datadog:8077474",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:mongodb:8043909",
+    "key": "greenhouse:okta:8038929",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
-      "source_updated_at"
+      "location",
+      "source_updated_at",
+      "title"
     ]
   },
   {
-    "key": "greenhouse:okta:8305392",
+    "key": "greenhouse:okta:8306330",
     "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
+    "at": "2026-10-21T17:57:02.246187+00:00"
   },
   {
-    "key": "greenhouse:okta:8131237",
+    "key": "greenhouse:okta:8213721",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
+    "at": "2026-10-21T17:57:02.246187+00:00"
   },
   {
-    "key": "greenhouse:twilio:8202189",
+    "key": "greenhouse:coinbase:7980600",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "description",
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:coinbase:8304046",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:dropbox:8234201",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:dropbox:8234202",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:gitlab:8882365002",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8871878002",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8871274002",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8886648002",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "ashby:notion:11e56782-ee28-4025-ba0e-76222b0bfcea",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "ashby:openai:0b80474f-6438-4b41-94e4-0e653c7e3457",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "ashby:openai:74842880-e750-4664-9e2e-83b4c96c5a03",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "ashby:openai:b29816ed-6ffc-4ab4-a98c-7f0e051762e5",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "ashby:openai:dceee17e-1e37-448b-acd3-2f97e41a6af7",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "ashby:vanta:f2661895-d4fb-4b7e-95c9-14b13964e6a9",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "ashby:snowflake:e9d9e121-736c-46af-afc2-df371b7024a0",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:anthropic:5459290008",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:databricks:8723918002",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:databricks:8569633002",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:databricks:8900134002",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:databricks:8639997002",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:databricks:8444598002",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:elastic:8274391",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:elastic:8306617",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:elastic:8306618",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:elastic:8306619",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:elastic:8306622",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:elastic:8029518",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:elastic:7909307",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:reddit:7792848",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:toast:8306745",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:toast:8245633",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:zoominfo:8801899002",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:zoominfo:8643355002",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:zoominfo:8243004002",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:zoominfo:8606563002",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:zoominfo:8687939002",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "lever:rws:483109df-dff9-4f8e-9b2a-d51572725adc",
+    "kind": "NEW",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "workday:workday:JR-0110934",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "ashby:crusoe:6349786b-420d-4352-a3c7-03e1a3d7e5b0",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "ashby:crusoe:7a937d37-80f8-4ec5-b0d1-181414a474e7",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "ashby:crusoe:564be4e5-5528-495d-aaee-bae4e69d8833",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "ashby:crusoe:3f0089ff-ec8b-4650-81e5-5769c6da8b3c",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "ashby:nooks:d8c39681-1733-4cf5-9f9d-3c9b9bacf5ef",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-21T17:57:02.246187+00:00"
+  },
+  {
+    "key": "greenhouse:globalizationpartners:8033516003",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:globalizationpartners:8001439003",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:globalizationpartners:8001435003",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
       "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:pinterest:8267923",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:pinterest:8268346",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:coinbase:8289787",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6017275004",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
       "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:gitlab:8883597002",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6224549004",
     "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
+    "at": "2026-10-21T17:57:02.246187+00:00"
   },
   {
-    "key": "greenhouse:gitlab:8773006002",
+    "key": "greenhouse:sonymusicentertainment:8528449002",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
+    "at": "2026-10-21T17:57:02.246187+00:00"
   },
   {
-    "key": "greenhouse:gitlab:8828009002",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "ashby:openai:1bdc3943-94e8-4479-b1ee-9e2c903a5487",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "ashby:openai:068c4492-1e07-4d51-9ab0-ec2727b7fc51",
+    "key": "rippling:rippling:94486f41-6474-446a-b67a-c164e11354ea",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
-      "description"
+      "location"
     ]
   },
   {
-    "key": "ashby:openai:9745f423-9048-48c0-8c57-639611b04abc",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "ashby:snowflake:3e456510-bf29-4dbf-9a27-33a8ace8a44a",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "ashby:snowflake:99dfc810-9487-4ac1-91a8-50acefd05bae",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5459422008",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5418402008",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5421539008",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5416979008",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:databricks:8813464002",
+    "key": "rippling:rippling:1584be38-83a9-41a8-94e8-f733332ace4e",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
-      "source_updated_at"
+      "location"
     ]
   },
   {
-    "key": "greenhouse:databricks:8813515002",
+    "key": "rippling:rippling:6fc734dd-1878-40be-aedb-376562313db6",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
-      "source_updated_at"
+      "location"
     ]
   },
   {
-    "key": "greenhouse:databricks:8814528002",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:databricks:8638637002",
+    "key": "rippling:rippling:ae666b72-45bc-4d07-90c1-7a440adf501f",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
-      "source_updated_at"
+      "location"
     ]
   },
   {
-    "key": "greenhouse:databricks:8869256002",
+    "key": "rippling:rippling:46b4af52-824b-4803-be84-e8ed57bd33a1",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
-      "source_updated_at"
+      "location"
     ]
   },
   {
-    "key": "greenhouse:databricks:8633152002",
+    "key": "rippling:rippling:19ae5b34-e7b7-4164-99d4-fc8f84bb37fe",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
-      "source_updated_at"
+      "location"
     ]
   },
   {
-    "key": "greenhouse:deliveroo:8202431",
+    "key": "rippling:rippling:0fbc5ada-67f2-422b-b00f-01fe98990d4d",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
-      "source_updated_at"
+      "location"
     ]
   },
   {
-    "key": "greenhouse:toast:8175035",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:toast:8079182",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:toast:8126429",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:toast:8264379",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:zoominfo:8906446002",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:zoominfo:8879298002",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:zoominfo:8419194002",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "workday:mastercard:R-293569",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "workday:mastercard:R-286231",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "workday:salesforce:JR364205",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "ashby:crusoe:0dde69d9-38ec-4b3d-a761-a4c5535eb81d",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:feverup:5012729101",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:feverup:5012735101",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:feverup:5012731101",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:feverup:5012733101",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:feverup:5012732101",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:feverup:4960945101",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:feverup:4659911101",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:feverup:4961004101",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:sonyinteractiveentertainmentglobal:6015683004",
+    "key": "rippling:rippling:d8b8f2c7-9a97-4475-bd57-bec0d5878986",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
-      "source_updated_at"
+      "location"
     ]
   },
   {
-    "key": "greenhouse:sonyinteractiveentertainmentglobal:6176306004",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:sonyinteractiveentertainmentglobal:5976909004",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:sonymusicentertainment:8906237002",
+    "key": "rippling:rippling:63fb5029-e926-42cd-a9f4-225037c1293b",
     "kind": "CHANGED",
-    "at": "2026-10-21T16:56:57.199196+00:00",
+    "at": "2026-10-21T17:57:02.246187+00:00",
     "fields": [
-      "source_updated_at"
+      "location"
     ]
   },
   {
-    "key": "greenhouse:xai:5207586007",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "greenhouse:xai:5090265007",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-21T16:56:57.199196+00:00"
-  },
-  {
-    "key": "lever:veeva:aae85f80-72bc-4a47-b584-215166bec5c2",
+    "key": "rippling:rippling:ce6431d7-73b0-45a4-b04c-5692991283f5",
     "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
+    "at": "2026-10-21T17:57:02.246187+00:00"
   },
   {
-    "key": "smartrecruiters:eurofins:744000156850882",
-    "kind": "NEW",
-    "at": "2026-10-21T16:56:57.199196+00:00"
+    "key": "rippling:rippling:dd867687-9cd4-4d9e-b715-6f1d9f4abca7",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:141d079d-f09c-4088-b577-0f137d21de89",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:6b4cc8de-4a3a-4910-b96e-71eb324cacc7",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:6a055998-1560-4e2b-b0eb-79913c5d49f1",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:74d11f76-3bdc-4ce3-809c-75f95eff3225",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:51ec1407-4563-4927-8b39-ee89d589dc7c",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:001c7945-723f-4062-be44-80e1e18276a3",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:43792d18-d900-4c46-ba4e-709411aba531",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:a25e85a0-1060-45fa-863c-bb58267d38d3",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:96601a74-e7b6-469d-8c69-6fdfd1c83bc0",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:f64b6158-9534-4bab-9457-45556166b262",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:c3bb0bc1-2108-4a28-95dd-2eeeaa11b8ed",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:ccf80b23-41dc-4184-99a6-4e4c303ecd8f",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:40c17b33-d797-402a-90e8-ffee724f490d",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:2c460e6d-700d-4805-ae08-ed25b6fbf068",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:6bdca6e6-0d36-4b0e-b373-7d007b41b7d0",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:6a72eb72-3c3a-4eaa-a1c8-b0ba2750af1d",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:1e45687a-9be4-4dc6-aa46-98d6fd987210",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:df0af28d-c2b1-41e6-8348-a69b04813b95",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:c92d6b7d-3c78-4f3c-ac0a-9a95b8e28e72",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:1311a98d-008f-4517-9f9f-73ee4c9cf1cf",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:8fd0d1ed-1e56-4289-9126-5920e3e622bc",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:07b5cf53-0f1e-48dd-8af5-b5efb30ac025",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:d5143d23-021f-4fd5-a483-79ac99edb08d",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:ac503b6a-95f1-4de4-8fec-db5f44aa99c5",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:4bc32e30-67e0-42cf-bb75-ca5539b2c1a0",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:789e158e-a1e8-4457-ac4f-7378fdfb7598",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:73576032-7fb5-4d50-9c80-4f2327151f59",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:bf8b11da-eb3a-4dc3-81bf-a213863bb8d0",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:d55e48c1-ef3d-4523-baea-61098c66ee9f",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:44f69b41-ca2d-4d3c-91eb-322156caf534",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:cf18920c-b941-4f22-8097-4bafe822e8bc",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:82eda90e-1cd6-46b5-b540-40a02d2d3cfb",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:9742dfc5-585c-4805-bfa1-9466434254e2",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:ddc92a13-9c02-46cd-9166-4a5c1fb149e3",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:8864310d-b39b-473b-8e94-e5a3f317fe2e",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:7d6f9194-b55e-47a5-b1db-caeb396ba3ab",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:34d2abc5-206c-4472-803a-6b8713382bc6",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:dd676f12-3f1e-4658-8435-9cb22563f265",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:a16e3624-dda1-4ea8-8777-5386574966b8",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:37e3c301-4976-4e21-94d6-e261f151cd8e",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:4a0738f6-b903-45a2-b31c-4e9b8df1f975",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:52e524de-567f-4e4e-b1b5-9b8f11876ff1",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:a67864ea-4be1-443d-a5d4-39080d5e42e7",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:08395140-66e4-4319-9a8f-d6c5513a5757",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:25cebd75-5323-4ac7-ac16-0765d5c8250c",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:ea9eda50-a3a8-40e9-b6d3-a525f420eece",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:1303ef03-d31a-4bde-a425-0019a72ed0ff",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:ed01ca95-105d-4379-b66c-b0680c79839a",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:dfc80f83-5c44-4bee-a14d-01ef05fe8412",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:6edd5bc4-89b5-4167-b710-3867471e6ba1",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:76b4e264-5b4b-4dfb-8ee3-f3656bb92e2f",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:5a082b2d-4558-4f6a-9ce6-4c14742a9d77",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:9ce687f0-7d25-450b-989c-cd29ee713d8b",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:53644a9d-c80a-4001-99d3-86070f9f3e9d",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:ce9bf549-cd9d-4dcc-8121-98629fdeffd5",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:0d5eb912-9ec1-4d6e-8aa3-6e4274a75cee",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:80548d38-09ab-425d-9901-76e4839553a0",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:4f7d3299-fc7a-411c-a061-55d74e9862ca",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:e502a948-802f-4b5a-90ff-0bb8a0e6e326",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:39875829-d346-46c4-9e1b-408d58a981dd",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:5fbd346a-7e22-4434-96d6-c73429b84fea",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:1f81bd71-a3b5-4b91-aa6c-9999417a4c47",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:ac485804-a5a2-468e-9423-5b238cb6b910",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:9079e455-c68e-49a7-86bb-706a6f52484a",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:c649158e-f29f-4aba-a40c-8ed3ecfddafe",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:c3d4a64f-8e8f-4e31-9b44-1db5fc6b3433",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:b60c7ab2-e174-452f-83cc-37973b0ad4e3",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:8c606ff9-0e19-4a0d-aa5b-9bf8271cb4d8",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:d844ab08-14e9-4f6b-a4b2-8783d4301486",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:598cd95b-9187-4ee4-a0ba-0f14a59ef4a7",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:3008b599-4506-467d-9d21-62aa561794b7",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:86e4b180-a27e-4b86-bc80-6b7cefa2e1c9",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:ebc7a777-aa35-4333-ac95-ebc98e375f75",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:18d9c9ed-c878-4e78-83a0-6e24cf0bcc9d",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:a07e4e46-3721-4934-b57b-0d58412e22ba",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:0ac9c6a2-ba08-4cc9-9d57-2a8eea26de20",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:53eadfa7-eebb-4993-ac88-c42d75bb4e65",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:e3e24ff1-9914-4234-af7f-a4938a64bb21",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:8c730305-3db2-47d1-bd61-3cf82fc6888a",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:1ef152ba-8560-4465-8f9f-d60f20b4cae5",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:8a100ad8-1157-446a-ad96-ef8daad5222a",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:9f16d650-09aa-4b81-8ddc-db07adab43b6",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:7aa941c5-b80c-4e37-86a8-126d946eed64",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:6e70aec5-ed2d-472e-97ef-e7bd3c1c3e8d",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:7db1a2dc-d965-4e8d-8c96-1db7fdcdaa50",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:c6081fd6-f501-4d76-86b9-ffc41f3aab5a",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:94e4cad6-2edd-4601-8f68-4b8b4606f3dc",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:61392c19-99a4-43d7-bd09-abe82db95532",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:cdf1b3f4-e746-4f35-986a-b1eb2a70a628",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "rippling:rippling:e5acfcce-f0dc-4859-aa59-74dfa14c035a",
+    "kind": "CHANGED",
+    "at": "2026-10-21T17:57:02.246187+00:00",
+    "fields": [
+      "location"
+    ]
   }
 ]
