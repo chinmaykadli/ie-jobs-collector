@@ -1,160 +1,88 @@
 [
   {
-    "key": "greenhouse:mongodb:6381035",
+    "key": "greenhouse:stripe:8287916",
+    "kind": "NEW",
+    "at": "2026-10-22T05:56:50.732311+00:00"
+  },
+  {
+    "key": "greenhouse:okta:8194325",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-22T05:56:50.732311+00:00"
+  },
+  {
+    "key": "greenhouse:coinbase:8287668",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-10-22T05:56:50.732311+00:00"
+  },
+  {
+    "key": "greenhouse:databricks:8780675002",
     "kind": "CHANGED",
-    "at": "2026-10-22T04:56:56.169802+00:00",
+    "at": "2026-10-22T05:56:50.732311+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "ashby:openai:0ca02747-5c97-432b-95c5-4b9099bce992",
+    "key": "greenhouse:deliveroo:8311914",
     "kind": "NEW",
-    "at": "2026-10-22T04:56:56.169802+00:00"
+    "at": "2026-10-22T05:56:50.732311+00:00"
   },
   {
-    "key": "ashby:openai:0875c19f-3f37-403e-81e9-7bf2429f1e4e",
+    "key": "greenhouse:elastic:8130076",
+    "kind": "CHANGED",
+    "at": "2026-10-22T05:56:50.732311+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:elastic:8069178",
+    "kind": "CHANGED",
+    "at": "2026-10-22T05:56:50.732311+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:zoominfo:8834178002",
+    "kind": "CHANGED",
+    "at": "2026-10-22T05:56:50.732311+00:00",
+    "fields": [
+      "location",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "workday:salesforce:JR363213",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
+    "at": "2026-10-22T05:56:50.732311+00:00"
   },
   {
-    "key": "ashby:openai:5953fed7-1466-4e90-94c9-43716a55e032",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
+    "key": "greenhouse:globalizationpartners:8030735003",
+    "kind": "CHANGED",
+    "at": "2026-10-22T05:56:50.732311+00:00",
+    "fields": [
+      "source_updated_at",
+      "title"
+    ]
   },
   {
-    "key": "ashby:openai:862ffe2a-8261-4c46-8ed4-5178567ac7e0",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
+    "key": "greenhouse:globalizationpartners:8002760003",
+    "kind": "CHANGED",
+    "at": "2026-10-22T05:56:50.732311+00:00",
+    "fields": [
+      "source_updated_at",
+      "title"
+    ]
   },
   {
-    "key": "ashby:snowflake:9ddf62ba-c9ba-4964-a736-6599a19913df",
+    "key": "greenhouse:sonymusicentertainment:8894039002",
     "kind": "NEW",
-    "at": "2026-10-22T04:56:56.169802+00:00"
+    "at": "2026-10-22T05:56:50.732311+00:00"
   },
   {
-    "key": "ashby:snowflake:4b327a92-0f6a-4e2e-a657-2ab709445d15",
+    "key": "greenhouse:sonymusicentertainment:8644292002",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "greenhouse:xai:5270908007",
-    "kind": "NEW",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:dnb:5092b2a3-588e-45e5-b15e-a92d479d4992",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:dnb:4b37540f-5f71-4535-924c-06bedf2766d8",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:dnb:c8a550c5-d648-4977-9a97-bcbf78413f5a",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:04949c37-b676-43dc-97b3-360318840dd5",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:6d531f47-e2eb-41a4-aa8f-87d5eaa53044",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:ef48fc2d-7167-4272-855f-7d6a4802adb6",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:21bed87c-777f-4336-8d6a-eb120e09c2fd",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:3de5c66a-4cbb-4556-b63a-3a73e1c973fe",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:818c192d-7910-4391-91d5-b4d3e780df32",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:9bf1acc5-82ec-446b-9cb0-429f08b9d8f1",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:c2cae305-d679-4675-85b5-fbf862baa2b0",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:f91248bb-9fc7-444f-a38d-ed7a1edea9b2",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:c44a3c93-9c58-4566-9afa-7d5bdcd8d8a2",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:4e540c41-21c7-4e25-b23e-73128488949d",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:90d64e2e-d897-4275-8911-3cd19cece899",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:1b1e38bd-0864-4c62-9324-59e5f27542fb",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:5a704b57-ec05-4c79-bb0b-0389bff1bb61",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:018e16b7-b5f8-412c-9d20-4d97fb8ab29f",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:aba23d95-caff-4c63-96ac-ed40f4561a19",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:9240fd6f-2595-43c3-a95f-54a2c471eadd",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:7853b6a2-9b65-4186-810d-95f7061cced8",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:f32bd881-f1d2-4de4-8fc4-5f1bb4482e16",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
-  },
-  {
-    "key": "lever:weloglobal:aa446464-26fe-4d7d-ba8a-5cbfb76055bc",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-10-22T04:56:56.169802+00:00"
+    "at": "2026-10-22T05:56:50.732311+00:00"
   }
 ]
