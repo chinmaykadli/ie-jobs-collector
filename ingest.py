@@ -50,9 +50,17 @@ NON_CHANGE_KEYS={'remote_ireland_eligibility_unverified','source_posted_at_utc',
 def volatile_keys(job):
     # relative text such as Workday 'Posted 3 Days Ago' changes every day without the posting changing
     return {'source_posted_at'} if job.get('timestamp_semantics')=='relative_text_not_a_date' else set()
+def equivalent_multilocation(previous, job):
+    # Multi-location boards can reorder rows without changing available locations.
+    if job.get('ats') not in {'rippling', 'workable'}:
+        return False
+    def locations(record):
+        return {part.strip() for part in record.get('location', '').split(';') if part.strip()}
+    return locations(previous) == locations(job)
+
 def changed_fields(previous,job):
     skip=NON_CHANGE_KEYS|volatile_keys(job)
-    return sorted(k for k,v in job.items() if k not in skip and previous.get(k)!=v and not (ats_schema_upgrade(previous,job) and k=='description'))
+    return sorted(k for k,v in job.items() if k not in skip and previous.get(k)!=v and not (k=='location' and equivalent_multilocation(previous,job)) and not (ats_schema_upgrade(previous,job) and k=='description'))
 def fingerprint(job):
     job={k:v for k,v in job.items() if k not in volatile_keys(job)}
     return hashlib.sha256(json.dumps(job,sort_keys=True,ensure_ascii=False).encode()).hexdigest()

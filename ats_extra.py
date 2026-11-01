@@ -128,6 +128,9 @@ def _merge_dupes(res):
         m['irish_location_match'] = bool(m['irish_location_match'] or r['irish_location_match'])
         m['remote_ireland_eligibility_unverified'] = bool(m['remote_ireland_eligibility_unverified'] or r['remote_ireland_eligibility_unverified'])
         m['context_candidate'] = bool(m['context_candidate'] or r['context_candidate'])
+    # Provider order is not a meaningful location change. Keep all locations.
+    for record in out:
+        record['location'] = '; '.join(sorted({x.strip() for x in record['location'].split(';') if x.strip()}))
     return out
 
 I.normalize, I.pagination_evidence = normalize, pagination_evidence
