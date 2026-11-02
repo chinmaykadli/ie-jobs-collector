@@ -48,7 +48,7 @@ def detail(u):
     if not title:
         m = re.search(r'<title[^>]*>(.*?)</title>', h, re.S); title = html.unescape(m.group(1)).strip() if m else ''
     if not desc: desc = text[:6000]
-    return {'title': title, 'location': loc, 'description': desc[:4000], 'page_text_head': text[:1500]}
+    return {'title': title, 'location': loc, 'description': desc, 'page_text_head': text[:1500]}
 def main():
     srcs = json.load(open('agency_sources.json')); sp = pathlib.Path('state/agency-seen.json')
     seen = json.load(open(sp)) if sp.exists() else {}

@@ -46,7 +46,7 @@ def posted_utc(value, semantics):
         return dt.astimezone(timezone.utc).isoformat()
     except (ValueError,TypeError,OverflowError): return None
 
-NON_CHANGE_KEYS={'remote_ireland_eligibility_unverified','source_posted_at_utc','source_posted_at_original','content_schema_version'}
+NON_CHANGE_KEYS={'remote_ireland_eligibility_unverified','source_posted_at_utc','source_posted_at_original','content_schema_version','description_checked_at','description_freshness'}
 def volatile_keys(job):
     # relative text such as Workday 'Posted 3 Days Ago' changes every day without the posting changing
     return {'source_posted_at'} if job.get('timestamp_semantics')=='relative_text_not_a_date' else set()
@@ -107,7 +107,7 @@ def normalize(source, payload):
         if not url or not url.startswith('https://'): raise ValueError('Missing authoritative job link')
         ireland=irish_location(loc)
         remote_uncertain=remote_ireland_pending(loc, ireland)
-        normalized.append({'key':f"{ats}:{source['token']}:{j['id']}",'company':source['company'],'ats':ats,'id':str(j['id']),'title':title,'location':loc,'irish_location_match':ireland,'remote_ireland_eligibility_unverified':bool(remote_uncertain),'context_candidate':bool(LANES.search(title+' '+description)),'job_url':url,'apply_url':j.get('applyUrl'),'source_posted_at':posted,'source_posted_at_utc':posted_utc(posted,dtype),'source_posted_at_original':posted,'source_updated_at':updated,'timestamp_semantics':dtype,'employment_type':j.get('employmentType') or j.get('commitment'),'description':description[:4000],'review_state':'NOT_REVIEWED','source_url':source['url'],**({'content_schema_version':2} if ats=='lever' else {})})
+        normalized.append({'key':f"{ats}:{source['token']}:{j['id']}",'company':source['company'],'ats':ats,'id':str(j['id']),'title':title,'location':loc,'irish_location_match':ireland,'remote_ireland_eligibility_unverified':bool(remote_uncertain),'context_candidate':bool(LANES.search(title+' '+description)),'job_url':url,'apply_url':j.get('applyUrl'),'source_posted_at':posted,'source_posted_at_utc':posted_utc(posted,dtype),'source_posted_at_original':posted,'source_updated_at':updated,'timestamp_semantics':dtype,'employment_type':j.get('employmentType') or j.get('commitment'),'description':description,'description_state':'PRESENT' if description.strip() else 'MISSING','description_freshness':'LIVE_FEED' if description.strip() else 'NOT_FETCHED','review_state':'NOT_REVIEWED','source_url':source['url'],**({'content_schema_version':2} if ats=='lever' else {})})
     return normalized
 
 def ats_schema_upgrade(previous,job):

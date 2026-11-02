@@ -1,7 +1,7 @@
 """Drop-in extension for ingest.py: smartrecruiters, workable, recruitee (plain GET) and workday (POST fetcher).
 Does not replace ingest.py. `import ats_extra` patches ingest.normalize and ingest.pagination_evidence;
 greenhouse/ashby/lever behaviour is untouched (original functions are called for them)."""
-import json, urllib.request, urllib.error, re
+import json, urllib.request, urllib.error, re, time
 import ingest as I
 _orig_norm, _orig_page = I.normalize, I.pagination_evidence
 EXTRA = {'smartrecruiters', 'workable', 'recruitee', 'workday', 'gem', 'rippling'}
@@ -111,7 +111,7 @@ def normalize(source, payload):
                     'context_candidate': bool(I.LANES.search(title + ' ' + desc)) and not nodesc, 'description_state': 'MISSING' if nodesc else 'PRESENT', 'coverage_scope': ('BOUNDED_SEARCH_IRELAND_NOT_GLOBAL' if ats == 'workday' else 'FULL_FEED_PAGINATION_PER_RECEIPT'), 'job_url': url, 'apply_url': None,
                     'source_posted_at': posted, 'source_posted_at_utc': I.posted_utc(posted, dtype) if dtype in ('releasedDate', 'published_at', 'first_published_at') else None,
                     'source_posted_at_original': posted, 'source_updated_at': upd, 'timestamp_semantics': dtype, 'employment_type': None,
-                    'description': desc[:4000], 'review_state': 'NOT_REVIEWED', 'source_url': source['url']})
+                    'description': desc, 'review_state': 'NOT_REVIEWED', 'source_url': source['url']})
     return _merge_dupes(res)
 
 def _merge_dupes(res):
@@ -137,16 +137,23 @@ I.normalize, I.pagination_evidence = normalize, pagination_evidence
 
 def run(sources, out):
     """All sources, including Workday, go through ingest's own fetch, receipts and backoff path."""
+    global _detail_remaining, _detail_deadline
+    _detail_remaining, _detail_deadline = 100, time.monotonic() + 360
     return I.ingest(sources, out)
 
+
+_detail_remaining, _detail_deadline = 100, None
 
 def _desc_enrich(jobs, state):
     """Hook: enrich Irish-matched jobs missing descriptions via public detail pages."""
     import desc_fetch
+    global _detail_remaining
     nodesc = {j['key'] for j in jobs if not j.get('description')}
-    result = desc_fetch.enrich_missing_descriptions(jobs, state, max_per_run=500)
+    result = desc_fetch.enrich_missing_descriptions(jobs, state, max_per_run=_detail_remaining, deadline=_detail_deadline)
+    _detail_remaining = max(0, _detail_remaining - result[0] - result[1])
     for j in jobs:
         if j['key'] in nodesc and j.get('description'):
+            j['description_state'] = 'PRESENT'
             j['context_candidate'] = bool(I.LANES.search(j['title'] + ' ' + j['description']))
     return result
 
