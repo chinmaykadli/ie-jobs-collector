@@ -28,13 +28,19 @@ jobs:
           python-version: '3.11'
       - name: regression tests
         run: python3 -m unittest discover -s tests -v && python3 -m unittest test_descriptions -v
+      - name: skip already-published UTC hour
+        id: hour_guard
+        run: python3 scripts/hour_guard.py
       - name: restore state
+        if: steps.hour_guard.outputs.skip != 'true'
         run: |
           mkdir -p out
           gunzip -c state/state.json.gz > out/state.json 2>/dev/null || echo "no prior state"
       - name: run collector
+        if: steps.hour_guard.outputs.skip != 'true'
         run: python3 run_collector.py --sources sources.json --output out
       - name: commit public job data and state
+        if: steps.hour_guard.outputs.skip != 'true'
         run: |
           git config user.name "ie-jobs-collector-bot"
           git config user.email "actions@github.com"
