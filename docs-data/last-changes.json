@@ -1,1081 +1,1502 @@
 [
   {
-    "key": "greenhouse:tines:6226583004",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
+    "key": "greenhouse:stripe:8232741",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-02T12:20:04.624300+00:00"
   },
   {
-    "key": "greenhouse:mongodb:8333381",
-    "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "greenhouse:okta:8345798",
-    "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "greenhouse:coinbase:8337048",
-    "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "greenhouse:coinbase:8337035",
-    "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
+    "key": "greenhouse:okta:8289915",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-02T12:20:04.624300+00:00"
   },
   {
     "key": "greenhouse:coinbase:8260052",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
       "source_updated_at"
     ]
-  },
-  {
-    "key": "greenhouse:coinbase:8337052",
-    "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "greenhouse:coinbase:8337061",
-    "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "greenhouse:coinbase:8337058",
-    "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "greenhouse:coinbase:8337064",
-    "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
   },
   {
     "key": "greenhouse:coinbase:8259801",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:asana:8250168",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "greenhouse:gitlab:8923121002",
+    "key": "ashby:openai:8c1ce3bb-4451-49da-8fc9-315549a77289",
     "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
+    "at": "2026-11-02T12:20:04.624300+00:00"
   },
   {
-    "key": "greenhouse:gitlab:8781299002",
+    "key": "ashby:snowflake:d80cc932-e8f7-4a67-8d19-680688ceb387",
     "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
+    "at": "2026-11-02T12:20:04.624300+00:00"
   },
   {
-    "key": "ashby:openai:6c88bfaa-7f1b-4175-82f1-6d484a516ca8",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "source_posted_at"
-    ]
+    "key": "greenhouse:anthropic:5397751008",
+    "kind": "NEW",
+    "at": "2026-11-02T12:20:04.624300+00:00"
   },
   {
-    "key": "ashby:snowflake:e32988e0-4e39-42a0-a9d3-e3e98248668e",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description",
-      "location"
-    ]
+    "key": "greenhouse:deliveroo:8337684",
+    "kind": "NEW",
+    "at": "2026-11-02T12:20:04.624300+00:00"
   },
   {
-    "key": "ashby:snowflake:2a7c6522-6029-4b2a-ab35-271ff0dcbc77",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description",
-      "title"
-    ]
-  },
-  {
-    "key": "greenhouse:databricks:8883715002",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:deliveroo:8206175",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:deliveroo:8300330",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description",
-      "description_state",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:deliveroo:8258657",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description",
-      "description_state",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:deliveroo:8300329",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description",
-      "description_state",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:toast:8302709",
+    "key": "greenhouse:deliveroo:8206621",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-02T11:38:08.975953+00:00"
+    "at": "2026-11-02T12:20:04.624300+00:00"
   },
   {
-    "key": "lever:cartrawler:301ab477-a576-4354-bd54-68f700406033",
+    "key": "greenhouse:deliveroo:8273705",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-02T12:20:04.624300+00:00"
+  },
+  {
+    "key": "greenhouse:reddit:8153017",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
-      "description"
+      "source_updated_at"
     ]
   },
   {
-    "key": "lever:cartrawler:df0cc9cc-5c34-47a1-b495-c89c0495e9fe",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-02T11:38:08.975953+00:00"
+    "key": "greenhouse:reddit:8282760",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
   },
   {
-    "key": "workday:mastercard:R-290495",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-02T11:38:08.975953+00:00"
+    "key": "greenhouse:reddit:8148089",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8187521",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8249259",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8049518",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8303790",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8329278",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8191664",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8142128",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8256326",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8194576",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8240716",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8189899",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8189894",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8186566",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8075185",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8234154",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8192369",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8249469",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8257083",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8301736",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8263435",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8319536",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:7330347",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8289345",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8289304",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8276095",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8023563",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8022260",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:7954598",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8074846",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8074860",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8171546",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8017242",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8288965",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8140121",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8244090",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8293700",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8104403",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8126946",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8301784",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8175520",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8287466",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8077785",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8029120",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8125836",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8120503",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8212175",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8010425",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:7980795",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:7974605",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8157275",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8319655",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8127002",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:7721851",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:7721787",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8072076",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8103609",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:7931000",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:7445240",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8250389",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8334138",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8187652",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8178085",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8316086",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8167412",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:7954001",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8244067",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8282187",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8190630",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8190627",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:reddit:8188275",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
   },
   {
     "key": "workday:salesforce:JR362238",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description",
-      "description_state"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR343761",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR357964",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR355543",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR338854",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR342810",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR342790",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR342807",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR350101",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR331115",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR335962",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR331114",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR331110",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR331111",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR342805",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR327680",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:salesforce:JR365534",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-02T11:38:08.975953+00:00"
+    "at": "2026-11-02T12:20:04.624300+00:00"
   },
   {
-    "key": "workday:workday:JR-0098604",
+    "key": "workday:statestreet:R-798157",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
       "description"
     ]
   },
   {
-    "key": "workday:workday:JR-0108256",
+    "key": "workday:statestreet:R-798962",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
       "description"
     ]
   },
   {
-    "key": "workday:workday:JR-0108816",
+    "key": "workday:statestreet:R-799822",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
       "description"
     ]
   },
   {
-    "key": "workday:workday:JR-0108915",
+    "key": "workday:statestreet:R-800624",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
       "description"
     ]
   },
   {
-    "key": "workday:workday:JR-0109138",
+    "key": "ashby:elevenlabs:10e6475e-67ef-4621-8718-7b087c354651",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0110510",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0110509",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0110726",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0110727",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0110693",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0110753",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0110193",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0110908",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0110872",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0094228",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0095228",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0109361",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:workday:JR-0110463",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:771001WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:728510WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:765868WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:769538WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:472392WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:303229WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:718647WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:303228WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:767302WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:767155WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:765873WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:765871WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:650067WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:764390WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:764384WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:762510WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:760024WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:758197WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:688681WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:688686WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:580286WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:581359WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:283250WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:696154WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:552258WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:637571WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:601755WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:747829WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:687027WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:686227WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:718086WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:665480WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:735639WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:678387WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:718649WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:722796WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:709099WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:709288WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:692642WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:704815WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:704819WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:699810WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:637197WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:319793WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:686473WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:672284WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:465896WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:pwc:661491WD",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-799317",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-793846",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-796922",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-799645",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-799794",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-799893",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "context_candidate",
       "description",
-      "description_state"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-799916",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-799914",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-800620",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-783870",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-794172",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-796267",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-797072",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-798870",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-798916",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-799275",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-799653",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "workday:statestreet:R-799675",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "description"
+      "description_state",
+      "location",
+      "source_posted_at"
     ]
   },
   {
     "key": "ashby:elevenlabs:1b90a2b2-1352-458d-b2b7-3900f6e02df5",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
-      "description",
-      "description_state",
-      "source_posted_at"
+      "location"
     ]
   },
   {
-    "key": "ashby:kota:76121c81-fbc5-4297-b9cd-302b5d9b160d",
+    "key": "ashby:elevenlabs:b380fb97-bb18-46a5-91db-5132e6693e93",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
-      "description",
-      "description_state"
+      "location"
     ]
   },
   {
-    "key": "smartrecruiters:junioradventuresgroup:6000000001438866",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "ashby:montu-uk:865214da-2f77-4db6-87fa-7a6ffd2b387c",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "ashby:montu-uk:735fa038-a7fa-41c7-afeb-fbf7bf45e7ca",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "ashby:montu-uk:48bac4ff-cdff-4b03-bcde-afc8e81c5df0",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "workday:ntrs:R163245",
-    "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
-  },
-  {
-    "key": "workday:cisco:2028379",
+    "key": "ashby:elevenlabs:815547bf-0ade-482d-84b0-4163ab1161e5",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
-      "title"
+      "location"
     ]
   },
   {
-    "key": "workday:citi:26995683",
+    "key": "ashby:sitecore:ee60f01a-ed15-45de-9e48-0796b7273f20",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-02T11:38:08.975953+00:00"
+    "at": "2026-11-02T12:20:04.624300+00:00"
   },
   {
-    "key": "greenhouse:sumup:8737288002",
+    "key": "greenhouse:feverup:4940097101",
     "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
+    "at": "2026-11-02T12:20:04.624300+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:kaseya:6240463004",
-    "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
+    "key": "rippling:allied-global-marketing:adda3a15-0b8c-471b-8f58-3bcd9af5bcbb",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
   },
   {
-    "key": "greenhouse:kaseya:6225268004",
-    "kind": "NEW",
-    "at": "2026-11-02T11:38:08.975953+00:00"
+    "key": "rippling:allied-global-marketing:52ae0442-ce35-4776-a022-a42696ba31d4",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
   },
   {
-    "key": "greenhouse:kaseya:6140841004",
+    "key": "rippling:coffeeangel:1767c497-0645-4f07-b02c-fad2fb3714f7",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:14dad519-993d-40be-8a28-6fb4a0d30508",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:f02899fc-9045-42ea-8de4-8a7846ecae15",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:07e02d00-11c5-4f32-8491-f49fdfde446c",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:720d7887-7165-4059-8e57-ffdf73c8ddfa",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:435dc316-a988-456c-a182-0f58697dc475",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:69be8e64-d7e3-4373-a7af-f2c8e740a850",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:93556769-fa2b-46a1-8104-717dfbdb81f0",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:225b6fcf-f274-42bd-90f8-dc56917f67f1",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:fd946fce-5d1e-47c5-bac9-3c76f16ff820",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:b92d0b62-b8b0-443a-b9e4-f3438ca75072",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:3871d37a-7e58-4e0b-a09f-7ecebc056cbb",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "context_candidate",
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:coffeeangel:28a061dc-a720-4dbf-901f-07d66e234c0d",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rapidratings:5a922286-0b6f-487a-9f5f-750bbca6bd42",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rapidratings:1dd565bf-effa-4c09-96c6-64210517950b",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:b81ad8f4-e2f6-449e-88ee-60bff5f07b84",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:55e90ad6-f5cf-4be2-83d6-d65e26ae3636",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:ca31b1fb-4c3a-4b06-ac01-3cc320dc456f",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:70657987-b405-4f86-9a55-276c524d461d",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:293f0059-d10e-49de-85ea-49b5cbaeb28d",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:40e0065b-8612-40f6-8ae4-3c54ff9dfd2a",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:3fbf53a0-5d9e-48e8-86dc-91e92d30afcd",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:68e56f57-2ba2-4b54-87b1-94d713a3be4c",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:350c819f-6ffe-41f6-92c3-63c2854771e2",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:f7c0deb0-50db-4ffe-81cb-b91e1465d767",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:43792d18-d900-4c46-ba4e-709411aba531",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:c3bb0bc1-2108-4a28-95dd-2eeeaa11b8ed",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:d266ee7c-9b8d-4c37-8dd5-99e2d7839216",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:dce595ba-1aea-41ce-af86-377d1c36888e",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:b47cf3ff-5ca1-41f1-990a-dc772f08cf84",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:df0af28d-c2b1-41e6-8348-a69b04813b95",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:b280a449-c8df-413c-8607-53f2b29ad1b5",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:6257760e-5e7d-4f48-b3f8-e738b4de427d",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:c69c060e-eb1a-41a6-b65a-767cf384bb0f",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:5db59aa9-db14-4e9f-a974-dbd003b35c0a",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:88ab32f2-808b-4413-be6c-6c0bb27d46c2",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:05dbe419-d767-49bc-83d6-885ca67d8c7f",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:10506be4-39b4-4b31-bc86-0ee294f5b928",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:76ddc3a2-7af4-4b44-beeb-27c8df0945c2",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:00be08c2-dc4a-4054-8d40-8aea2b24465e",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:a60c5e96-8c69-4bf9-b909-aeb8cec98cb7",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:b8ee9815-10e5-40af-bb5a-758ec13ba604",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:91ec53f4-2ca5-43b0-a8d4-0ddcff4c9883",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:5722f5b2-f3af-4b1a-8de9-59e40c105467",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:15f46354-8c45-49f6-9bfe-0de78691b426",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:edfff096-3818-4608-97a8-c31382925f59",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:91392952-b7df-4157-96e9-89ad82874a8a",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:2f8943b6-d62b-415b-897e-933cb3ff6d8e",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:7531be73-bcb3-42b8-bcf7-28364718da07",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:a39ca92f-a909-4868-9d13-1524d6c8b626",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:5cb61d0d-24fe-4c0b-904d-43f82c4e22da",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "rippling:rippling:9a98e55f-9785-452c-a375-f138964bdd37",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "workable:crown-global:08E3F002DE",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "workable:crown-global:606D703731",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "workable:crown-global:C1E22BB62A",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "workable:crown-global:AE93BCCC4E",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "workable:crown-global:5FF7020839",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "workable:crown-global:3ADA456DC0",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "workable:crown-global:A9E5E63FE4",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000158814184",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000158811239",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000158268780",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000158256392",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000158050174",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000158016957",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000158008963",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000157496737",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000156496870",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000155970415",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000155974824",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000155662079",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000155662019",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000155518385",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000155504131",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000155506719",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000155300703",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000155211109",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000154950487",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000154741989",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000154686319",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000153562079",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000153535509",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000152996249",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000152995374",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000152955879",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000152942471",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000152941020",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000152884955",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000152703769",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000152651019",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000151609019",
+    "kind": "CHANGED",
+    "at": "2026-11-02T12:20:04.624300+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "smartrecruiters:junioradventuresgroup:6000000001428485",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-02T11:38:08.975953+00:00"
+    "at": "2026-11-02T12:20:04.624300+00:00"
   },
   {
-    "key": "greenhouse:klaviyo:7798572003",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
+    "key": "smartrecruiters:junioradventuresgroup:6000000001305269",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-02T12:20:04.624300+00:00"
   },
   {
-    "key": "greenhouse:rubrik:8158611",
-    "kind": "CHANGED",
-    "at": "2026-11-02T11:38:08.975953+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
+    "key": "smartrecruiters:sgs:744000159120479",
+    "kind": "NEW",
+    "at": "2026-11-02T12:20:04.624300+00:00"
+  },
+  {
+    "key": "workday:abbott:31164334",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-02T12:20:04.624300+00:00"
+  },
+  {
+    "key": "workday:abbott:31155247",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-02T12:20:04.624300+00:00"
+  },
+  {
+    "key": "workday:stryker:R573606",
+    "kind": "NEW",
+    "at": "2026-11-02T12:20:04.624300+00:00"
   }
 ]
