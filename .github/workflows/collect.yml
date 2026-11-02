@@ -16,6 +16,13 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: refresh queued run base
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -29,11 +36,25 @@ jobs:
         run: python3 run_collector.py --sources sources.json --output out
       - name: commit public job data and state
         run: |
-          mkdir -p docs-data state
-          cp out/raw-irish-queue.json out/last-changes.json out/health.json docs-data/
-          gzip -9 -c out/state.json > state/state.json.gz
           git config user.name "ie-jobs-collector-bot"
           git config user.email "actions@github.com"
-          git add docs-data/ state/
-          git diff --cached --quiet || git commit -m "hourly collector update $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          # Keep generated output outside the tracked tree while moving to the
+          # latest main. This preserves unrelated commits without merging JSON.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p docs-data state
+            cp out/raw-irish-queue.json out/last-changes.json out/health.json docs-data/
+            gzip -9 -c out/state.json > state/state.json.gz
+            git add docs-data/ state/
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+            git commit -m "hourly collector update $(date -u +%Y-%m-%dT%H:%MZ)"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep "$((attempt * 2))"
+          done
+          echo "Unable to push collector output after 3 attempts" >&2
+          exit 1
