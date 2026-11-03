@@ -13,15 +13,16 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        timeout-minutes: 5
         with:
           ref: main
-          fetch-depth: 0
+          fetch-depth: 1
       - name: refresh queued run base
         run: |
-          git fetch origin main
+          git fetch --depth=1 --no-tags origin main
           git reset --hard origin/main
       - uses: actions/setup-python@v5
         with:
@@ -47,7 +48,7 @@ jobs:
           # Keep generated output outside the tracked tree while moving to the
           # latest main. This preserves unrelated commits without merging JSON.
           for attempt in 1 2 3; do
-            git fetch origin main
+            git fetch --depth=1 --no-tags origin main
             git reset --hard origin/main
             mkdir -p docs-data state
             cp out/raw-irish-queue.json out/last-changes.json out/health.json docs-data/
