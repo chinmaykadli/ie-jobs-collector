@@ -1,13 +1,21 @@
 [
   {
-    "key": "greenhouse:stripe:7913702",
+    "key": "greenhouse:okta:8257554",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-03T03:38:42.649844+00:00"
+    "at": "2026-11-03T04:38:43.662189+00:00"
+  },
+  {
+    "key": "greenhouse:airbnb:8345532",
+    "kind": "CHANGED",
+    "at": "2026-11-03T04:38:43.662189+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
   },
   {
     "key": "greenhouse:coinbase:8260052",
     "kind": "CHANGED",
-    "at": "2026-11-03T03:38:42.649844+00:00",
+    "at": "2026-11-03T04:38:43.662189+00:00",
     "fields": [
       "source_updated_at"
     ]
@@ -15,65 +23,83 @@
   {
     "key": "greenhouse:coinbase:8259801",
     "kind": "CHANGED",
-    "at": "2026-11-03T03:38:42.649844+00:00",
+    "at": "2026-11-03T04:38:43.662189+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:gitlab:8632446002",
+    "key": "ashby:openai:bfecbfa0-6573-4c00-8215-50e271f411bc",
+    "kind": "NEW",
+    "at": "2026-11-03T04:38:43.662189+00:00"
+  },
+  {
+    "key": "greenhouse:databricks:8384388002",
     "kind": "CHANGED",
-    "at": "2026-11-03T03:38:42.649844+00:00",
+    "at": "2026-11-03T04:38:43.662189+00:00",
     "fields": [
-      "source_updated_at"
+      "description",
+      "source_updated_at",
+      "title"
     ]
   },
   {
-    "key": "greenhouse:gitlab:8591223002",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-03T03:38:42.649844+00:00"
-  },
-  {
-    "key": "ashby:openai:cc6475e6-f71d-4f51-8d9d-4eb5a7822395",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-03T03:38:42.649844+00:00"
-  },
-  {
-    "key": "ashby:vanta:55f57c1b-7a4b-4fb3-80c7-75f296085de2",
-    "kind": "NEW",
-    "at": "2026-11-03T03:38:42.649844+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5409569008",
+    "key": "greenhouse:elastic:8257322",
     "kind": "CHANGED",
-    "at": "2026-11-03T03:38:42.649844+00:00",
+    "at": "2026-11-03T04:38:43.662189+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:anthropic:5468875008",
+    "key": "greenhouse:toast:8288360",
     "kind": "NEW",
-    "at": "2026-11-03T03:38:42.649844+00:00"
+    "at": "2026-11-03T04:38:43.662189+00:00"
   },
   {
-    "key": "greenhouse:toast:8122273",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6241658004",
+    "kind": "NEW",
+    "at": "2026-11-03T04:38:43.662189+00:00"
+  },
+  {
+    "key": "greenhouse:xai:5280433007",
+    "kind": "CHANGED",
+    "at": "2026-11-03T04:38:43.662189+00:00",
+    "fields": [
+      "context_candidate",
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:fivetran:7868539003",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-03T03:38:42.649844+00:00"
+    "at": "2026-11-03T04:38:43.662189+00:00"
   },
   {
-    "key": "lever:weloglobal:154c765a-5ee4-4952-a4f2-60ccbf5142e2",
+    "key": "greenhouse:klaviyo:8009594003",
     "kind": "NEW",
-    "at": "2026-11-03T03:38:42.649844+00:00"
+    "at": "2026-11-03T04:38:43.662189+00:00"
   },
   {
-    "key": "rippling:rippling:dcdcea0c-ac97-409b-86f0-ec107cfabe8b",
+    "key": "greenhouse:zscaler:5112153007",
     "kind": "NEW",
-    "at": "2026-11-03T03:38:42.649844+00:00"
+    "at": "2026-11-03T04:38:43.662189+00:00"
   },
   {
-    "key": "rippling:rippling:d611366e-400a-4267-a3de-376ac72cd9ad",
+    "key": "greenhouse:zscaler:5271542007",
     "kind": "NEW",
-    "at": "2026-11-03T03:38:42.649844+00:00"
+    "at": "2026-11-03T04:38:43.662189+00:00"
+  },
+  {
+    "key": "greenhouse:zscaler:5281159007",
+    "kind": "NEW",
+    "at": "2026-11-03T04:38:43.662189+00:00"
+  },
+  {
+    "key": "greenhouse:rubrik:8166537",
+    "kind": "NEW",
+    "at": "2026-11-03T04:38:43.662189+00:00"
   }
 ]
