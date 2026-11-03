@@ -152,11 +152,17 @@ def ingest(sources, destination, fetcher=None):
             if isinstance(raw,list): receipt['postings_fetched']=len(raw)
             if receipt['pagination_state']=='INCOMPLETE': raise ValueError('Incomplete pagination: further page indicated; prior baseline retained')
             jobs=normalize(source,payload);seen=set();fresh_sources.add(sid)
+            quarantined=getattr(jobs,'quarantined_records',[])
+            partial=bool(quarantined)
+            if partial:
+                receipt.update(quarantined_count=len(quarantined),quarantined_records=quarantined,
+                               valid_postings_count=len(jobs),failure_reason='Provider records quarantined; source coverage partial')
             _enrich=globals().get('desc_enricher')
             if _enrich:
                 _en,_ef,_es=_enrich(jobs,state)
                 receipt['desc_enriched']=_en;receipt['desc_fetch_failed']=_ef
-            receipt.update(postings_fetched=len(jobs),new_raw_count=0,failure_streak=0)
+            receipt.update(postings_fetched=len(jobs)+len(quarantined),new_raw_count=0,
+                           failure_streak=previous_source.get('failure_streak',0)+1 if partial else 0)
             for job in jobs:
                 key=job['key'];seen.add(key);h=fingerprint(job);previous=old['jobs'].get(key)
                 record=job|{'hash':h,'first_seen_at':previous['first_seen_at'] if previous else now,'last_seen_at':now,'last_check_at':now,'source_status':'OK','stale':False,'active':True}
@@ -167,10 +173,17 @@ def ingest(sources, destination, fetcher=None):
                 elif ats_schema_upgrade(previous,job): changes.append({'key':key,'kind':'CONTENT_SCHEMA_BASELINE','at':now})
                 elif not previous.get('active',True): changes.append({'key':key,'kind':'REAPPEARED','at':now})
             for key,previous in old['jobs'].items():
-                if key.startswith(sid+':') and key not in seen and previous.get('active',True):state['jobs'][key]['active']=False;changes.append({'key':key,'kind':'REMOVED_FROM_FEED','at':now})
-            status='OK_NONEMPTY' if jobs else 'OK_ZERO'
-            health.append(receipt|{'source':sid,'status':status,'total':len(jobs),'irish':sum(j['irish_location_match'] for j in jobs),'seconds':round(time.monotonic()-start,3),'last_success_at':now})
-            state['sources'][sid]={'last_success_at':now,'status':status,'failure_streak':0}
+                if key.startswith(sid+':') and key not in seen and previous.get('active',True):
+                    if partial:
+                        state['jobs'][key].update(stale=True,source_status='DEGRADED_PARTIAL',last_check_at=now)
+                    else:
+                        state['jobs'][key]['active']=False;changes.append({'key':key,'kind':'REMOVED_FROM_FEED','at':now})
+            status='DEGRADED_PARTIAL' if partial else ('OK_NONEMPTY' if jobs else 'OK_ZERO')
+            last_success=previous_source.get('last_success_at') if partial else now
+            health.append(receipt|{'source':sid,'status':status,'total':len(jobs),'irish':sum(j['irish_location_match'] for j in jobs),'seconds':round(time.monotonic()-start,3),'last_success_at':last_success})
+            state['sources'][sid]={'last_success_at':last_success,'status':status,'failure_streak':receipt['failure_streak']}
+            if partial:
+                state['sources'][sid].update(last_partial_at=now,quarantined_records=quarantined,error=receipt['failure_reason'])
         except Exception as e:
             # Preserve prior data and last success. Errors never mark jobs closed or zero.
             for key,record in state['jobs'].items():
@@ -183,7 +196,7 @@ def ingest(sources, destination, fetcher=None):
     active=[j for j in state['jobs'].values() if j['active'] and j['irish_location_match']]
     summary={'checked_at':now,'source_health':health,'new_count':sum(c['kind']=='NEW' for c in changes),'changes_count':sum(c['kind']!='CONTENT_SCHEMA_BASELINE' for c in changes),'schema_baseline_count':sum(c['kind']=='CONTENT_SCHEMA_BASELINE' for c in changes),'irish_active_raw':len(active),'remote_location_pending':sum(j['active'] and j.get('remote_ireland_eligibility_unverified',False) for j in state['jobs'].values()),'context_candidates_unreviewed':sum(j['context_candidate'] for j in active),'standing_feed':False,'coverage':str(len(sources))+' explicit employer boards only. No whole-board/global coverage claim.'}
     summary.update(source_receipt_schema_version=2,
-                   degraded_sources=[h['source'] for h in health if h['status'] in ['ERROR','BACKOFF']],
+                   degraded_sources=[h['source'] for h in health if h['status'] in ['ERROR','BACKOFF','DEGRADED_PARTIAL']],
                    pagination_unverified_sources=[h['source'] for h in health if h['pagination_state']=='NOT_VERIFIED'],
                    qualification_state='NOT_ASSESSED',qualified_count=None)
     # The atomic state file is the recovery authority, including bounded journal and health.

@@ -59,6 +59,10 @@ def pagination_evidence(payload):
             return 'COMPLETE_EXPLICIT' if payload['totalFound'] <= len(payload['content']) else 'INCOMPLETE'
     return _orig_page(payload)
 
+class NormalizedJobs(list):
+    """Valid records plus explicit provider-record quarantine evidence."""
+    pass
+
 def normalize(source, payload):
     ats = source['ats']
     if ats not in EXTRA: return _orig_norm(source, payload)
@@ -70,6 +74,7 @@ def normalize(source, payload):
         if not isinstance(payload, dict) or not isinstance(payload.get(key), list): raise ValueError('Expected %s array, schema drift not zero' % key)
         items = payload[key]
     res = []
+    quarantine = []
     for j in items:
         if not isinstance(j, dict): raise ValueError('Job item not an object')
         if ats == 'smartrecruiters':
@@ -102,6 +107,9 @@ def normalize(source, payload):
             loc = j.get('locationsText') or ''
             posted, dtype, desc, upd = j.get('postedOn'), 'relative_text_not_a_date', '', None
         if jid is None: raise ValueError('Job missing stable id')
+        if ats == 'workday' and (not title or not j.get('externalPath')):
+            quarantine.append({'id': str(jid), 'reason': 'Job missing title' if not title else 'Missing authoritative job link'})
+            continue
         if not title: raise ValueError('Job missing title')
         if not url or not url.startswith('https://'): raise ValueError('Missing authoritative job link')
         ireland = I.irish_location(loc) and not (ats == 'smartrecruiters' and not (j.get('location') or {}).get('country')) and not re.search(r'\bnot stated\b', loc)
@@ -112,7 +120,9 @@ def normalize(source, payload):
                     'source_posted_at': posted, 'source_posted_at_utc': I.posted_utc(posted, dtype) if dtype in ('releasedDate', 'published_at', 'first_published_at') else None,
                     'source_posted_at_original': posted, 'source_updated_at': upd, 'timestamp_semantics': dtype, 'employment_type': None,
                     'description': desc, 'review_state': 'NOT_REVIEWED', 'source_url': source['url']})
-    return _merge_dupes(res)
+    result = NormalizedJobs(_merge_dupes(res))
+    result.quarantined_records = quarantine
+    return result
 
 def _merge_dupes(res):
     """Rippling/Workable list one row per (job, location) under the same id. Merge them into one record per key,
