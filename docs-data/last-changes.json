@@ -1,850 +1,378 @@
 [
   {
-    "key": "greenhouse:mongodb:8331447",
+    "key": "greenhouse:stripe:8279850",
     "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "at": "2026-11-04T01:38:09.448428+00:00"
   },
   {
-    "key": "greenhouse:airbnb:8351417",
-    "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:dropbox:8279631",
+    "key": "greenhouse:stripe:8224617",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:stripe:8279867",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:mongodb:8200434",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:coinbase:8083906",
+    "kind": "NEW",
+    "at": "2026-11-04T01:38:09.448428+00:00"
+  },
+  {
+    "key": "greenhouse:coinbase:8335621",
+    "kind": "NEW",
+    "at": "2026-11-04T01:38:09.448428+00:00"
+  },
+  {
+    "key": "greenhouse:coinbase:8335618",
+    "kind": "NEW",
+    "at": "2026-11-04T01:38:09.448428+00:00"
+  },
+  {
+    "key": "greenhouse:gitlab:8922249002",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "ashby:clickup:4081192f-f4b2-484b-a7d0-26714bbeb18d",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-04T01:38:09.448428+00:00"
+  },
+  {
+    "key": "greenhouse:anthropic:5454474008",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
       "description",
       "source_updated_at"
     ]
-  },
-  {
-    "key": "greenhouse:dropbox:8279632",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:dropbox:8328476",
-    "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:gitlab:8871406002",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "ashby:openai:baf652f9-d834-4bef-bd4f-485fe65ff5eb",
-    "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "ashby:openai:02b170ae-de32-46f5-8ef1-844b268681fe",
-    "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5455618008",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:anthropic:5430263008",
-    "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5471925008",
-    "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
   },
   {
     "key": "greenhouse:anthropic:5424312008",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:anthropic:5464485008",
     "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "at": "2026-11-04T01:38:09.448428+00:00"
   },
   {
-    "key": "greenhouse:anthropic:5380379008",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5380377008",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:databricks:8829053002",
+    "key": "greenhouse:elastic:8325389",
     "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "at": "2026-11-04T01:38:09.448428+00:00"
   },
   {
-    "key": "greenhouse:reddit:8153017",
+    "key": "ashby:crusoe:9ded2482-7fb5-470a-9422-774933f79d7b",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
-      "source_updated_at"
+      "location"
     ]
   },
   {
-    "key": "greenhouse:reddit:8282760",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8148089",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8187521",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8249259",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8049518",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8303790",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8329278",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8191664",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8142128",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8256326",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8194576",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8240716",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8189899",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8189894",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8186566",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8075185",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8234154",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8192369",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8249469",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8257083",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8301736",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8263435",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8319536",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7330347",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8289345",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8289304",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8276095",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8023563",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7954598",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8022260",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8074846",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8074860",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8171546",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8288965",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8140121",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8244090",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8293700",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8104403",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8126946",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8301784",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8175520",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8287466",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8077785",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8029120",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8125836",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8212175",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8010425",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7980795",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8282748",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7974605",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8157275",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8319655",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8127002",
-    "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8011428",
+    "key": "ashby:crusoe:81b7a0a6-3ccf-49b2-acf4-26f16fd8ea79",
     "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "at": "2026-11-04T01:38:09.448428+00:00"
   },
   {
-    "key": "greenhouse:reddit:7721851",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6232183004",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:7721787",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6237074004",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8103609",
+    "key": "greenhouse:xai:4925878007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8072076",
+    "key": "greenhouse:xai:5227940007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:7445240",
+    "key": "greenhouse:xai:5227951007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:7931000",
+    "key": "greenhouse:xai:4931315007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8250389",
+    "key": "greenhouse:xai:4925823007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8334138",
+    "key": "greenhouse:xai:4925859007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8178085",
+    "key": "greenhouse:xai:4925832007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8316086",
+    "key": "greenhouse:xai:5047564007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8167412",
+    "key": "greenhouse:xai:5236653007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:7954001",
+    "key": "greenhouse:xai:5017529007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8244067",
+    "key": "greenhouse:xai:5120536007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8282187",
+    "key": "greenhouse:xai:5006477007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8190630",
+    "key": "greenhouse:xai:5243479007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8190627",
+    "key": "greenhouse:xai:5246832007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8188275",
+    "key": "greenhouse:xai:5270908007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "workday:mastercard:R-291897",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "key": "greenhouse:xai:5272020007",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
   },
   {
-    "key": "workday:statestreet:R-794119",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "key": "greenhouse:xai:5239616007",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
   },
   {
-    "key": "ashby:elevenlabs:d1caf988-ab4a-4b72-9ed9-d18e986fb7f1",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "key": "greenhouse:xai:5207615007",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
   },
   {
-    "key": "greenhouse:jjirl:4998393101",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "key": "greenhouse:xai:5273897007",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
   },
   {
-    "key": "greenhouse:sonyinteractiveentertainmentglobal:6233298004",
-    "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "key": "greenhouse:xai:5274048007",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
   },
   {
     "key": "greenhouse:xai:5052040007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
       "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:xai:5237965007",
+    "key": "greenhouse:xai:4805874007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
       "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:xai:5007872007",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "rippling:rippling:8272932a-728e-42f5-87dd-2a7e8a2dcc98",
-    "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "rippling:rippling:86e4b180-a27e-4b86-bc80-6b7cefa2e1c9",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "workday:stryker:R569369",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "workday:stryker:R575572",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "workday:medtronic:R79664",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:8336665",
+    "key": "greenhouse:xai:5204788007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:tripadvisor:8083515",
+    "key": "greenhouse:xai:5107958007",
     "kind": "CHANGED",
-    "at": "2026-11-04T00:39:43.974568+00:00",
+    "at": "2026-11-04T01:38:09.448428+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:tripadvisor:8121648",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "key": "greenhouse:xai:5108231007",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
   },
   {
-    "key": "greenhouse:tripadvisor:8204382",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "key": "greenhouse:xai:5205179007",
+    "kind": "CHANGED",
+    "at": "2026-11-04T01:38:09.448428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
   },
   {
-    "key": "greenhouse:tripadvisor:8081374",
+    "key": "greenhouse:xai:5077471007",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "at": "2026-11-04T01:38:09.448428+00:00"
   },
   {
-    "key": "greenhouse:tripadvisor:8127563",
+    "key": "rippling:rippling:789e158e-a1e8-4457-ac4f-7378fdfb7598",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "at": "2026-11-04T01:38:09.448428+00:00"
   },
   {
-    "key": "greenhouse:tripadvisor:8059755",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:7380092",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:8230405",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:7966680",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:7866457",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:8239945",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:6903058",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:6119964",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:6977663",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:8041610",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:8066740",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:tripadvisor:7950046",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:zscaler:5282933007",
+    "key": "greenhouse:zscaler:5279058007",
     "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "at": "2026-11-04T01:38:09.448428+00:00"
   },
   {
-    "key": "greenhouse:zscaler:5282931007",
-    "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
-  },
-  {
-    "key": "greenhouse:zscaler:5250692007",
-    "kind": "NEW",
-    "at": "2026-11-04T00:39:43.974568+00:00"
+    "key": "greenhouse:zscaler:5228175007",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-04T01:38:09.448428+00:00"
   }
 ]
