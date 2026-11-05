@@ -1,2368 +1,2477 @@
 [
   {
-    "key": "ashby:ashby:998a6a42-3308-47b7-8350-e842dbc73920",
+    "key": "greenhouse:stripe:7993151",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_posted_at",
-      "title"
-    ]
-  },
-  {
-    "key": "greenhouse:stripe:8332888",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:stripe:8335413",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:stripe:8327254",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:stripe:8338354",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:stripe:8354768",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:stripe:8265151",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:stripe:8187566",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:stripe:8328323",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:datadog:8139396",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:mongodb:8327493",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:mongodb:8274035",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:okta:7626222",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:okta:8201507",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:okta:8304001",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:okta:8327888",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:twilio:8249615",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8261245",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8266975",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8281950",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8301926",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8327434",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8093320",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8325734",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8350289",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8056267",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8261705",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8249194",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:twilio:8100236",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:twilio:8026211",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:twilio:8026207",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:twilio:7661919",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:airbnb:8325040",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:airbnb:8329756",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:airbnb:8325039",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:airbnb:8274802",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:coinbase:8311341",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:dropbox:8328470",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:dropbox:8328469",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:gitlab:8899972002",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:gitlab:8927630002",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
       "source_updated_at",
       "title"
     ]
   },
   {
-    "key": "greenhouse:gitlab:8857335002",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:gitlab:8646544002",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:gitlab:8775136002",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:gitlab:8781299002",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "ashby:openai:c9832989-edc1-4f2f-8a79-8fa29f5623e2",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "description",
-      "title"
-    ]
-  },
-  {
-    "key": "ashby:clickup:66b8be5f-5678-480c-a5c1-125616e9fb1f",
+    "key": "greenhouse:stripe:8237533",
     "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "at": "2026-11-05T19:38:14.654687+00:00"
   },
   {
-    "key": "ashby:snowflake:da2d8c93-5d33-4fdc-8510-08126d3df5eb",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5454474008",
+    "key": "greenhouse:stripe:7982720",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:datadog:8335262",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:mongodb:8327493",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:mongodb:8352433",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:mongodb:8274035",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "location",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:databricks:8847747002",
+    "key": "greenhouse:okta:7425892",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:twilio:8304419",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:twilio:8240487",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:twilio:8245812",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:twilio:7960476",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:twilio:8067027",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:twilio:8356548",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:twilio:8204152",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:asana:8054355",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:asana:8165185",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8771512002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8704363002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8853843002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8921380002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8698330002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8905402002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8890971002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8911684002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8891836002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8922249002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8688078002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8710061002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8786095002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8895468002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8693068002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8784056002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8621733002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8778943002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8716143002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8738179002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8878486002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8770702002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8845277002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8739391002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8615268002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8693563002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:gitlab:8784185002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "ashby:openai:7ade7a12-845c-4e3a-af23-c028420bd181",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "ashby:openai:577e6673-0a4a-491b-9a0d-facbdd3bdf3c",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "ashby:openai:0dc614c9-4eec-475f-b215-5480fe41317a",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:openai:0ed12b35-0115-4ad3-81f5-ea1bb05c9f6b",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "location"
+    ]
+  },
+  {
+    "key": "ashby:openai:de06790a-7243-4e33-a6f1-e7bd34009588",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "ashby:openai:80ca9623-f911-45fc-b5dc-47ccfc60b395",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:openai:66453891-c75a-41c9-a7de-d0c67f23db4e",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:openai:783704d7-5afa-45aa-899b-1d6799f73004",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:openai:e57629e3-8f87-4abe-aa08-1ff51f54d209",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:openai:ad6b55f9-fa63-4860-b852-d90592e49d1c",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:openai:646bf721-c634-4863-ae3c-35e56701d9e0",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:vanta:82dd0fed-120e-4983-a1ae-676ae355cea8",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:snowflake:180efd2f-72d3-43db-840e-fb80d82695bf",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:snowflake:b15c4b38-1401-4047-b6d8-00e66e2a5edd",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:snowflake:21407c17-7ba8-4381-a825-2681afbbcdd4",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:snowflake:a0e93417-4066-494d-a7ec-25c9df8ec5a6",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:anthropic:5468937008",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:anthropic:5195866008",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:databricks:8929894002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:databricks:8930374002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:databricks:8930378002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:databricks:8930381002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
       "source_updated_at"
     ]
   },
   {
     "key": "greenhouse:databricks:8904745002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:databricks:8893720002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:databricks:8893772002",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:databricks:8557780002",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:databricks:8521190002",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:deliveroo:8202376",
     "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "at": "2026-11-05T19:38:14.654687+00:00"
   },
   {
-    "key": "greenhouse:databricks:8632188002",
+    "key": "greenhouse:deliveroo:8305857",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:databricks:8862137002",
+    "key": "greenhouse:elastic:8349732",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:toast:8259734",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:toast:7842808",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "at": "2026-11-05T19:38:14.654687+00:00"
   },
   {
-    "key": "greenhouse:deliveroo:8269001",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:deliveroo:8276259",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:deliveroo:8243077",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:deliveroo:8266845",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:deliveroo:8266851",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:deliveroo:8243100",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:deliveroo:8271399",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:deliveroo:8202586",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:toast:8282032",
+    "key": "greenhouse:zoominfo:8833505002",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "at": "2026-11-05T19:38:14.654687+00:00"
   },
   {
-    "key": "greenhouse:toast:8125655",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:toast:8240521",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:toast:8125653",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "ashby:crusoe:f581dfe7-d2c4-4a22-9974-b9d93e8c3293",
+    "key": "lever:rws:0845bc0a-27f1-469c-9adb-89babf6c8f11",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "description"
     ]
   },
   {
-    "key": "ashby:crusoe:003644a1-ef11-4bbd-bf37-23d4e1ec771f",
+    "key": "lever:rws:97804610-ab36-46f3-8448-1a0f8617add6",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "description"
     ]
+  },
+  {
+    "key": "lever:rws:5bd8381a-0dd4-4ebb-83e4-05300c55cd7a",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "lever:rws:048d58d0-c720-46b4-a9c8-f05569cd452b",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "lever:rws:b6ae34f4-57e5-4bb8-8f29-4c69cf25ecbd",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "lever:rws:c4b97c42-0005-4a1c-ac6c-e3f00d1fc6d4",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "lever:rws:ade36625-2d22-4842-a86c-c94748a70c3e",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "lever:rws:28b3d23d-7e18-4842-adfe-b708af798a9c",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "lever:rws:fb46f296-e3b8-4c8c-8103-55ca55ab1bb9",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "lever:rws:1c836aa1-dd7f-414d-aea2-8044a6525ab8",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "lever:rws:a781dc8a-1f62-48af-af20-4106b9682120",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "lever:rws:f13131ee-ef0e-461d-a6c1-708259ad9a51",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "lever:rws:6488833f-86c3-480c-9dd1-1667f27a372c",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:crusoe:71db7beb-717d-4119-8060-39d545e2d8bb",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "location"
+    ]
+  },
+  {
+    "key": "ashby:crusoe:cecb6c47-959f-4eca-a614-361d33a6fc87",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "ashby:crusoe:45e6724c-2404-46f2-8786-60e7ad459283",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description",
+      "source_posted_at",
+      "title"
+    ]
+  },
+  {
+    "key": "ashby:crusoe:1d00a148-9e69-4aa5-a92b-4b4f24dad55a",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:crusoe:4064d92a-8486-4512-ab6f-5f98a31812f1",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
   },
   {
     "key": "ashby:crusoe:1d5b5af1-bfde-44d3-a250-3cd37cea9e99",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "ashby:crusoe:db1501c9-d253-47c7-a803-5b01bd3a5d01",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "ashby:crusoe:54690afc-4c05-4e30-a550-fa94a305f073",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "ashby:crusoe:44b3a185-065e-452c-a274-3a9d45fc61bf",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "ashby:crusoe:648dc4df-6a51-4e99-822a-23f76e8ca53c",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "ashby:crusoe:ca49cb96-50b9-4a3d-a490-2e1d88c357b3",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "ashby:elevenlabs:9d13a6ac-6dfc-4bd1-bd81-d341b576c44e",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "ashby:elevenlabs:7d01b1ec-511d-40bf-a6ed-88b212932edb",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "ashby:elevenlabs:277de6ad-3db5-4b96-afb5-cec3d797e788",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "ashby:elevenlabs:eec0ee0e-ad68-47af-a0a8-8d2191aee4ba",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:feverup:5029054101",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:feverup:4999331101",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:feverup:5009042101",
+    "key": "ashby:crusoe:bc698eec-aea3-4e49-bd37-dc166a8bd9c3",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:crusoe:009117f4-4798-4ac3-9a9a-54377338cfb5",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:crusoe:5315a370-af0f-4025-a8f4-d5686301e8ce",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:elevenlabs:6d4c4080-b53b-4b00-8b1d-3ec1e0955135",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:lemfi:4291590d-2b78-4b80-8d8e-4274fd769356",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "ashby:nooks:3788a0bc-7abb-4d64-b470-1d8e4e59b28c",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description",
+      "title"
     ]
+  },
+  {
+    "key": "greenhouse:feverup:5028892101",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:feverup:5028954101",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
   },
   {
     "key": "greenhouse:feverup:4999404101",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:feverup:5029040101",
+    "key": "greenhouse:feverup:5028936101",
     "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "at": "2026-11-05T19:38:14.654687+00:00"
   },
   {
-    "key": "greenhouse:gongio:4670583006",
+    "key": "greenhouse:feverup:4956931101",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:gongio:4713726006",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6222299004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:gongio:4717543006",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6218277004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6017275004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6234944004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6218029004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6232161004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6231005004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6015683004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6173052004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6122462004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6234948004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6198412004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6232183004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6237074004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6200442004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6097849004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6237981004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6147057004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
   },
   {
     "key": "greenhouse:sonyinteractiveentertainmentglobal:6250762004",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
   },
   {
     "key": "greenhouse:sonyinteractiveentertainmentglobal:6250753004",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
   },
   {
     "key": "greenhouse:sonyinteractiveentertainmentglobal:6147069004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at",
-      "title"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:sonyinteractiveentertainmentglobal:6185507004",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:sonyinteractiveentertainmentglobal:6118771004",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:sonymusicentertainment:8770244002",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5556304004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6149266004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6116526004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6098184004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6102723004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5970474004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6136852004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5985221004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6236996004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6223946004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6199055004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6234957004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6181179004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6143015004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6241723004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6210465004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6233744004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6117397004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6173572004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6233291004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6134153004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6115744004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6191600004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6140335004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6166111004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6222405004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6206647004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6223199004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5528946004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6235944004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6215610004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6223716004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6031166004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6235942004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6223195004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6127233004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6226719004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5831551004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6207208004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6223145004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6149262004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6206009004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6145061004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6181183004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6110445004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6220304004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6224549004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5530503004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6147053004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6238145004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6115184004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6193119004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6120141004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6237080004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6199051004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6216933004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6215602004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6203639004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6206007004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6203133004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6223950004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6203038004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6128030004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6232151004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6223952004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6115732004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6225249004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6176307004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6239461004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6176305004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6176306004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6186162004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6203030004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6145027004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6232159004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6167071004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6233742004",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "description",
-      "source_updated_at",
-      "title"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5231352007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4925878007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5227940007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5227951007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4931315007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4925823007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4925859007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4925832007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5047564007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5236653007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5017529007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4559147007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5253534007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5260545007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5246247007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5272719007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5120536007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5006477007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4744227007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5212968007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5252678007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5267635007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5227684007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5215355007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5142936007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4940377007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5243479007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5221126007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5205848007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5246832007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5270908007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5272020007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5239616007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5269037007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5256001007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5134220007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5283867007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5283880007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5283878007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5261595007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5283864007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5246600007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5242789007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5123837007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5279988007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5124647007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5280771007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5261602007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5280765007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5243286007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5229550007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5225280007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5229552007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5212987007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5253475007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5247536007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5170639007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5254365007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5252402007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5085890007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5266491007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5266499007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5265194007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5239924007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5216112007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5238779007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4959599007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5150787007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5243301007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5259060007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5214350007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5182357007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5136043007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5244069007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5189148007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5246016007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5215038007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5142979007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5214372007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5285161007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5263495007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5213016007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5213022007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5227980007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5227977007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5227905007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5182374007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4939298007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5248831007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5201130007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5264627007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5227699007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5212253007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5212286007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5169674007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5257297007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5148882007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:xai:5201304007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6208571004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5243284007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5220531007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6173877004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5231579007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5849862004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5207615007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6199061004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5219540007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6191608004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5259885007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6226464004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5204819007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5983598004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5210802007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6177582004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5228819007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6187751004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5241407007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6145085004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5246678007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6122987004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5246657007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6122988004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5241280007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6001333004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5262880007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5832064004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5280433007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6229772004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5216822007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6142826004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5215043007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6220302004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5248860007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6215303004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5205148007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6207726004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:4871633007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6185512004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5279620007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6241658004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5257435007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5988338004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5266497007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6134284004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5226686007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6208606004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5226701007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5976661004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5214959007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6241732004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5214918007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6241733004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5243282007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6104596004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5214945007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6226474004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5175158007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6176301004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5214262007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6208604004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5214273007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6128869004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5250443007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6118761004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:4996796007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6118757004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:4703144007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6221199004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5251860007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6145081004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5212039007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6126786004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5206598007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6237581004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5243280007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6192774004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5200214007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5837061004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5169683007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5983976004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5239300007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6210463004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5275197007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6134777004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5266813007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6239467004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5246700007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6218031004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5174576007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6211020004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5129306007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5976696004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5219754007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5843870004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5127519007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6113803004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5182046007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6232157004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5206940007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6015203004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5219541007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6206005004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5245782007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6235923004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5272706007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6145091004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5193037007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6017268004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:4892323007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6118765004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:4985386007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6097843004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5051985007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5983553004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:4965893007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6176297004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5114737007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6220970004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5186992007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6211665004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5051966007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6145793004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5224551007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6134526004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5235761007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6121689004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5235772007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6208573004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5214366007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6232171004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5043570007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6232163004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5169675007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6146034004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:4800712007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6104878004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5279894007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5988572004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5243278007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6214203004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:xai:5159251007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6214360004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5205550007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6216927004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5273689007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6162239004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5267552007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6191587004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5214352007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6191589004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5255811007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6191200004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5215570007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6185322004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5229355007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6009124004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5229363007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6233950004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5243290007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5983551004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5241381007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5996147004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5224741007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6237579004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5149405007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6113799004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:4869805007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6248628004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5255505007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6124257004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5214363007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6181173004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5189147007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5678002004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5244205007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6139860004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5149101007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:5990749004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5237890007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6206983004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5178416007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6208569004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5213773007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6225218004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5210378007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6151886004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5159174007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6218037004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5249882007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6210439004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5214280007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6147288004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5255858007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6141163004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5215034007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6225845004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5251253007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6233298004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5274048007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6239791004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5273897007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6219259004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5184586007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6212849004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5194492007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6226453004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5271634007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6237577004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5007261007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6237583004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5205879007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6242592004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5270340007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6242628004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5277343007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6233282004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5215007007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6117388004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5266379007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6142044004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5152408007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6210459004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5109691007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6118745004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5209858007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6118741004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5182183007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6178391004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:4803862007",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6178395004",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
+      "description"
     ]
   },
   {
-    "key": "greenhouse:xai:5252714007",
+    "key": "greenhouse:xai:5188230007",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "location",
       "source_updated_at"
@@ -2371,313 +2480,16 @@
   {
     "key": "greenhouse:xai:5051984007",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5052027007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5151022007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5052040007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5202187007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4805874007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5179367007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4946696007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5187964007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4803905007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5271372007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4835611007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4805886007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4533894007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5051970007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5204788007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5108231007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5107958007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5224784007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5255113007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5252108007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5239623007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5278701007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5097904007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5097907007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5210564007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5249680007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5282312007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5237965007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
+      "description",
       "source_updated_at"
     ]
   },
   {
     "key": "greenhouse:xai:5279647007",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:xai:5218222007",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5257430007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5257417007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5266461007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5127510007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5218218007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5264616007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "source_updated_at"
     ]
@@ -2685,535 +2497,139 @@
   {
     "key": "greenhouse:xai:5180827007",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "location",
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:xai:5167318007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
+    "key": "rippling:rippling:625e205e-e2ac-4316-9432-f81cf0cdebb5",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
   },
   {
-    "key": "greenhouse:xai:5125621007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5212192007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5275741007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5273297007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5278993007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5245777007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5285490007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5285483007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5280957007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5111374007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5280958007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5180223007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5280951007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5051763007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5261818007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5198194007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5285268007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5285164007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5285250007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5191142007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5205179007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5285276007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5012694007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5255116007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5255111007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5265155007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5212216007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5206597007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5228822007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5201135007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4821683007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5257355007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5192318007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5272326007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5214210007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5255793007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5213025007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5248787007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5241152007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5268262007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5247101007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4940364007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5285000007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5191183007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5135086007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5205499007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5216075007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5244119007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5248703007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5063930007",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5188230007",
+    "key": "rippling:rippling:f3da4077-4950-4ca2-b39a-65198b7cf884",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "at": "2026-11-05T19:38:14.654687+00:00"
   },
   {
-    "key": "lever:dnb:215e33d6-b0a1-4648-9c1f-231bf16ea708",
+    "key": "ashby:airapps:65a997ca-7eef-4d04-8ed8-de6160ab1411",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "greenhouse:spacexglobal:8932163002",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "workday:accenture:R00359872",
+    "kind": "REAPPEARED",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "workday:thermofisher:R-01358372",
+    "kind": "NEW",
+    "at": "2026-11-05T19:38:14.654687+00:00"
+  },
+  {
+    "key": "workday:gilead:R0056321",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "description"
     ]
   },
   {
-    "key": "ashby:airapps:b1b7acf5-af91-46d9-9db5-8dddc9facf95",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "key": "workday:regeneron:R51873",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "description"
+    ]
   },
   {
-    "key": "workday:stryker:R574761",
+    "key": "workday:pfizer:4966993",
     "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "at": "2026-11-05T19:38:14.654687+00:00"
   },
   {
-    "key": "workday:stryker:R576972",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "workday:amgen:R-260383",
+    "key": "greenhouse:fivetran:8009202003",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "context_candidate",
-      "description",
-      "description_state"
-    ]
-  },
-  {
-    "key": "workday:intel:JR0288945",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
-    "fields": [
-      "context_candidate",
-      "description",
-      "description_state"
-    ]
-  },
-  {
-    "key": "greenhouse:sumup:8750631002",
-    "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:sumup:8427124002",
+    "key": "greenhouse:fivetran:8014680003",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:zscaler:5282931007",
+    "key": "greenhouse:fivetran:8014679003",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:zscaler:5246317007",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-05T18:38:06.720459+00:00"
-  },
-  {
-    "key": "greenhouse:druva:8459688002",
+    "key": "greenhouse:fivetran:8014678003",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
-      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:launchdarkly:8108185003",
-    "kind": "NEW",
-    "at": "2026-11-05T18:38:06.720459+00:00"
+    "key": "greenhouse:fivetran:8009201003",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
   },
   {
-    "key": "greenhouse:rubrik:8209069",
+    "key": "greenhouse:fivetran:8014717003",
     "kind": "CHANGED",
-    "at": "2026-11-05T18:38:06.720459+00:00",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:fivetran:8014716003",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:fivetran:8014715003",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:8262657",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:8084242",
+    "kind": "CHANGED",
+    "at": "2026-11-05T19:38:14.654687+00:00",
     "fields": [
       "source_updated_at"
     ]
