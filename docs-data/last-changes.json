@@ -1,186 +1,184 @@
 [
   {
-    "key": "greenhouse:stripe:8354566",
-    "kind": "NEW",
-    "at": "2026-11-06T01:38:07.336420+00:00"
-  },
-  {
-    "key": "greenhouse:datadog:8311586",
-    "kind": "NEW",
-    "at": "2026-11-06T01:38:07.336420+00:00"
-  },
-  {
-    "key": "greenhouse:okta:8110717",
+    "key": "greenhouse:stripe:8352238",
     "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:twilio:8350289",
-    "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
+    "at": "2026-11-06T02:38:07.183183+00:00",
     "fields": [
       "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:coinbase:8351165",
-    "kind": "NEW",
-    "at": "2026-11-06T01:38:07.336420+00:00"
+    "key": "greenhouse:stripe:8332681",
+    "kind": "CHANGED",
+    "at": "2026-11-06T02:38:07.183183+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
   },
   {
-    "key": "greenhouse:coinbase:8356842",
-    "kind": "NEW",
-    "at": "2026-11-06T01:38:07.336420+00:00"
-  },
-  {
-    "key": "greenhouse:gitlab:8931347002",
-    "kind": "NEW",
-    "at": "2026-11-06T01:38:07.336420+00:00"
-  },
-  {
-    "key": "ashby:openai:cda6eab0-edab-4dfc-8923-40ca3b0928b5",
-    "kind": "NEW",
-    "at": "2026-11-06T01:38:07.336420+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5206978008",
+    "key": "greenhouse:stripe:8175828",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T01:38:07.336420+00:00"
+    "at": "2026-11-06T02:38:07.183183+00:00"
   },
   {
-    "key": "greenhouse:databricks:8882379002",
+    "key": "greenhouse:okta:8348116",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-06T02:38:07.183183+00:00"
+  },
+  {
+    "key": "greenhouse:coinbase:8260306",
     "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
+    "at": "2026-11-06T02:38:07.183183+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:databricks:8755470002",
+    "key": "ashby:vanta:52664829-5308-4f7f-8a2c-f999d871b8b7",
+    "kind": "NEW",
+    "at": "2026-11-06T02:38:07.183183+00:00"
+  },
+  {
+    "key": "ashby:snowflake:ce0b7fb7-c38f-486a-aeb6-d70c26f99b03",
+    "kind": "NEW",
+    "at": "2026-11-06T02:38:07.183183+00:00"
+  },
+  {
+    "key": "ashby:snowflake:c9ce6380-f9e3-48a5-90a7-17a1722904e0",
+    "kind": "NEW",
+    "at": "2026-11-06T02:38:07.183183+00:00"
+  },
+  {
+    "key": "greenhouse:anthropic:5434795008",
     "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
+    "at": "2026-11-06T02:38:07.183183+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:databricks:8476403002",
+    "key": "greenhouse:anthropic:5409299008",
     "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
+    "at": "2026-11-06T02:38:07.183183+00:00",
     "fields": [
+      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:databricks:8747038002",
-    "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
+    "key": "greenhouse:databricks:8560779002",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-06T02:38:07.183183+00:00"
   },
   {
     "key": "greenhouse:deliveroo:8205846",
     "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
+    "at": "2026-11-06T02:38:07.183183+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:sonyinteractiveentertainmentglobal:6177582004",
-    "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5052040007",
-    "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5202187007",
-    "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4533894007",
-    "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5286869007",
-    "kind": "NEW",
-    "at": "2026-11-06T01:38:07.336420+00:00"
-  },
-  {
-    "key": "greenhouse:xai:5286865007",
-    "kind": "NEW",
-    "at": "2026-11-06T01:38:07.336420+00:00"
-  },
-  {
-    "key": "greenhouse:xai:5285000007",
-    "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5285164007",
+    "key": "ashby:elevenlabs:2c9dfcd0-0aa3-466a-8a5a-2b2351afbf81",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T01:38:07.336420+00:00"
+    "at": "2026-11-06T02:38:07.183183+00:00"
   },
   {
-    "key": "greenhouse:xai:5285268007",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T01:38:07.336420+00:00"
-  },
-  {
-    "key": "greenhouse:xai:5285276007",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T01:38:07.336420+00:00"
-  },
-  {
-    "key": "rippling:rippling:98573ac2-0b5f-4ee2-9dab-cd1e2eea119b",
-    "kind": "REAPPEARED",
-    "at": "2026-11-06T01:38:07.336420+00:00"
-  },
-  {
-    "key": "greenhouse:fivetran:8197314003",
+    "key": "greenhouse:xai:5286889007",
     "kind": "NEW",
-    "at": "2026-11-06T01:38:07.336420+00:00"
+    "at": "2026-11-06T02:38:07.183183+00:00"
   },
   {
-    "key": "greenhouse:fivetran:8196773003",
-    "kind": "NEW",
-    "at": "2026-11-06T01:38:07.336420+00:00"
-  },
-  {
-    "key": "greenhouse:solarwinds:4747609005",
+    "key": "greenhouse:xai:5210564007",
     "kind": "CHANGED",
-    "at": "2026-11-06T01:38:07.336420+00:00",
+    "at": "2026-11-06T02:38:07.183183+00:00",
     "fields": [
+      "description",
       "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:xai:4996796007",
+    "kind": "CHANGED",
+    "at": "2026-11-06T02:38:07.183183+00:00",
+    "fields": [
+      "description",
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:xai:4703144007",
+    "kind": "CHANGED",
+    "at": "2026-11-06T02:38:07.183183+00:00",
+    "fields": [
+      "description",
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:xai:5109691007",
+    "kind": "CHANGED",
+    "at": "2026-11-06T02:38:07.183183+00:00",
+    "fields": [
+      "description",
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:xai:5205179007",
+    "kind": "CHANGED",
+    "at": "2026-11-06T02:38:07.183183+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:xai:5286879007",
+    "kind": "NEW",
+    "at": "2026-11-06T02:38:07.183183+00:00"
+  },
+  {
+    "key": "greenhouse:xai:5063930007",
+    "kind": "CHANGED",
+    "at": "2026-11-06T02:38:07.183183+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "lever:dnb:20ebadc7-d1bf-4f98-8685-0acb7fdf1820",
+    "kind": "NEW",
+    "at": "2026-11-06T02:38:07.183183+00:00"
+  },
+  {
+    "key": "rippling:rippling:82eda90e-1cd6-46b5-b540-40a02d2d3cfb",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-06T02:38:07.183183+00:00"
+  },
+  {
+    "key": "greenhouse:fivetran:8197319003",
+    "kind": "NEW",
+    "at": "2026-11-06T02:38:07.183183+00:00"
+  },
+  {
+    "key": "greenhouse:fivetran:8197321003",
+    "kind": "NEW",
+    "at": "2026-11-06T02:38:07.183183+00:00"
+  },
+  {
+    "key": "greenhouse:klaviyo:8009592003",
+    "kind": "CHANGED",
+    "at": "2026-11-06T02:38:07.183183+00:00",
+    "fields": [
+      "source_updated_at",
+      "title"
     ]
   }
 ]
