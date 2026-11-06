@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-06T10:38:14.268138+00:00",
+  "checked_at": "2026-11-06T11:38:15.185729+00:00",
   "source_health": [
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/intercom/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -19,15 +19,15 @@
       "status": "OK_NONEMPTY",
       "total": 108,
       "irish": 41,
-      "seconds": 0.165,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.216,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/tines/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 36,
+      "postings_fetched": 35,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
@@ -38,13 +38,13 @@
       "desc_fetch_failed": 0,
       "source": "greenhouse:tines",
       "status": "OK_NONEMPTY",
-      "total": 36,
-      "irish": 9,
-      "seconds": 0.121,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "total": 35,
+      "irish": 8,
+      "seconds": 0.113,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/wayflyer?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -61,11 +61,11 @@
       "status": "OK_NONEMPTY",
       "total": 12,
       "irish": 3,
-      "seconds": 0.059,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.176,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/analyticpartners?mode=json",
       "http_status": 200,
       "response_verified": true,
@@ -82,11 +82,11 @@
       "status": "OK_NONEMPTY",
       "total": 21,
       "irish": 0,
-      "seconds": 1.07,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.329,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/ashby?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -103,11 +103,11 @@
       "status": "OK_NONEMPTY",
       "total": 71,
       "irish": 15,
-      "seconds": 0.116,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.131,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/fonoa?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -124,11 +124,11 @@
       "status": "OK_NONEMPTY",
       "total": 18,
       "irish": 0,
-      "seconds": 0.127,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.155,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -145,16 +145,16 @@
       "status": "OK_NONEMPTY",
       "total": 765,
       "irish": 95,
-      "seconds": 0.387,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.405,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
       "postings_fetched": 399,
-      "new_raw_count": 1,
+      "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -166,15 +166,15 @@
       "status": "OK_NONEMPTY",
       "total": 399,
       "irish": 20,
-      "seconds": 0.221,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.235,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/flipdish/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 11,
+      "postings_fetched": 10,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
@@ -185,17 +185,17 @@
       "desc_fetch_failed": 0,
       "source": "greenhouse:flipdish",
       "status": "OK_NONEMPTY",
-      "total": 11,
-      "irish": 3,
-      "seconds": 0.122,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "total": 10,
+      "irish": 2,
+      "seconds": 0.163,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 370,
+      "postings_fetched": 369,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
@@ -206,13 +206,13 @@
       "desc_fetch_failed": 0,
       "source": "greenhouse:mongodb",
       "status": "OK_NONEMPTY",
-      "total": 370,
+      "total": 369,
       "irish": 57,
-      "seconds": 0.213,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.325,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/okta/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -229,11 +229,11 @@
       "status": "OK_NONEMPTY",
       "total": 382,
       "irish": 18,
-      "seconds": 0.245,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.231,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -250,16 +250,16 @@
       "status": "OK_NONEMPTY",
       "total": 126,
       "irish": 10,
-      "seconds": 0.161,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.13,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 200,
-      "new_raw_count": 0,
+      "postings_fetched": 201,
+      "new_raw_count": 1,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -269,13 +269,13 @@
       "desc_fetch_failed": 0,
       "source": "greenhouse:airbnb",
       "status": "OK_NONEMPTY",
-      "total": 200,
+      "total": 201,
       "irish": 6,
-      "seconds": 0.196,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.173,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -292,11 +292,11 @@
       "status": "OK_NONEMPTY",
       "total": 166,
       "irish": 5,
-      "seconds": 0.168,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.19,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -313,11 +313,11 @@
       "status": "OK_NONEMPTY",
       "total": 280,
       "irish": 2,
-      "seconds": 0.211,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.193,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/dropbox/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -334,11 +334,11 @@
       "status": "OK_NONEMPTY",
       "total": 33,
       "irish": 2,
-      "seconds": 0.109,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.114,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/asana/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -355,11 +355,11 @@
       "status": "OK_NONEMPTY",
       "total": 110,
       "irish": 2,
-      "seconds": 0.128,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.183,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -376,15 +376,15 @@
       "status": "OK_NONEMPTY",
       "total": 249,
       "irish": 11,
-      "seconds": 0.204,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.177,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/notion?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 148,
+      "postings_fetched": 147,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
@@ -395,13 +395,13 @@
       "desc_fetch_failed": 0,
       "source": "ashby:notion",
       "status": "OK_NONEMPTY",
-      "total": 148,
-      "irish": 28,
-      "seconds": 0.088,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "total": 147,
+      "irish": 27,
+      "seconds": 0.128,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -418,11 +418,11 @@
       "status": "OK_NONEMPTY",
       "total": 823,
       "irish": 19,
-      "seconds": 0.316,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.273,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/vanta?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -439,11 +439,11 @@
       "status": "OK_NONEMPTY",
       "total": 84,
       "irish": 9,
-      "seconds": 0.083,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.138,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/clickup?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -460,11 +460,11 @@
       "status": "OK_NONEMPTY",
       "total": 48,
       "irish": 11,
-      "seconds": 0.101,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.162,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/snowflake?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -481,11 +481,11 @@
       "status": "OK_NONEMPTY",
       "total": 371,
       "irish": 0,
-      "seconds": 0.158,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.168,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/workhuman?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -502,11 +502,11 @@
       "status": "OK_NONEMPTY",
       "total": 9,
       "irish": 4,
-      "seconds": 0.055,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.135,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -523,11 +523,11 @@
       "status": "OK_NONEMPTY",
       "total": 674,
       "irish": 6,
-      "seconds": 0.359,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.331,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/bearingpoint/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -544,16 +544,16 @@
       "status": "OK_NONEMPTY",
       "total": 12,
       "irish": 12,
-      "seconds": 0.092,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.104,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
       "postings_fetched": 922,
-      "new_raw_count": 1,
+      "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -565,16 +565,16 @@
       "status": "OK_NONEMPTY",
       "total": 922,
       "irish": 2,
-      "seconds": 0.4,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.405,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/deliveroo/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 199,
-      "new_raw_count": 0,
+      "postings_fetched": 200,
+      "new_raw_count": 1,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -584,13 +584,13 @@
       "desc_fetch_failed": 0,
       "source": "greenhouse:deliveroo",
       "status": "OK_NONEMPTY",
-      "total": 199,
+      "total": 200,
       "irish": 3,
-      "seconds": 0.18,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.184,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -607,11 +607,11 @@
       "status": "OK_NONEMPTY",
       "total": 430,
       "irish": 25,
-      "seconds": 0.408,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.343,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/monzo/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -628,11 +628,11 @@
       "status": "OK_NONEMPTY",
       "total": 58,
       "irish": 5,
-      "seconds": 0.271,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.113,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -649,11 +649,11 @@
       "status": "OK_NONEMPTY",
       "total": 163,
       "irish": 3,
-      "seconds": 0.167,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.152,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/smartbear/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -670,16 +670,16 @@
       "status": "OK_NONEMPTY",
       "total": 12,
       "irish": 1,
-      "seconds": 0.093,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.137,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/toast/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 332,
-      "new_raw_count": 0,
+      "postings_fetched": 333,
+      "new_raw_count": 1,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -689,13 +689,13 @@
       "desc_fetch_failed": 0,
       "source": "greenhouse:toast",
       "status": "OK_NONEMPTY",
-      "total": 332,
+      "total": 333,
       "irish": 25,
-      "seconds": 0.237,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.184,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/udemy/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -712,11 +712,11 @@
       "status": "OK_NONEMPTY",
       "total": 3,
       "irish": 0,
-      "seconds": 0.109,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.096,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/zoominfo/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -733,16 +733,16 @@
       "status": "OK_NONEMPTY",
       "total": 92,
       "irish": 0,
-      "seconds": 0.124,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.119,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/cartrawler?mode=json",
       "http_status": 200,
       "response_verified": true,
       "postings_fetched": 10,
-      "new_raw_count": 3,
+      "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -754,15 +754,15 @@
       "status": "OK_NONEMPTY",
       "total": 10,
       "irish": 10,
-      "seconds": 0.499,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.307,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/rws?mode=json",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 144,
+      "postings_fetched": 145,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
@@ -773,55 +773,55 @@
       "desc_fetch_failed": 0,
       "source": "lever:rws",
       "status": "OK_NONEMPTY",
-      "total": 144,
+      "total": 145,
       "irish": 1,
-      "seconds": 0.76,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.472,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings?country=ie&limit=100",
       "http_status": 200,
       "response_verified": true,
       "postings_fetched": 15,
-      "new_raw_count": 0,
+      "new_raw_count": 1,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 0,
+      "desc_enriched": 14,
       "desc_fetch_failed": 0,
       "source": "smartrecruiters:ServiceNow",
       "status": "OK_NONEMPTY",
       "total": 15,
       "irish": 15,
-      "seconds": 0.431,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 24.403,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 28,
+      "postings_fetched": 27,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 0,
+      "desc_enriched": 25,
       "desc_fetch_failed": 0,
       "source": "workday:mastercard",
       "status": "OK_NONEMPTY",
-      "total": 28,
-      "irish": 27,
-      "seconds": 2.215,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "total": 27,
+      "irish": 26,
+      "seconds": 44.138,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -832,46 +832,38 @@
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 0,
+      "desc_enriched": 50,
       "desc_fetch_failed": 0,
       "source": "workday:salesforce",
       "status": "OK_NONEMPTY",
       "total": 163,
       "irish": 155,
-      "seconds": 5.517,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 84.458,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 37,
+      "postings_fetched": 36,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "COMPLETE_EXPLICIT",
-      "failure_reason": "Provider records quarantined; source coverage partial",
-      "failure_streak": 1,
-      "quarantined_count": 1,
-      "quarantined_records": [
-        {
-          "id": "JR-0110642",
-          "reason": "Job missing title"
-        }
-      ],
-      "valid_postings_count": 36,
+      "failure_reason": "",
+      "failure_streak": 0,
       "desc_enriched": 0,
       "desc_fetch_failed": 0,
       "source": "workday:workday",
-      "status": "DEGRADED_PARTIAL",
+      "status": "OK_NONEMPTY",
       "total": 36,
       "irish": 24,
-      "seconds": 4.398,
-      "last_success_at": "2026-11-06T09:38:46.502142+00:00"
+      "seconds": 4.426,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -888,32 +880,32 @@
       "status": "OK_NONEMPTY",
       "total": 71,
       "irish": 49,
-      "seconds": 4.568,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 4.726,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs",
       "http_status": 200,
       "response_verified": true,
       "postings_fetched": 49,
-      "new_raw_count": 1,
+      "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 1,
+      "desc_enriched": 0,
       "desc_fetch_failed": 0,
       "source": "workday:statestreet",
       "status": "OK_NONEMPTY",
       "total": 49,
       "irish": 29,
-      "seconds": 3.516,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 2.148,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/abundant?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -930,16 +922,16 @@
       "status": "OK_NONEMPTY",
       "total": 9,
       "irish": 2,
-      "seconds": 0.082,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.144,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
       "postings_fetched": 3187,
-      "new_raw_count": 4,
+      "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -951,16 +943,16 @@
       "status": "OK_NONEMPTY",
       "total": 3187,
       "irish": 93,
-      "seconds": 0.954,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.62,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/crusoe?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 323,
-      "new_raw_count": 0,
+      "postings_fetched": 324,
+      "new_raw_count": 1,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -970,13 +962,13 @@
       "desc_fetch_failed": 0,
       "source": "ashby:crusoe",
       "status": "OK_NONEMPTY",
-      "total": 323,
+      "total": 324,
       "irish": 9,
-      "seconds": 0.172,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.179,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -993,11 +985,11 @@
       "status": "OK_NONEMPTY",
       "total": 139,
       "irish": 15,
-      "seconds": 0.127,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.121,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/kota?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -1014,11 +1006,11 @@
       "status": "OK_NONEMPTY",
       "total": 12,
       "irish": 10,
-      "seconds": 0.091,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.146,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/lemfi?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -1035,11 +1027,11 @@
       "status": "OK_NONEMPTY",
       "total": 21,
       "irish": 5,
-      "seconds": 0.101,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.083,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/lightspeedhq?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -1056,11 +1048,11 @@
       "status": "OK_NONEMPTY",
       "total": 135,
       "irish": 0,
-      "seconds": 0.137,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.195,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/nooks?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -1077,11 +1069,11 @@
       "status": "OK_NONEMPTY",
       "total": 56,
       "irish": 5,
-      "seconds": 0.091,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.158,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/sitecore?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -1098,11 +1090,11 @@
       "status": "OK_NONEMPTY",
       "total": 28,
       "irish": 3,
-      "seconds": 0.063,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.087,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.gem.com/job_board/v0/biorender/job_posts/",
       "http_status": 200,
       "response_verified": true,
@@ -1119,11 +1111,11 @@
       "status": "OK_ZERO",
       "total": 0,
       "irish": 0,
-      "seconds": 0.244,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.179,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.gem.com/job_board/v0/hilabs-ie/job_posts/",
       "http_status": 200,
       "response_verified": true,
@@ -1140,11 +1132,11 @@
       "status": "OK_NONEMPTY",
       "total": 1,
       "irish": 1,
-      "seconds": 0.217,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.185,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/charleshurstdublin/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1161,16 +1153,16 @@
       "status": "OK_NONEMPTY",
       "total": 4,
       "irish": 4,
-      "seconds": 0.083,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.149,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/feverup/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 568,
-      "new_raw_count": 0,
+      "postings_fetched": 566,
+      "new_raw_count": 12,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -1180,13 +1172,13 @@
       "desc_fetch_failed": 0,
       "source": "greenhouse:feverup",
       "status": "OK_NONEMPTY",
-      "total": 568,
+      "total": 566,
       "irish": 2,
-      "seconds": 0.435,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.35,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/formerra/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1203,16 +1195,16 @@
       "status": "OK_NONEMPTY",
       "total": 11,
       "irish": 1,
-      "seconds": 0.1,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.116,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/freenow/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 9,
-      "new_raw_count": 0,
+      "postings_fetched": 11,
+      "new_raw_count": 2,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -1222,13 +1214,13 @@
       "desc_fetch_failed": 0,
       "source": "greenhouse:freenow",
       "status": "OK_NONEMPTY",
-      "total": 9,
+      "total": 11,
       "irish": 1,
-      "seconds": 0.084,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.105,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/globalizationpartners/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1245,11 +1237,11 @@
       "status": "OK_NONEMPTY",
       "total": 63,
       "irish": 11,
-      "seconds": 0.126,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.14,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/gongio/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1266,15 +1258,15 @@
       "status": "OK_NONEMPTY",
       "total": 85,
       "irish": 14,
-      "seconds": 0.109,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.106,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/jjirl/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 1,
+      "postings_fetched": 2,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
@@ -1285,13 +1277,13 @@
       "desc_fetch_failed": 0,
       "source": "greenhouse:jjirl",
       "status": "OK_NONEMPTY",
-      "total": 1,
-      "irish": 1,
-      "seconds": 0.086,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "total": 2,
+      "irish": 2,
+      "seconds": 0.137,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/kirbygroupengineering/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1308,11 +1300,11 @@
       "status": "OK_NONEMPTY",
       "total": 208,
       "irish": 53,
-      "seconds": 0.159,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.143,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/learnupon/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1329,11 +1321,11 @@
       "status": "OK_NONEMPTY",
       "total": 13,
       "irish": 3,
-      "seconds": 0.091,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.09,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/oliver/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1350,11 +1342,11 @@
       "status": "OK_NONEMPTY",
       "total": 39,
       "irish": 3,
-      "seconds": 0.117,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.11,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonyinteractiveentertainmentglobal/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1371,11 +1363,11 @@
       "status": "OK_NONEMPTY",
       "total": 218,
       "irish": 19,
-      "seconds": 0.225,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.203,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sonymusicentertainment/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1392,11 +1384,11 @@
       "status": "OK_NONEMPTY",
       "total": 137,
       "irish": 13,
-      "seconds": 0.161,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.144,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/typeform/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1413,11 +1405,11 @@
       "status": "OK_NONEMPTY",
       "total": 6,
       "irish": 3,
-      "seconds": 0.089,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.088,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/volkswagengroupireland/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1434,11 +1426,11 @@
       "status": "OK_NONEMPTY",
       "total": 1,
       "irish": 1,
-      "seconds": 0.081,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.084,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/xai/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1455,11 +1447,11 @@
       "status": "OK_NONEMPTY",
       "total": 301,
       "irish": 5,
-      "seconds": 0.204,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.177,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/zaviant/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -1476,11 +1468,11 @@
       "status": "OK_NONEMPTY",
       "total": 1,
       "irish": 0,
-      "seconds": 0.098,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.179,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/cagents?mode=json",
       "http_status": 200,
       "response_verified": true,
@@ -1497,11 +1489,11 @@
       "status": "OK_NONEMPTY",
       "total": 97,
       "irish": 15,
-      "seconds": 1.442,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.485,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/dnb?mode=json",
       "http_status": null,
       "response_verified": false,
@@ -1513,13 +1505,12 @@
       "failure_reason": "The read operation timed out",
       "failure_streak": 1,
       "source": "lever:dnb",
-      "status": "ERROR",
-      "error": "The read operation timed out",
-      "last_success_at": "2026-11-06T09:38:46.502142+00:00",
-      "seconds": 20.244
+      "status": "BACKOFF",
+      "next_attempt_at": "2026-11-06T11:39:09.648538+00:00",
+      "last_success_at": "2026-11-06T09:38:46.502142+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/extremenetworks?mode=json",
       "http_status": 200,
       "response_verified": true,
@@ -1536,11 +1527,11 @@
       "status": "OK_NONEMPTY",
       "total": 77,
       "irish": 0,
-      "seconds": 2.034,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.477,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/laminarprojects?mode=json",
       "http_status": 200,
       "response_verified": true,
@@ -1557,11 +1548,11 @@
       "status": "OK_NONEMPTY",
       "total": 28,
       "irish": 1,
-      "seconds": 0.847,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.451,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/pipedrive?mode=json",
       "http_status": 200,
       "response_verified": true,
@@ -1578,11 +1569,11 @@
       "status": "OK_ZERO",
       "total": 0,
       "irish": 0,
-      "seconds": 0.321,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.182,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/veeva?mode=json",
       "http_status": 200,
       "response_verified": true,
@@ -1599,11 +1590,11 @@
       "status": "OK_NONEMPTY",
       "total": 878,
       "irish": 4,
-      "seconds": 5.038,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 1.066,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/weloglobal?mode=json",
       "http_status": 200,
       "response_verified": true,
@@ -1620,11 +1611,11 @@
       "status": "OK_NONEMPTY",
       "total": 446,
       "irish": 2,
-      "seconds": 1.198,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.67,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.rippling.com/platform/api/ats/v1/board/allied-global-marketing/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -1641,11 +1632,11 @@
       "status": "OK_NONEMPTY",
       "total": 8,
       "irish": 2,
-      "seconds": 0.235,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.248,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.rippling.com/platform/api/ats/v1/board/coffeeangel/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -1662,11 +1653,11 @@
       "status": "OK_NONEMPTY",
       "total": 13,
       "irish": 13,
-      "seconds": 0.166,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.156,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.rippling.com/platform/api/ats/v1/board/rapidratings/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -1683,11 +1674,11 @@
       "status": "OK_NONEMPTY",
       "total": 6,
       "irish": 2,
-      "seconds": 0.2,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.174,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.rippling.com/platform/api/ats/v1/board/rippling/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -1704,11 +1695,11 @@
       "status": "OK_NONEMPTY",
       "total": 400,
       "irish": 42,
-      "seconds": 0.575,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.576,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://apply.workable.com/api/v1/widget/accounts/crown-global",
       "http_status": 200,
       "response_verified": true,
@@ -1725,11 +1716,11 @@
       "status": "OK_NONEMPTY",
       "total": 12,
       "irish": 10,
-      "seconds": 0.143,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.209,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.smartrecruiters.com/v1/companies/turnertownsend/postings?country=ie&limit=100",
       "http_status": 200,
       "response_verified": true,
@@ -1746,15 +1737,15 @@
       "status": "OK_NONEMPTY",
       "total": 65,
       "irish": 64,
-      "seconds": 0.461,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.487,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.smartrecruiters.com/v1/companies/version1/postings?country=ie&limit=100",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 45,
+      "postings_fetched": 44,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
@@ -1765,34 +1756,34 @@
       "desc_fetch_failed": 0,
       "source": "smartrecruiters:version1",
       "status": "OK_NONEMPTY",
-      "total": 45,
-      "irish": 45,
-      "seconds": 0.513,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "total": 44,
+      "irish": 44,
+      "seconds": 0.504,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.smartrecruiters.com/v1/companies/junioradventuresgroup/postings?country=ie&limit=100",
       "http_status": 200,
       "response_verified": true,
       "postings_fetched": 73,
-      "new_raw_count": 0,
+      "new_raw_count": 2,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 0,
+      "desc_enriched": 2,
       "desc_fetch_failed": 0,
       "source": "smartrecruiters:junioradventuresgroup",
       "status": "OK_NONEMPTY",
       "total": 73,
       "irish": 26,
-      "seconds": 0.701,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 4.711,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.smartrecruiters.com/v1/companies/abbvie/postings?country=ie&limit=100",
       "http_status": 200,
       "response_verified": true,
@@ -1809,15 +1800,15 @@
       "status": "OK_NONEMPTY",
       "total": 68,
       "irish": 37,
-      "seconds": 0.131,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.202,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.smartrecruiters.com/v1/companies/eurofins/postings?country=ie&limit=100",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 45,
+      "postings_fetched": 44,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
@@ -1828,13 +1819,13 @@
       "desc_fetch_failed": 0,
       "source": "smartrecruiters:eurofins",
       "status": "OK_NONEMPTY",
-      "total": 45,
-      "irish": 33,
-      "seconds": 0.437,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "total": 44,
+      "irish": 32,
+      "seconds": 0.519,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.smartrecruiters.com/v1/companies/EgisGroup/postings?country=ie&limit=100",
       "http_status": 200,
       "response_verified": true,
@@ -1851,11 +1842,11 @@
       "status": "OK_NONEMPTY",
       "total": 53,
       "irish": 37,
-      "seconds": 0.49,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.497,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/tsmg?mode=json",
       "http_status": 200,
       "response_verified": true,
@@ -1872,11 +1863,11 @@
       "status": "OK_NONEMPTY",
       "total": 4477,
       "irish": 20,
-      "seconds": 2.526,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 3.936,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.smartrecruiters.com/v1/companies/sgs/postings?country=ie&limit=100",
       "http_status": 200,
       "response_verified": true,
@@ -1893,11 +1884,11 @@
       "status": "OK_NONEMPTY",
       "total": 18,
       "irish": 16,
-      "seconds": 0.427,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.466,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/airapps?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -1914,11 +1905,11 @@
       "status": "OK_NONEMPTY",
       "total": 499,
       "irish": 22,
-      "seconds": 0.231,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.194,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.smartrecruiters.com/v1/companies/swgroup/postings?country=ie&limit=100",
       "http_status": 200,
       "response_verified": true,
@@ -1935,11 +1926,11 @@
       "status": "OK_NONEMPTY",
       "total": 6,
       "irish": 6,
-      "seconds": 0.401,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.488,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.smartrecruiters.com/v1/companies/statkraft1/postings?country=ie&limit=100",
       "http_status": 200,
       "response_verified": true,
@@ -1956,16 +1947,16 @@
       "status": "OK_NONEMPTY",
       "total": 7,
       "irish": 7,
-      "seconds": 0.417,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.462,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.lever.co/v0/postings/websummit?mode=json",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 24,
-      "new_raw_count": 0,
+      "postings_fetched": 26,
+      "new_raw_count": 2,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -1975,13 +1966,13 @@
       "desc_fetch_failed": 0,
       "source": "lever:websummit",
       "status": "OK_NONEMPTY",
-      "total": 24,
+      "total": 26,
       "irish": 11,
-      "seconds": 0.678,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.483,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://api.ashbyhq.com/posting-api/job-board/montu-uk?includeCompensation=true",
       "http_status": 200,
       "response_verified": true,
@@ -1998,11 +1989,11 @@
       "status": "OK_NONEMPTY",
       "total": 34,
       "irish": 4,
-      "seconds": 0.102,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.168,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/spacexglobal/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2019,11 +2010,11 @@
       "status": "OK_NONEMPTY",
       "total": 63,
       "irish": 17,
-      "seconds": 0.14,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.115,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/smartling/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2040,16 +2031,16 @@
       "status": "OK_NONEMPTY",
       "total": 9,
       "irish": 2,
-      "seconds": 0.087,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.094,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 143,
-      "new_raw_count": 2,
+      "postings_fetched": 136,
+      "new_raw_count": 1,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "COMPLETE_EXPLICIT",
@@ -2059,13 +2050,13 @@
       "desc_fetch_failed": 0,
       "source": "workday:accenture",
       "status": "OK_NONEMPTY",
-      "total": 143,
+      "total": 136,
       "irish": 0,
-      "seconds": 15.513,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 14.402,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://analogdevices.wd1.myworkdayjobs.com/wday/cxs/analogdevices/External/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2082,11 +2073,11 @@
       "status": "OK_NONEMPTY",
       "total": 109,
       "irish": 62,
-      "seconds": 3.473,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 3.969,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2103,32 +2094,32 @@
       "status": "OK_NONEMPTY",
       "total": 104,
       "irish": 88,
-      "seconds": 5.41,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 5.587,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://northerntrust.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 82,
+      "postings_fetched": 81,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 0,
+      "desc_enriched": 1,
       "desc_fetch_failed": 0,
       "source": "workday:ntrs",
       "status": "OK_NONEMPTY",
-      "total": 82,
-      "irish": 73,
-      "seconds": 3.089,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "total": 81,
+      "irish": 72,
+      "seconds": 5.277,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://jci.wd5.myworkdayjobs.com/wday/cxs/jci/JCI/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2145,11 +2136,11 @@
       "status": "OK_NONEMPTY",
       "total": 57,
       "irish": 47,
-      "seconds": 1.46,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 1.383,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://stryker.wd1.myworkdayjobs.com/wday/cxs/stryker/StrykerCareers/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2160,17 +2151,17 @@
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 0,
+      "desc_enriched": 1,
       "desc_fetch_failed": 0,
       "source": "workday:stryker",
       "status": "OK_NONEMPTY",
       "total": 53,
       "irish": 41,
-      "seconds": 2.17,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 4.057,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2187,11 +2178,11 @@
       "status": "OK_NONEMPTY",
       "total": 53,
       "irish": 42,
-      "seconds": 0.967,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 1.188,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2202,38 +2193,38 @@
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 0,
+      "desc_enriched": 1,
       "desc_fetch_failed": 0,
       "source": "workday:citi",
       "status": "OK_NONEMPTY",
       "total": 50,
       "irish": 32,
-      "seconds": 3.66,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 4.582,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://fmr.wd1.myworkdayjobs.com/wday/cxs/fmr/FidelityCareers/jobs",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 35,
+      "postings_fetched": 34,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 0,
+      "desc_enriched": 1,
       "desc_fetch_failed": 0,
       "source": "workday:fmr",
       "status": "OK_NONEMPTY",
-      "total": 35,
+      "total": 34,
       "irish": 29,
-      "seconds": 1.55,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 3.467,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://thermofisher.wd5.myworkdayjobs.com/wday/cxs/thermofisher/ThermoFisherCareers/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2244,38 +2235,38 @@
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 0,
+      "desc_enriched": 1,
       "desc_fetch_failed": 0,
       "source": "workday:thermofisher",
       "status": "OK_NONEMPTY",
       "total": 55,
       "irish": 33,
-      "seconds": 1.03,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 2.616,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://medtronic.wd1.myworkdayjobs.com/wday/cxs/medtronic/MedtronicCareers/jobs",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 30,
+      "postings_fetched": 29,
       "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 0,
+      "desc_enriched": 1,
       "desc_fetch_failed": 0,
       "source": "workday:medtronic",
       "status": "OK_NONEMPTY",
-      "total": 30,
-      "irish": 21,
-      "seconds": 2.724,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "total": 29,
+      "irish": 20,
+      "seconds": 4.092,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://amgen.wd1.myworkdayjobs.com/wday/cxs/amgen/Careers/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2292,11 +2283,11 @@
       "status": "OK_NONEMPTY",
       "total": 15,
       "irish": 11,
-      "seconds": 0.892,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.914,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2313,32 +2304,32 @@
       "status": "OK_NONEMPTY",
       "total": 15,
       "irish": 15,
-      "seconds": 0.891,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.924,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/jobs",
       "http_status": 200,
       "response_verified": true,
       "postings_fetched": 16,
-      "new_raw_count": 1,
+      "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "COMPLETE_EXPLICIT",
       "failure_reason": "",
       "failure_streak": 0,
-      "desc_enriched": 1,
+      "desc_enriched": 0,
       "desc_fetch_failed": 0,
       "source": "workday:fiserv",
       "status": "OK_NONEMPTY",
       "total": 16,
       "irish": 14,
-      "seconds": 1.948,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.335,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://gilead.wd1.myworkdayjobs.com/wday/cxs/gilead/gileadcareers/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2355,11 +2346,11 @@
       "status": "OK_NONEMPTY",
       "total": 18,
       "irish": 16,
-      "seconds": 0.734,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.756,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathpe/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2376,11 +2367,11 @@
       "status": "OK_NONEMPTY",
       "total": 23,
       "irish": 13,
-      "seconds": 1.931,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 2.762,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://regeneron.wd1.myworkdayjobs.com/wday/cxs/regeneron/Careers/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2389,19 +2380,27 @@
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "COMPLETE_EXPLICIT",
-      "failure_reason": "",
-      "failure_streak": 0,
+      "failure_reason": "Provider records quarantined; source coverage partial",
+      "failure_streak": 1,
+      "quarantined_count": 1,
+      "quarantined_records": [
+        {
+          "id": "R51231",
+          "reason": "Job missing title"
+        }
+      ],
+      "valid_postings_count": 12,
       "desc_enriched": 0,
       "desc_fetch_failed": 0,
       "source": "workday:regeneron",
-      "status": "OK_NONEMPTY",
-      "total": 13,
-      "irish": 6,
-      "seconds": 0.701,
+      "status": "DEGRADED_PARTIAL",
+      "total": 12,
+      "irish": 5,
+      "seconds": 0.503,
       "last_success_at": "2026-11-06T10:38:14.268138+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://zendesk.wd1.myworkdayjobs.com/wday/cxs/zendesk/Zendesk/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2418,11 +2417,11 @@
       "status": "OK_NONEMPTY",
       "total": 9,
       "irish": 2,
-      "seconds": 0.764,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.802,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2439,11 +2438,11 @@
       "status": "OK_NONEMPTY",
       "total": 5,
       "irish": 1,
-      "seconds": 1.027,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 1.039,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2460,11 +2459,11 @@
       "status": "OK_NONEMPTY",
       "total": 7,
       "irish": 3,
-      "seconds": 1.124,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.939,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://msd.wd5.myworkdayjobs.com/wday/cxs/msd/SearchJobs/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2481,11 +2480,11 @@
       "status": "OK_NONEMPTY",
       "total": 4,
       "irish": 1,
-      "seconds": 0.316,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.388,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://baxter.wd1.myworkdayjobs.com/wday/cxs/baxter/baxter/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2502,11 +2501,11 @@
       "status": "OK_NONEMPTY",
       "total": 6,
       "irish": 1,
-      "seconds": 1.01,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.817,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://vanguard.wd5.myworkdayjobs.com/wday/cxs/vanguard/vanguard_external/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2523,11 +2522,11 @@
       "status": "OK_NONEMPTY",
       "total": 3,
       "irish": 3,
-      "seconds": 0.824,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.866,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://gehealthcare.wd5.myworkdayjobs.com/wday/cxs/gehc/GEHC_ExternalSite/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2544,11 +2543,11 @@
       "status": "OK_NONEMPTY",
       "total": 3,
       "irish": 0,
-      "seconds": 0.28,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.254,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs",
       "http_status": 200,
       "response_verified": true,
@@ -2565,11 +2564,11 @@
       "status": "OK_NONEMPTY",
       "total": 3,
       "irish": 0,
-      "seconds": 0.691,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.674,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/tripadvisor/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2586,11 +2585,11 @@
       "status": "OK_NONEMPTY",
       "total": 7,
       "irish": 1,
-      "seconds": 0.115,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.147,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/sumup/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2607,11 +2606,11 @@
       "status": "OK_NONEMPTY",
       "total": 345,
       "irish": 13,
-      "seconds": 0.281,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.221,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/fivetran/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2628,16 +2627,16 @@
       "status": "OK_NONEMPTY",
       "total": 161,
       "irish": 12,
-      "seconds": 0.298,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.274,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/kaseya/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
-      "postings_fetched": 99,
-      "new_raw_count": 0,
+      "postings_fetched": 100,
+      "new_raw_count": 1,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -2647,13 +2646,13 @@
       "desc_fetch_failed": 0,
       "source": "greenhouse:kaseya",
       "status": "OK_NONEMPTY",
-      "total": 99,
+      "total": 100,
       "irish": 6,
-      "seconds": 0.152,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.227,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/klaviyo/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2670,11 +2669,11 @@
       "status": "OK_NONEMPTY",
       "total": 155,
       "irish": 6,
-      "seconds": 0.2,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.187,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/newrelic/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2691,11 +2690,11 @@
       "status": "OK_NONEMPTY",
       "total": 47,
       "irish": 3,
-      "seconds": 0.106,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.12,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/solarwinds/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2712,11 +2711,11 @@
       "status": "OK_NONEMPTY",
       "total": 95,
       "irish": 4,
-      "seconds": 0.117,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.124,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/wrike/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2733,16 +2732,16 @@
       "status": "OK_NONEMPTY",
       "total": 66,
       "irish": 3,
-      "seconds": 0.153,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.134,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/zscaler/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
       "postings_fetched": 376,
-      "new_raw_count": 1,
+      "new_raw_count": 0,
       "qualified_count": null,
       "qualification_state": "NOT_ASSESSED",
       "pagination_state": "NOT_VERIFIED",
@@ -2754,11 +2753,11 @@
       "status": "OK_NONEMPTY",
       "total": 376,
       "irish": 1,
-      "seconds": 0.273,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.259,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/druva/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2775,11 +2774,11 @@
       "status": "OK_NONEMPTY",
       "total": 27,
       "irish": 2,
-      "seconds": 0.099,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.1,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/launchdarkly/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2796,11 +2795,11 @@
       "status": "OK_NONEMPTY",
       "total": 43,
       "irish": 5,
-      "seconds": 0.104,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.106,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/wizinc/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2817,11 +2816,11 @@
       "status": "OK_NONEMPTY",
       "total": 113,
       "irish": 1,
-      "seconds": 0.123,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.122,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     },
     {
-      "checked_at": "2026-11-06T10:38:14.268138+00:00",
+      "checked_at": "2026-11-06T11:38:15.185729+00:00",
       "source_url": "https://boards-api.greenhouse.io/v1/boards/rubrik/jobs?content=true",
       "http_status": 200,
       "response_verified": true,
@@ -2838,22 +2837,22 @@
       "status": "OK_NONEMPTY",
       "total": 149,
       "irish": 1,
-      "seconds": 0.189,
-      "last_success_at": "2026-11-06T10:38:14.268138+00:00"
+      "seconds": 0.173,
+      "last_success_at": "2026-11-06T11:38:15.185729+00:00"
     }
   ],
-  "new_count": 14,
-  "changes_count": 220,
+  "new_count": 25,
+  "changes_count": 77,
   "schema_baseline_count": 0,
-  "irish_active_raw": 2098,
-  "remote_location_pending": 559,
-  "context_candidates_unreviewed": 2091,
+  "irish_active_raw": 2090,
+  "remote_location_pending": 562,
+  "context_candidates_unreviewed": 2083,
   "standing_feed": false,
   "coverage": "135 explicit employer boards only. No whole-board/global coverage claim.",
   "source_receipt_schema_version": 2,
   "degraded_sources": [
-    "workday:workday",
-    "lever:dnb"
+    "lever:dnb",
+    "workday:regeneron"
   ],
   "pagination_unverified_sources": [
     "greenhouse:intercom",
