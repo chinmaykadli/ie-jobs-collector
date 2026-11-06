@@ -1,842 +1,186 @@
 [
   {
-    "key": "greenhouse:stripe:8332681",
+    "key": "greenhouse:stripe:8354566",
     "kind": "NEW",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "at": "2026-11-06T01:38:07.336420+00:00"
   },
   {
-    "key": "greenhouse:stripe:8332683",
+    "key": "greenhouse:datadog:8311586",
     "kind": "NEW",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "greenhouse:stripe:8238741",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "at": "2026-11-06T01:38:07.336420+00:00"
   },
   {
     "key": "greenhouse:okta:8110717",
     "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
+    "at": "2026-11-06T01:38:07.336420+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:okta:8222505",
+    "key": "greenhouse:twilio:8350289",
     "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
+    "at": "2026-11-06T01:38:07.336420+00:00",
     "fields": [
-      "source_updated_at",
-      "title"
+      "description",
+      "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:twilio:8325734",
+    "key": "greenhouse:coinbase:8351165",
+    "kind": "NEW",
+    "at": "2026-11-06T01:38:07.336420+00:00"
+  },
+  {
+    "key": "greenhouse:coinbase:8356842",
+    "kind": "NEW",
+    "at": "2026-11-06T01:38:07.336420+00:00"
+  },
+  {
+    "key": "greenhouse:gitlab:8931347002",
+    "kind": "NEW",
+    "at": "2026-11-06T01:38:07.336420+00:00"
+  },
+  {
+    "key": "ashby:openai:cda6eab0-edab-4dfc-8923-40ca3b0928b5",
+    "kind": "NEW",
+    "at": "2026-11-06T01:38:07.336420+00:00"
+  },
+  {
+    "key": "greenhouse:anthropic:5206978008",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-06T01:38:07.336420+00:00"
+  },
+  {
+    "key": "greenhouse:databricks:8882379002",
     "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
+    "at": "2026-11-06T01:38:07.336420+00:00",
     "fields": [
-      "source_updated_at",
-      "title"
+      "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:airbnb:8197652",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "greenhouse:coinbase:8248766",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "greenhouse:coinbase:8175360",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "ashby:openai:c90cfa58-7513-4998-a1ce-f6168dd8fc95",
-    "kind": "NEW",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "ashby:openai:9c1aa1f3-b4d0-48fa-814b-37d36ad0ad2e",
-    "kind": "NEW",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "ashby:openai:a84e6109-142f-45ae-80e1-05811732cca1",
-    "kind": "NEW",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "ashby:vanta:3680f3ab-b470-46dd-b192-86ae69d54a31",
-    "kind": "NEW",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "ashby:vanta:795ab93b-57d9-4387-9cc1-ea7615721ec6",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "ashby:vanta:aa7512c2-fb94-4238-bb15-f0063307af53",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "ashby:snowflake:12455179-f3ff-4739-b8c0-c21f3c116b87",
+    "key": "greenhouse:databricks:8755470002",
     "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
+    "at": "2026-11-06T01:38:07.336420+00:00",
     "fields": [
-      "description"
+      "source_updated_at"
     ]
   },
   {
-    "key": "ashby:snowflake:fe41fd7e-56ad-4bdc-b13f-20adb2542171",
-    "kind": "NEW",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "key": "greenhouse:databricks:8476403002",
+    "kind": "CHANGED",
+    "at": "2026-11-06T01:38:07.336420+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
   },
   {
-    "key": "greenhouse:anthropic:5473110008",
-    "kind": "NEW",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "key": "greenhouse:databricks:8747038002",
+    "kind": "CHANGED",
+    "at": "2026-11-06T01:38:07.336420+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
   },
   {
     "key": "greenhouse:deliveroo:8205846",
     "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
+    "at": "2026-11-06T01:38:07.336420+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:elastic:8255598",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6177582004",
     "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
+    "at": "2026-11-06T01:38:07.336420+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:reddit:8153017",
+    "key": "greenhouse:xai:5052040007",
     "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8282760",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8148089",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8187521",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8249259",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8049518",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8303790",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8329278",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8191664",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8142128",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8256326",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8194576",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8240716",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8189899",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8189894",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8186566",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8075185",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8192369",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8234154",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8257083",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8301736",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8263435",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8319536",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7330347",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8289345",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8289304",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8276095",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8023563",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7954598",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8022260",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8074860",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8074846",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8171546",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8288965",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8140121",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8293700",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8104403",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8126946",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8301784",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8175520",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8287466",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8029120",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8125836",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8212175",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8010425",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7980795",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8282748",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7974605",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8157275",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8319655",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7721851",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7721787",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8103609",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8072076",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7445240",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7931000",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8250389",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8334138",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8178085",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8316086",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8167412",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:7954001",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8244067",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8282187",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8190630",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8190627",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8188275",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:reddit:8244090",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "workday:mastercard:R-289379",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "workday:statestreet:R-799914",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "greenhouse:xai:5193037007",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "description",
-      "source_updated_at",
-      "title"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5043570007",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "description",
-      "source_updated_at",
-      "title"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4803862007",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "description",
-      "source_updated_at",
-      "title"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:4803905007",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
-    "fields": [
-      "description",
-      "source_updated_at",
-      "title"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5191142007",
-    "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
+    "at": "2026-11-06T01:38:07.336420+00:00",
     "fields": [
       "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:xai:4805886007",
+    "key": "greenhouse:xai:5202187007",
     "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
+    "at": "2026-11-06T01:38:07.336420+00:00",
     "fields": [
       "description",
-      "source_updated_at",
-      "title"
+      "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:xai:5063930007",
+    "key": "greenhouse:xai:4533894007",
     "kind": "CHANGED",
-    "at": "2026-11-06T00:32:51.188202+00:00",
+    "at": "2026-11-06T01:38:07.336420+00:00",
     "fields": [
       "description",
-      "source_updated_at",
-      "title"
+      "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:xai:5252678007",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "key": "greenhouse:xai:5286869007",
+    "kind": "NEW",
+    "at": "2026-11-06T01:38:07.336420+00:00"
   },
   {
-    "key": "greenhouse:xai:5269037007",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "key": "greenhouse:xai:5286865007",
+    "kind": "NEW",
+    "at": "2026-11-06T01:38:07.336420+00:00"
   },
   {
-    "key": "greenhouse:xai:5246600007",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "key": "greenhouse:xai:5285000007",
+    "kind": "CHANGED",
+    "at": "2026-11-06T01:38:07.336420+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
   },
   {
-    "key": "greenhouse:xai:5225280007",
+    "key": "greenhouse:xai:5285164007",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "at": "2026-11-06T01:38:07.336420+00:00"
   },
   {
-    "key": "greenhouse:xai:5246678007",
+    "key": "greenhouse:xai:5285268007",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "at": "2026-11-06T01:38:07.336420+00:00"
   },
   {
-    "key": "greenhouse:xai:5246657007",
+    "key": "greenhouse:xai:5285276007",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "at": "2026-11-06T01:38:07.336420+00:00"
   },
   {
-    "key": "greenhouse:xai:5248860007",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "key": "rippling:rippling:98573ac2-0b5f-4ee2-9dab-cd1e2eea119b",
+    "kind": "REAPPEARED",
+    "at": "2026-11-06T01:38:07.336420+00:00"
   },
   {
-    "key": "greenhouse:xai:5224741007",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "key": "greenhouse:fivetran:8197314003",
+    "kind": "NEW",
+    "at": "2026-11-06T01:38:07.336420+00:00"
   },
   {
-    "key": "workday:stryker:R575573",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "key": "greenhouse:fivetran:8196773003",
+    "kind": "NEW",
+    "at": "2026-11-06T01:38:07.336420+00:00"
   },
   {
-    "key": "workday:stryker:R575270",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "workday:amgen:R-258452",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "workday:amgen:R-258682",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "workday:amgen:R-258081",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "workday:fiserv:R-10373244",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "greenhouse:fivetran:8015059003",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "greenhouse:fivetran:7807040003",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "greenhouse:fivetran:8015055003",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "greenhouse:fivetran:8015058003",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "greenhouse:fivetran:7807482003",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
-  },
-  {
-    "key": "greenhouse:launchdarkly:8034251003",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-06T00:32:51.188202+00:00"
+    "key": "greenhouse:solarwinds:4747609005",
+    "kind": "CHANGED",
+    "at": "2026-11-06T01:38:07.336420+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
   }
 ]
