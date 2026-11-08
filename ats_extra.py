@@ -52,12 +52,14 @@ def _urlopen(req, timeout=None):
 import urllib.parse
 I.urllib = types.SimpleNamespace(request=types.SimpleNamespace(Request=urllib.request.Request, urlopen=_urlopen), error=urllib.error)
 
-def pagination_evidence(payload):
+def pagination_evidence(payload, source=None):
+    if source and source.get('ats') == 'greenhouse':
+        return _orig_page(payload, source)
     if isinstance(payload, dict):
         if 'complete' in payload: return 'COMPLETE_EXPLICIT' if payload['complete'] else 'INCOMPLETE'
         if 'totalFound' in payload and isinstance(payload.get('content'), list):
             return 'COMPLETE_EXPLICIT' if payload['totalFound'] <= len(payload['content']) else 'INCOMPLETE'
-    return _orig_page(payload)
+    return _orig_page(payload, source)
 
 class NormalizedJobs(list):
     """Valid records plus explicit provider-record quarantine evidence."""

@@ -113,12 +113,26 @@ def normalize(source, payload):
 def ats_schema_upgrade(previous,job):
     return job.get('ats')=='lever' and previous.get('content_schema_version',1)<job.get('content_schema_version',1)
 
-def pagination_evidence(payload):
+def pagination_evidence(payload, source=None):
     # A valid jobs array is not proof that the provider returned every page.
     if isinstance(payload,dict):
         more=payload.get('hasMore',payload.get('has_more'))
         next_page=payload.get('nextPage',payload.get('next_page',payload.get('nextCursor')))
         if more is True or next_page: return 'INCOMPLETE'
+        # Greenhouse's documented list envelope reports total job posts. Only
+        # its configured adapter may use that metadata as completeness proof.
+        # Count distinct stable IDs too: a repeated row must not hide a missing
+        # post. Bad advertised totals fail closed, preserving prior records.
+        if source and source.get('ats') == 'greenhouse':
+            meta = payload.get('meta')
+            if isinstance(meta, dict) and 'total' in meta:
+                total, jobs = meta['total'], payload.get('jobs')
+                if type(total) is not int or total < 0 or not isinstance(jobs, list):
+                    return 'INCOMPLETE'
+                ids = [j.get('id') if isinstance(j, dict) else None for j in jobs]
+                valid_ids = all(type(jid) in (int, str) and str(jid) for jid in ids)
+                complete = valid_ids and total == len(jobs) == len({str(jid) for jid in ids})
+                return 'COMPLETE_EXPLICIT' if complete else 'INCOMPLETE'
         if more is False: return 'COMPLETE_EXPLICIT'
     return 'NOT_VERIFIED'
 
@@ -147,7 +161,7 @@ def ingest(sources, destination, fetcher=None):
                 with urllib.request.urlopen(req,timeout=20) as r:
                     receipt['http_status']=r.getcode();payload=json.load(r)
                 receipt['response_verified']=True
-            receipt['pagination_state']=pagination_evidence(payload)
+            receipt['pagination_state']=pagination_evidence(payload, source)
             raw=payload if isinstance(payload,list) else payload.get('jobs') if isinstance(payload,dict) else None
             if isinstance(raw,list): receipt['postings_fetched']=len(raw)
             if receipt['pagination_state']=='INCOMPLETE': raise ValueError('Incomplete pagination: further page indicated; prior baseline retained')
