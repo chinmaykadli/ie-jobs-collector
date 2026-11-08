@@ -1,25 +1,24 @@
 [
   {
-    "key": "greenhouse:anthropic:5459191008",
-    "kind": "NEW",
-    "at": "2026-11-08T19:38:06.619194+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5025624008",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-08T19:38:06.619194+00:00"
-  },
-  {
     "key": "greenhouse:deliveroo:8205846",
     "kind": "CHANGED",
-    "at": "2026-11-08T19:38:06.619194+00:00",
+    "at": "2026-11-08T20:37:57.860521+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:newrelic:5444701008",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-08T19:38:06.619194+00:00"
+    "key": "greenhouse:elastic:8352728",
+    "kind": "NEW",
+    "at": "2026-11-08T20:37:57.860521+00:00"
+  },
+  {
+    "key": "greenhouse:rubrik:8122039",
+    "kind": "CHANGED",
+    "at": "2026-11-08T20:37:57.860521+00:00",
+    "fields": [
+      "source_updated_at",
+      "title"
+    ]
   }
 ]
