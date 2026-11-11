@@ -1,0 +1,231 @@
+name: scraper-v2-isolated-24h-soak
+on:
+  push:
+    branches: [scraper-v2-soak-20261111]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: scraper-v2-isolated-soak
+  cancel-in-progress: false
+jobs:
+  segment0:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.10.12'
+          check-latest: false
+      - name: offline regression tests
+        working-directory: scraper-v2-test
+        run: python -m unittest discover -p 'test_*.py' -v
+      - name: hourly full 135 and 149 live cycles, segment 1 of 5
+        working-directory: scraper-v2-test
+        run: python -u soak_runner.py --segment 0
+      - name: enforce free cache budget and prepare bounded checkpoint
+        working-directory: scraper-v2-test
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PYCODE'
+          import json,os,urllib.request
+          req=urllib.request.Request('https://api.github.com/repos/${{ github.repository }}/actions/cache/usage',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+          with urllib.request.urlopen(req)as response: usage=json.load(response)
+          if usage['active_caches_size_in_bytes']+1024**3 > 8*1024**3: raise SystemExit('Stop: insufficient verified free cache headroom')
+          print('Cache free-budget guard passed',usage['active_caches_size_in_bytes'])
+          PYCODE
+          tar czf checkpoint.tgz soak-state
+          test "$(stat -c %s checkpoint.tgz)" -le 1073741824
+      - uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: scraper-v2-test/checkpoint.tgz
+          key: v2soak-${{ github.run_id }}-${{ github.run_attempt }}-segment0
+      - name: record summary only, never publish job data
+        if: always()
+        working-directory: scraper-v2-test
+        run: |
+          if test -f soak-state/evidence.jsonl; then
+            tail -n 12 soak-state/evidence.jsonl >> "$GITHUB_STEP_SUMMARY"
+          fi
+  segment1:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 330
+    needs: segment0
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.10.12'
+          check-latest: false
+      - uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+        id: restore
+        with:
+          path: scraper-v2-test/checkpoint.tgz
+          key: v2soak-${{ github.run_id }}-${{ github.run_attempt }}-segment0
+          fail-on-cache-miss: true
+      - name: restore verified continuation
+        working-directory: scraper-v2-test
+        run: tar xzf checkpoint.tgz && rm checkpoint.tgz
+      - name: hourly full 135 and 149 live cycles, segment 2 of 5
+        working-directory: scraper-v2-test
+        run: python -u soak_runner.py --segment 1
+      - name: enforce free cache budget and prepare bounded checkpoint
+        working-directory: scraper-v2-test
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PYCODE'
+          import json,os,urllib.request
+          req=urllib.request.Request('https://api.github.com/repos/${{ github.repository }}/actions/cache/usage',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+          with urllib.request.urlopen(req)as response: usage=json.load(response)
+          if usage['active_caches_size_in_bytes']+1024**3 > 8*1024**3: raise SystemExit('Stop: insufficient verified free cache headroom')
+          print('Cache free-budget guard passed',usage['active_caches_size_in_bytes'])
+          PYCODE
+          tar czf checkpoint.tgz soak-state
+          test "$(stat -c %s checkpoint.tgz)" -le 1073741824
+      - uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: scraper-v2-test/checkpoint.tgz
+          key: v2soak-${{ github.run_id }}-${{ github.run_attempt }}-segment1
+      - name: record summary only, never publish job data
+        if: always()
+        working-directory: scraper-v2-test
+        run: |
+          if test -f soak-state/evidence.jsonl; then
+            tail -n 12 soak-state/evidence.jsonl >> "$GITHUB_STEP_SUMMARY"
+          fi
+  segment2:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 330
+    needs: segment1
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.10.12'
+          check-latest: false
+      - uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+        id: restore
+        with:
+          path: scraper-v2-test/checkpoint.tgz
+          key: v2soak-${{ github.run_id }}-${{ github.run_attempt }}-segment1
+          fail-on-cache-miss: true
+      - name: restore verified continuation
+        working-directory: scraper-v2-test
+        run: tar xzf checkpoint.tgz && rm checkpoint.tgz
+      - name: hourly full 135 and 149 live cycles, segment 3 of 5
+        working-directory: scraper-v2-test
+        run: python -u soak_runner.py --segment 2
+      - name: enforce free cache budget and prepare bounded checkpoint
+        working-directory: scraper-v2-test
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PYCODE'
+          import json,os,urllib.request
+          req=urllib.request.Request('https://api.github.com/repos/${{ github.repository }}/actions/cache/usage',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+          with urllib.request.urlopen(req)as response: usage=json.load(response)
+          if usage['active_caches_size_in_bytes']+1024**3 > 8*1024**3: raise SystemExit('Stop: insufficient verified free cache headroom')
+          print('Cache free-budget guard passed',usage['active_caches_size_in_bytes'])
+          PYCODE
+          tar czf checkpoint.tgz soak-state
+          test "$(stat -c %s checkpoint.tgz)" -le 1073741824
+      - uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: scraper-v2-test/checkpoint.tgz
+          key: v2soak-${{ github.run_id }}-${{ github.run_attempt }}-segment2
+      - name: record summary only, never publish job data
+        if: always()
+        working-directory: scraper-v2-test
+        run: |
+          if test -f soak-state/evidence.jsonl; then
+            tail -n 12 soak-state/evidence.jsonl >> "$GITHUB_STEP_SUMMARY"
+          fi
+  segment3:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 330
+    needs: segment2
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.10.12'
+          check-latest: false
+      - uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+        id: restore
+        with:
+          path: scraper-v2-test/checkpoint.tgz
+          key: v2soak-${{ github.run_id }}-${{ github.run_attempt }}-segment2
+          fail-on-cache-miss: true
+      - name: restore verified continuation
+        working-directory: scraper-v2-test
+        run: tar xzf checkpoint.tgz && rm checkpoint.tgz
+      - name: hourly full 135 and 149 live cycles, segment 4 of 5
+        working-directory: scraper-v2-test
+        run: python -u soak_runner.py --segment 3
+      - name: enforce free cache budget and prepare bounded checkpoint
+        working-directory: scraper-v2-test
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PYCODE'
+          import json,os,urllib.request
+          req=urllib.request.Request('https://api.github.com/repos/${{ github.repository }}/actions/cache/usage',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+          with urllib.request.urlopen(req)as response: usage=json.load(response)
+          if usage['active_caches_size_in_bytes']+1024**3 > 8*1024**3: raise SystemExit('Stop: insufficient verified free cache headroom')
+          print('Cache free-budget guard passed',usage['active_caches_size_in_bytes'])
+          PYCODE
+          tar czf checkpoint.tgz soak-state
+          test "$(stat -c %s checkpoint.tgz)" -le 1073741824
+      - uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: scraper-v2-test/checkpoint.tgz
+          key: v2soak-${{ github.run_id }}-${{ github.run_attempt }}-segment3
+      - name: record summary only, never publish job data
+        if: always()
+        working-directory: scraper-v2-test
+        run: |
+          if test -f soak-state/evidence.jsonl; then
+            tail -n 12 soak-state/evidence.jsonl >> "$GITHUB_STEP_SUMMARY"
+          fi
+  segment4:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 330
+    needs: segment3
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.10.12'
+          check-latest: false
+      - uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+        id: restore
+        with:
+          path: scraper-v2-test/checkpoint.tgz
+          key: v2soak-${{ github.run_id }}-${{ github.run_attempt }}-segment3
+          fail-on-cache-miss: true
+      - name: restore verified continuation
+        working-directory: scraper-v2-test
+        run: tar xzf checkpoint.tgz && rm checkpoint.tgz
+      - name: hourly full 135 and 149 live cycles, segment 5 of 5
+        working-directory: scraper-v2-test
+        run: python -u soak_runner.py --segment 4
+      - name: record summary only, never publish job data
+        if: always()
+        working-directory: scraper-v2-test
+        run: |
+          if test -f soak-state/evidence.jsonl; then
+            tail -n 12 soak-state/evidence.jsonl >> "$GITHUB_STEP_SUMMARY"
+          fi
