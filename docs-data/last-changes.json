@@ -1,23 +1,26 @@
 [
   {
-    "key": "ashby:snowflake:b33aa9ae-b4a1-4539-b47b-60517ff9f3d0",
+    "key": "ashby:openai:1ea4eda8-b420-4391-bb58-cd21e189a863",
     "kind": "CHANGED",
-    "at": "2026-11-14T04:38:03.691868+00:00",
+    "at": "2026-11-14T05:38:02.701184+00:00",
     "fields": [
-      "source_posted_at"
+      "description",
+      "location",
+      "source_posted_at",
+      "title"
     ]
+  },
+  {
+    "key": "greenhouse:anthropic:5473344008",
+    "kind": "NEW",
+    "at": "2026-11-14T05:38:02.701184+00:00"
   },
   {
     "key": "greenhouse:deliveroo:8205846",
     "kind": "CHANGED",
-    "at": "2026-11-14T04:38:03.691868+00:00",
+    "at": "2026-11-14T05:38:02.701184+00:00",
     "fields": [
       "source_updated_at"
     ]
-  },
-  {
-    "key": "greenhouse:xai:5214370007",
-    "kind": "NEW",
-    "at": "2026-11-14T04:38:03.691868+00:00"
   }
 ]
