@@ -1,106 +1,87 @@
 [
   {
-    "key": "greenhouse:okta:8213755",
+    "key": "greenhouse:stripe:8078168",
     "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
+    "at": "2026-11-14T00:38:07.724921+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:okta:8142155",
+    "key": "greenhouse:pinterest:8209324",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-13T23:38:11.288266+00:00"
+    "at": "2026-11-14T00:38:07.724921+00:00"
   },
   {
-    "key": "greenhouse:okta:7571064",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-13T23:38:11.288266+00:00"
+    "key": "ashby:openai:10c7fcdc-1f07-41e3-8e37-4d930898a648",
+    "kind": "NEW",
+    "at": "2026-11-14T00:38:07.724921+00:00"
   },
   {
-    "key": "greenhouse:twilio:8303973",
+    "key": "ashby:snowflake:b67291f8-f05d-4c29-ac08-55b831f2861d",
+    "kind": "NEW",
+    "at": "2026-11-14T00:38:07.724921+00:00"
+  },
+  {
+    "key": "greenhouse:anthropic:5388726008",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-14T00:38:07.724921+00:00"
+  },
+  {
+    "key": "greenhouse:anthropic:5389305008",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-14T00:38:07.724921+00:00"
+  },
+  {
+    "key": "greenhouse:databricks:8907988002",
     "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:pinterest:8268348",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-13T23:38:11.288266+00:00"
-  },
-  {
-    "key": "greenhouse:coinbase:8175873",
-    "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
+    "at": "2026-11-14T00:38:07.724921+00:00",
     "fields": [
       "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:gitlab:8929253002",
-    "kind": "NEW",
-    "at": "2026-11-13T23:38:11.288266+00:00"
+    "key": "greenhouse:databricks:8910846002",
+    "kind": "CHANGED",
+    "at": "2026-11-14T00:38:07.724921+00:00",
+    "fields": [
+      "description",
+      "description_state",
+      "source_updated_at"
+    ]
   },
   {
-    "key": "ashby:openai:afebc24f-c6b8-4c66-a344-b1661fc77570",
+    "key": "greenhouse:databricks:8487145002",
     "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
+    "at": "2026-11-14T00:38:07.724921+00:00",
     "fields": [
+      "description",
+      "location",
+      "source_updated_at",
       "title"
     ]
   },
   {
-    "key": "ashby:openai:654f8dde-2ccb-4349-aeb7-40f454f28cce",
+    "key": "greenhouse:databricks:8920805002",
     "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "ashby:openai:57486b6e-0b23-4fec-9c35-5efb63fa521a",
-    "kind": "NEW",
-    "at": "2026-11-13T23:38:11.288266+00:00"
-  },
-  {
-    "key": "ashby:openai:6fc25168-bc4c-47a0-8601-583dfaf7fcbd",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-13T23:38:11.288266+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5462761008",
-    "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:anthropic:5468930008",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-13T23:38:11.288266+00:00"
-  },
-  {
-    "key": "greenhouse:anthropic:5467305008",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-13T23:38:11.288266+00:00"
-  },
-  {
-    "key": "greenhouse:databricks:8885039002",
-    "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
+    "at": "2026-11-14T00:38:07.724921+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:databricks:8938652002",
+    "key": "greenhouse:databricks:8893728002",
     "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
+    "at": "2026-11-14T00:38:07.724921+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:databricks:8886517002",
+    "kind": "CHANGED",
+    "at": "2026-11-14T00:38:07.724921+00:00",
     "fields": [
       "source_updated_at"
     ]
@@ -108,142 +89,102 @@
   {
     "key": "greenhouse:deliveroo:8205846",
     "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
+    "at": "2026-11-14T00:38:07.724921+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:toast:8374875",
+    "key": "ashby:crusoe:ce4b8e24-0beb-4ed6-927d-77634ebaee40",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-14T00:38:07.724921+00:00"
+  },
+  {
+    "key": "ashby:crusoe:d8716440-f634-44df-b89d-16ac8599be2b",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-14T00:38:07.724921+00:00"
+  },
+  {
+    "key": "ashby:elevenlabs:db7abc8d-67b1-4d64-a623-59be88d65fba",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-14T00:38:07.724921+00:00"
+  },
+  {
+    "key": "greenhouse:gongio:4712915006",
+    "kind": "CHANGED",
+    "at": "2026-11-14T00:38:07.724921+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6191589004",
+    "kind": "CHANGED",
+    "at": "2026-11-14T00:38:07.724921+00:00",
+    "fields": [
+      "description",
+      "source_updated_at",
+      "title"
+    ]
+  },
+  {
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6260717004",
     "kind": "NEW",
-    "at": "2026-11-13T23:38:11.288266+00:00"
+    "at": "2026-11-14T00:38:07.724921+00:00"
   },
   {
-    "key": "greenhouse:toast:8173861",
+    "key": "greenhouse:sonyinteractiveentertainmentglobal:6031166004",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-13T23:38:11.288266+00:00"
-  },
-  {
-    "key": "ashby:crusoe:1cd3a7fe-c545-43f0-b8d3-99263766c214",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-13T23:38:11.288266+00:00"
-  },
-  {
-    "key": "greenhouse:sonyinteractiveentertainmentglobal:6240816004",
-    "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5287988007",
-    "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5263495007",
-    "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5280433007",
-    "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5257435007",
-    "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5266813007",
-    "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
+    "at": "2026-11-14T00:38:07.724921+00:00"
   },
   {
     "key": "greenhouse:xai:5279894007",
     "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
+    "at": "2026-11-14T00:38:07.724921+00:00",
     "fields": [
-      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:xai:5241381007",
-    "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:xai:5237965007",
-    "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
-    "fields": [
-      "description",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "rippling:allied-global-marketing:e0ca30d0-6e6f-486b-852d-49c590ecccf0",
-    "kind": "NEW",
-    "at": "2026-11-13T23:38:11.288266+00:00"
-  },
-  {
-    "key": "rippling:rippling:2b9c40e6-1da8-4f3a-8b5e-f053a2494755",
-    "kind": "NEW",
-    "at": "2026-11-13T23:38:11.288266+00:00"
-  },
-  {
-    "key": "rippling:rippling:33ef3495-6912-4df0-a585-f31111f73f74",
-    "kind": "NEW",
-    "at": "2026-11-13T23:38:11.288266+00:00"
-  },
-  {
-    "key": "greenhouse:klaviyo:7990569003",
+    "key": "greenhouse:xai:5205148007",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-13T23:38:11.288266+00:00"
+    "at": "2026-11-14T00:38:07.724921+00:00"
   },
   {
-    "key": "greenhouse:zscaler:5239102007",
+    "key": "rippling:allied-global-marketing:0649195c-51a2-4334-a59d-a8442ac621e3",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-14T00:38:07.724921+00:00"
+  },
+  {
+    "key": "greenhouse:spacexglobal:8934154002",
     "kind": "CHANGED",
-    "at": "2026-11-13T23:38:11.288266+00:00",
+    "at": "2026-11-14T00:38:07.724921+00:00",
     "fields": [
-      "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:zscaler:5250704007",
+    "key": "workday:pfizer:4966500",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-13T23:38:11.288266+00:00"
+    "at": "2026-11-14T00:38:07.724921+00:00"
   },
   {
-    "key": "greenhouse:launchdarkly:7588897003",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-13T23:38:11.288266+00:00"
+    "key": "greenhouse:newrelic:5480591008",
+    "kind": "NEW",
+    "at": "2026-11-14T00:38:07.724921+00:00"
+  },
+  {
+    "key": "greenhouse:newrelic:5479131008",
+    "kind": "NEW",
+    "at": "2026-11-14T00:38:07.724921+00:00"
+  },
+  {
+    "key": "greenhouse:zscaler:5270973007",
+    "kind": "CHANGED",
+    "at": "2026-11-14T00:38:07.724921+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
   }
 ]
