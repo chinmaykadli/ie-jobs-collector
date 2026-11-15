@@ -52,7 +52,37 @@ def _urlopen(req, timeout=None):
 import urllib.parse
 I.urllib = types.SimpleNamespace(request=types.SimpleNamespace(Request=urllib.request.Request, urlopen=_urlopen), error=urllib.error)
 
+def smartrecruiters_pagination_evidence(payload):
+    """A list page is complete only from offset zero, with every distinct ID.
+    ListResult documents totalFound before limit/offset. Never treat duplicated
+    rows, a later page, or contradictory continuation metadata as a full feed.
+    No extra requests are made; incomplete responses retain the prior baseline.
+    """
+    if not isinstance(payload, dict): return 'NOT_VERIFIED'
+    if payload.get('hasMore') is True or payload.get('has_more') is True:
+        return 'INCOMPLETE'
+    if any(payload.get(k) for k in ('nextPage', 'next_page', 'nextCursor')):
+        return 'INCOMPLETE'
+    if 'totalFound' not in payload: return 'NOT_VERIFIED'
+    def count(value):
+        if type(value) is int and value >= 0: return value
+        # ListResult lists string types; live responses also use JSON integers.
+        if isinstance(value, str) and re.fullmatch(r'[0-9]+', value):
+            return int(value)
+        return None
+    total, offset = count(payload['totalFound']), count(payload.get('offset'))
+    rows = payload.get('content')
+    if total is None or offset != 0 or not isinstance(rows, list):
+        return 'INCOMPLETE'
+    ids = [row.get('id') if isinstance(row, dict) else None for row in rows]
+    valid = all(type(jid) in (int, str) and str(jid).strip() for jid in ids)
+    complete = valid and total == len(rows) == len({str(jid) for jid in ids})
+    return 'COMPLETE_EXPLICIT' if complete else 'INCOMPLETE'
+
+
 def pagination_evidence(payload, source=None):
+    if source and source.get('ats') == 'smartrecruiters':
+        return smartrecruiters_pagination_evidence(payload)
     if source and source.get('ats') == 'greenhouse':
         return _orig_page(payload, source)
     if isinstance(payload, dict):

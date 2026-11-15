@@ -21,7 +21,7 @@ class GreenhouseTotalTest(unittest.TestCase):
   self.assertEqual(ats_extra.pagination_evidence(payload([],0)),'NOT_VERIFIED')
   self.assertEqual(ats_extra.pagination_evidence(payload([],0),{'ats':'ashby'}),'NOT_VERIFIED')
   self.assertEqual(ats_extra.pagination_evidence({'complete':True}, {'ats':'workday'}),'COMPLETE_EXPLICIT')
-  self.assertEqual(ats_extra.pagination_evidence({'totalFound':2,'content':[{},{}]}, {'ats':'smartrecruiters'}),'COMPLETE_EXPLICIT')
+  self.assertEqual(ats_extra.pagination_evidence({'totalFound':2,'offset':0,'content':[{'id':'1'},{'id':'2'}]}, {'ats':'smartrecruiters'}),'COMPLETE_EXPLICIT')
  def test_partial_preserves_baseline_then_real_withdrawal(self):
   with tempfile.TemporaryDirectory() as d,patch.object(ingest,'desc_enricher',None):
    def run(p):return ingest.ingest([S],d,fetcher=lambda _:p)
