@@ -1,222 +1,380 @@
 [
   {
-    "key": "greenhouse:datadog:7244867",
+    "key": "greenhouse:stripe:8043052",
     "kind": "NEW",
-    "at": "2026-11-16T08:38:13.514972+00:00"
+    "at": "2026-11-16T09:38:08.594428+00:00"
   },
   {
-    "key": "greenhouse:datadog:5742916",
+    "key": "greenhouse:stripe:8079783",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:datadog:7101117",
+    "key": "greenhouse:mongodb:8385839",
+    "kind": "NEW",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "greenhouse:mongodb:8379386",
+    "kind": "NEW",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "greenhouse:okta:8317558",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:okta:8258803",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:datadog:7442122",
+    "key": "greenhouse:okta:8110717",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T08:38:13.514972+00:00"
+    "at": "2026-11-16T09:38:08.594428+00:00"
   },
   {
-    "key": "greenhouse:mongodb:8305331",
+    "key": "greenhouse:okta:8220655",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T08:38:13.514972+00:00"
+    "at": "2026-11-16T09:38:08.594428+00:00"
   },
   {
-    "key": "greenhouse:twilio:8261528",
+    "key": "greenhouse:airbnb:8326765",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:pinterest:8268316",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T08:38:13.514972+00:00"
+    "at": "2026-11-16T09:38:08.594428+00:00"
   },
   {
-    "key": "greenhouse:pinterest:7940537",
+    "key": "greenhouse:pinterest:8350415",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "greenhouse:gitlab:8860142002",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "ashby:openai:103402a5-6391-4cf9-8a87-634695303f04",
+    "kind": "NEW",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "greenhouse:deliveroo:8261620",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
-      "source_updated_at"
+      "description",
+      "source_updated_at",
+      "title"
     ]
   },
   {
-    "key": "greenhouse:asana:7586966",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:databricks:8440940002",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
+    "key": "greenhouse:deliveroo:8383363",
+    "kind": "NEW",
+    "at": "2026-11-16T09:38:08.594428+00:00"
   },
   {
     "key": "greenhouse:deliveroo:8205846",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "lever:rws:35ba33af-f24a-48de-afe8-cb10637f3433",
+    "key": "greenhouse:monzo:8188282",
+    "kind": "NEW",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "greenhouse:monzo:8355249",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T08:38:13.514972+00:00"
+    "at": "2026-11-16T09:38:08.594428+00:00"
   },
   {
-    "key": "workday:salesforce:JR366749",
+    "key": "greenhouse:toast:8288609",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:toast:6358896",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T08:38:13.514972+00:00"
+    "at": "2026-11-16T09:38:08.594428+00:00"
   },
   {
-    "key": "ashby:bjakcareer:ed616c4b-6868-4c06-8080-fe709370d067",
+    "key": "ashby:bjakcareer:b2c6d9f3-595a-4414-8967-55de25ffb894",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:c9a2e19a-b9dd-4239-8bfa-889d127f1c65",
+    "key": "ashby:bjakcareer:4131d80b-b227-4a13-9432-03df71cc9a3f",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:92136660-0d2e-4d22-9281-b101045d56de",
+    "key": "ashby:bjakcareer:2441ebe9-b144-453e-b707-e29dc2021dc4",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:c4611841-3c28-44fd-8345-33edbcf6dcde",
+    "key": "ashby:bjakcareer:43da1b8e-97d4-4149-8305-5a0e0dce6329",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:ca6f284b-3845-42ae-bc89-4d60a7d98d04",
+    "key": "ashby:bjakcareer:7418ce56-3efb-4796-bfc6-c2acc6c84bbb",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:e9e01331-fee3-42ab-922f-f02ca7a47d7d",
+    "key": "ashby:bjakcareer:02b830b7-a158-44ce-9b5f-2c3ed1e2507b",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:9550ce9d-8a5a-49b0-8192-b01b6d7c2d87",
+    "key": "ashby:bjakcareer:5049a265-99a4-4770-8718-18c5f7105cfc",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:8acca2bb-2e3f-47f3-b23a-f7e0ed580ef4",
+    "key": "ashby:bjakcareer:3407d281-dfd0-460e-ae20-4c12f9bbe822",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:411fc029-dba7-49a1-a30f-eff5dcbd793d",
+    "key": "ashby:bjakcareer:ab26d521-bd40-4f49-97c2-a76d395387dc",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:b266ed0b-dcce-46b8-a828-e0b3fb150dc2",
+    "key": "ashby:bjakcareer:3c5568f5-24ed-4f89-8155-ed6ae784b3df",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:28541a79-d5f5-4b74-8273-383662a2537e",
+    "key": "ashby:bjakcareer:53cff1ea-6d5e-41c4-98a5-faf52fd7e609",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:9c628c9f-db8c-40f3-b65a-a74819dea803",
+    "key": "ashby:bjakcareer:dab7d6d1-9526-4005-93c0-6d2a3cb0255d",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:e2478f5f-3436-41ee-9afc-08daa0017da4",
+    "key": "ashby:bjakcareer:31a8c636-7518-4dfc-8aea-e6e1f31dd40a",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:3d83d0a7-8700-409c-9aa4-1f3b63f0beae",
+    "key": "ashby:bjakcareer:b117c684-5e56-453c-9a43-520c3458edaf",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:34b7acb0-5f3d-4201-83de-4a60ced33a01",
+    "key": "ashby:bjakcareer:2286300e-27ed-4f48-a034-a222cc285649",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:c8d51ba9-7aa0-4f97-b78d-04147073f5f5",
+    "key": "ashby:bjakcareer:8b098751-4a13-49d9-b0ff-4115e92229d6",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:62608d63-24dd-4ba2-87a7-566435ac8272",
+    "key": "ashby:bjakcareer:df8e80bd-346e-4657-8952-77e45d413638",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:acba58b7-e162-4fd3-b7e2-6cb3a878e78c",
+    "key": "ashby:bjakcareer:928e9a96-86b1-410e-ad7b-bc10f1c780da",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:74ae250c-86e5-44cb-8d65-f9b4a200dab6",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:77334530-580e-49c7-ab60-4daaabbaefb9",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:87b88d5a-535b-44e3-8e0d-2dcae84fa389",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:383d7289-392d-4a6e-8ddc-a693be84c173",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:58a0356b-c10e-47d3-85fa-f5ec52841e81",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:e9f4a766-247a-431f-b74b-3ebe37b71ab6",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:4d27601d-cbc0-4d81-bc57-d0ed8d67a1b6",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:bd7b3414-07c9-44a4-a327-de995cccaa30",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:9809166f-ddbd-4841-abb6-171f923b1abd",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:e2fe7fd2-47f1-4e88-b471-4370de33e949",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:e154aa5b-85ee-47ab-aacf-7c0aaa08dfae",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:72d10dcc-225c-45d6-bf2a-64c07a960e72",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:0288b0b0-ff00-414f-908c-1b14bf548375",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:f5a2628b-f6d9-4e51-835f-a8c149fe5c30",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
@@ -224,391 +382,503 @@
   {
     "key": "ashby:bjakcareer:4450049a-2bbd-45f2-aa73-48033b8845fb",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:e9ce0ff4-c983-4ab8-912c-7b4872353872",
+    "key": "ashby:bjakcareer:4d0e312a-7498-4991-91a5-cc14c3b88fd5",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:6e7b90da-03ce-4581-ba7f-7465d94bb0de",
+    "key": "ashby:bjakcareer:f15ae4cd-c7a8-401d-a638-c01e4ef26b63",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:b7d6673d-00d4-4a95-b6fc-766c9886bd48",
+    "key": "ashby:bjakcareer:4f16124a-138e-481c-923b-b88417f79348",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:26bde304-ef3e-4f84-9562-fdfe1726b1c9",
+    "key": "ashby:bjakcareer:174f4763-0864-4a77-84d6-e72e2e9194e3",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:588bb44f-b741-4a72-b377-4a6eccd5efa8",
+    "key": "ashby:bjakcareer:6a9c6010-c7e3-4e66-8ac2-3871b895cf18",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:e15a3e8d-480f-41fd-8246-9eeae2283b00",
+    "key": "ashby:bjakcareer:436cab87-226c-4121-8411-62caa5b433f8",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:89b16795-e321-44a8-9ab6-2927e265afa9",
+    "key": "ashby:bjakcareer:7a0be4cf-7fe0-4f7d-b224-1c15afaf7d1d",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:affc0a30-3e27-4c91-8cea-d454cb1c1c3f",
+    "key": "ashby:bjakcareer:86ac1249-d788-4e65-b2e3-521f3c893039",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:8f8a13ec-82d9-4f87-9501-e29bb51daff2",
+    "key": "ashby:bjakcareer:744ebe37-b521-494b-a9ec-c106138bd946",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:e7b2fde0-6255-439f-ae65-da32996250a6",
+    "key": "ashby:bjakcareer:2e4ca830-d316-4630-8c6d-243bb64337a0",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:1a1156e8-7f80-4e89-8714-01d4402dd97a",
+    "key": "ashby:bjakcareer:fb7d9547-c66f-4f26-9bbd-cd5418bcd0c4",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:f0d0b890-79d6-4b4a-be8c-19aeedb6fc21",
+    "key": "ashby:bjakcareer:ff0d1bb9-506f-4898-b90c-e06345ece50a",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:d537d1fe-e5ad-4e68-8e14-2f9830e24a1d",
+    "key": "ashby:bjakcareer:d18ea93e-78cc-49ba-8648-73ba74e1f3f5",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:10227214-9c27-4a5f-99cb-0f16138eec42",
+    "key": "ashby:bjakcareer:b0e7a637-3eba-48e4-8f41-8da78baed00e",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:3ce816d2-11dd-431a-bd09-90ad449e4e52",
+    "key": "ashby:bjakcareer:53f8965a-8761-4811-9471-5ef4f7d00c0f",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:bb8bf4fb-1c03-48f2-b3af-31daf4f52ec6",
+    "key": "ashby:bjakcareer:827cf104-fccf-40c0-83e3-069e5b408744",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:8c93d57d-fcae-40f9-a367-569040120b29",
+    "key": "ashby:bjakcareer:e42a6d52-e49b-48e8-90cd-bb4f7dccaba3",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:d6bb390e-51b2-45ee-aed3-b22dc5636cd9",
+    "key": "ashby:bjakcareer:48c1a0ab-5a8f-42b0-9c15-1ee61291c4f1",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:a9ce1647-453f-4b55-bfd9-27c7889a3c20",
+    "key": "ashby:bjakcareer:95572952-5a8a-43ac-bdc5-e2a66beec6c2",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:b15bed63-ab7b-4c5d-b69e-da5c78352d9d",
+    "key": "ashby:bjakcareer:7d32885c-2ddb-4bd7-b90d-5cb916504d32",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:c59140de-aed2-4eed-a187-732ffc8f9a7a",
+    "key": "ashby:bjakcareer:e9c525bf-f641-4fc0-ae7e-d81bad7c8eaa",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:d373c787-9cab-499c-8b94-ac7cd8a1dd8b",
+    "key": "ashby:bjakcareer:7ea7d6fb-848c-4f87-9790-d209bfeb20d5",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:3538382f-19fb-4e27-9886-91da0acd8538",
+    "key": "ashby:bjakcareer:db69f0d0-2dad-4c78-8b18-aab390f5e69e",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:230b4aa4-097e-440c-b0d3-3a9667373638",
+    "key": "ashby:bjakcareer:3114d78c-e952-42ec-b6ed-b785bc2a951d",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:aeac381d-9aac-40e8-87de-a24dd1bd33c3",
+    "key": "ashby:bjakcareer:b5aee134-1901-4f32-95bf-1313f6f4b086",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:5d014fe3-f5a5-4e9c-9041-b7358d866be8",
+    "key": "ashby:bjakcareer:29c264e6-3fab-45a1-95bf-4821ecd569c5",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:203158df-a5d5-497c-aa83-d9da92445c60",
+    "key": "ashby:bjakcareer:912a39a0-7722-4493-9cee-ab05a7773627",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:f85e7985-009f-42b7-acc3-af3d27c7c3f6",
+    "key": "ashby:bjakcareer:456fbd18-b626-4fe1-b8d4-9207cf67cb5d",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:9b339b4d-2708-44c9-9cd2-4d1e67836c78",
+    "key": "ashby:bjakcareer:5fc00b8f-d227-43c9-94e4-24f26aa45494",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:0cf47c87-6857-4338-84eb-5d0a109ca13c",
+    "key": "ashby:bjakcareer:00dc12ec-b385-4c18-be8b-b2c9a9c8c173",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:6c60fc27-0f0d-4edc-b0c4-2a6b6984659f",
+    "key": "ashby:bjakcareer:4ae658ca-3d4e-4911-a225-19b91e2d344a",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:129a526a-1334-4859-93ff-eb9c29e9b040",
+    "key": "ashby:bjakcareer:a2c2ac03-8ff7-47c0-b40e-dd91905b11a8",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:8d193912-5b3b-4ee0-82e0-58dc28faf6d6",
+    "key": "ashby:bjakcareer:4ad4a883-905f-470c-a70b-d9e6ef814f5a",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:675f8d66-d731-4d35-beb3-9de72db9505f",
+    "key": "ashby:bjakcareer:1003d51f-a380-4a23-ad3b-f33eeb34645c",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:e44e731d-21ed-499f-9d7c-108c626cd6e6",
+    "key": "ashby:bjakcareer:f61b3089-3765-47a3-94e5-0759db0bd0e5",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:8fb8b941-a3c4-4610-9210-bcda4c8d8cfb",
+    "key": "ashby:bjakcareer:5bdba3e3-1b12-493a-8b46-365c4ea4bb5e",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:e0133a5c-a560-49c2-afe9-add45cb48618",
+    "key": "ashby:bjakcareer:575b27d1-988b-4b76-8782-527c914c0f28",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:9a26bc8a-7186-46f4-9978-8ca341afb469",
+    "key": "ashby:bjakcareer:4af2f13e-132b-46b2-af1e-b151ab544812",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:2b43295c-f12f-4113-9dac-5281b2e62f68",
+    "key": "ashby:bjakcareer:afe50d50-e09b-4bb2-bbd1-88359db158f5",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:91b986b9-94a5-4a32-8d99-f41089ceec63",
+    "key": "ashby:bjakcareer:7065fd82-c4cb-49c2-9c4f-abc326de10ad",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:e709cf50-a859-4ebb-ae9f-b7f4bd93ec76",
+    "key": "ashby:bjakcareer:fa6bde90-df7a-42e1-8325-238b65400e3c",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:ee25bc81-0852-41ba-b04e-1a97a51e51d3",
+    "key": "ashby:bjakcareer:03da1873-5d5c-467b-83b2-95073fcd7a24",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:2cfe319e-8ebd-4897-837c-b1fe9af93681",
+    "key": "ashby:bjakcareer:35c56b03-ec68-46a6-a062-7437f56f7ba8",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:85e5e02e-9872-4fdf-b12c-2b0ffca35353",
+    "key": "ashby:bjakcareer:4531c5e9-38bb-4300-b96a-a9f80901e40d",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:52b28adb-4893-42e5-b779-f46721520024",
+    "key": "ashby:bjakcareer:f24161fa-ebb1-4bcf-b87b-a78abb72e6e3",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:c3104fd2-6b74-4b99-a223-8e8bd476144b",
+    "key": "ashby:bjakcareer:79345c4d-2425-4b81-86d3-9a8a72911a0e",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:b263bd1c-cabf-46e3-86df-3a9f4512a039",
+    "key": "ashby:bjakcareer:0753fc70-2951-41c5-af18-0eac2596647f",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:e342603a-65fa-474a-adf8-7505533b1e24",
+    "key": "ashby:bjakcareer:71ecccff-f812-42f4-9404-5defa8ec49d5",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:fd8d4928-7b3e-4b32-bd8c-1442fb64f6dd",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:9d645f58-8374-44bc-91af-7be1ca0dc4c0",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:122315c6-11da-4ead-905a-9990a69cfd9b",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:c7f74fd2-4e76-4607-bee3-469461673854",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:79abaaa9-2f06-45d8-b3d8-d1c826f57122",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:7d524224-a0c6-43c6-9554-d68f648023e8",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:1dc22a7a-a974-4f31-b691-c7ae886a36f3",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:e7db932a-188c-477b-b9bf-e3ea7f167058",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:635f3e5a-9408-487d-8574-1f36b6634f58",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:d5440d37-bb75-4352-9375-093b94bc530a",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:02f39809-a704-412a-aef7-94d213c95755",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:5443c980-d8af-43f6-b2b2-a153266dbe3e",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:c072dd3e-ec7f-489a-8420-238f4ad69fd1",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:78d7e682-4bb4-455d-83f9-4a208966bbfb",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
@@ -616,65 +886,103 @@
   {
     "key": "ashby:bjakcareer:887b5903-330c-4d30-a661-4a6aa0c0cdab",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:157a042c-53ee-411e-8272-b770219fd1ba",
+    "key": "ashby:bjakcareer:d3756458-744e-4749-bd68-ec0049d93a9d",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:2a53a4eb-7133-4141-bf20-33b4c2312be9",
+    "key": "ashby:bjakcareer:09a12301-d62d-42fd-9fac-12371b640d28",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:6635c592-14de-4027-94cb-7d03ee87826d",
+    "key": "ashby:bjakcareer:3c79ecc5-29e9-4e93-838c-de3f9c41feef",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:47743d3f-6e95-4ef5-9e43-2fba01631548",
+    "key": "ashby:bjakcareer:cbe00a79-1a58-40f8-a1a6-f3501d798912",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:3245a626-a8ec-4aac-857f-4cf8ce9240c4",
+    "key": "ashby:bjakcareer:f2161ff5-f6f3-47fa-912e-17f4b67cb9e4",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
-      "description",
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:a065ac2c-2220-4ad5-ac35-c550390f2ff2",
+    "key": "ashby:bjakcareer:6dc9500b-a06f-45ec-8f28-a4066522b422",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
-      "description",
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:c3bbb0d6-14ea-4b8f-97d3-88c0961ca361",
+    "key": "ashby:bjakcareer:c4c179f5-41ce-4cc5-acd0-0d12071dc4fc",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:e83626ff-5e0a-40f4-96ad-e7e2208af8bd",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:dd2bd1b2-bc4a-4b88-af38-1ed5205c8e90",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:39810597-4543-44e6-900a-ec6ce01dbf63",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:49c0bf57-4afd-4015-b74f-59f0f9aba433",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:4371a443-c964-4682-8ae3-00f0a14b6518",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
@@ -682,7 +990,15 @@
   {
     "key": "ashby:bjakcareer:2854afcf-04d9-4603-ae45-56316380f50f",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:eb7c34bc-08de-4863-9fe5-1701d8d580fe",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
@@ -690,65 +1006,103 @@
   {
     "key": "ashby:bjakcareer:ff1d50e2-766c-4954-a281-b5ce49c4d7e9",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:7cf6deb1-9994-4878-8c07-d25aa8fd3322",
+    "key": "ashby:bjakcareer:b4be5592-0066-49bb-9434-0cdf6aba886a",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:5b4cfa8c-7a50-4049-83cf-8ee85123a4a4",
+    "key": "ashby:bjakcareer:ffc28b01-01b2-4be2-95dd-995bbafd0098",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:3b6030cc-49af-4ef4-9f5a-d8ea8458d3d6",
+    "key": "ashby:bjakcareer:dba1e7f3-4213-4bba-95a1-d468fee895fd",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:661144fc-26bd-4c8e-b380-92c584468dd6",
+    "key": "ashby:bjakcareer:a50c1742-ac2b-47cc-91c8-ec6b63ad406f",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:591ddcd3-a4df-44af-b5ff-b100f901ec84",
+    "key": "ashby:bjakcareer:d324ef32-22e9-4b3e-b3dd-e09e310a27e5",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
-      "description",
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:f4b07ed8-3596-45bd-8ed1-35e8b90d450b",
+    "key": "ashby:bjakcareer:d92a7a87-2847-49bd-a366-e7524023bdcf",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
-      "description",
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:21543313-5034-45b2-8cd9-e50dbe97e720",
+    "key": "ashby:bjakcareer:900390e5-9479-4091-999a-98aefe4c9461",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:d35e86c3-1948-49e0-9e1f-efd839cd06b7",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:6f974c1f-758d-4d50-80b6-08e4cc12111f",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:95693502-dbb4-48e2-b0b9-aefb20453f56",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:fbc1f07e-557e-45bb-9fd6-c6064ce1e8cd",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:c51945b6-040c-4a5e-832d-7c44248ee5c0",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
@@ -756,7 +1110,7 @@
   {
     "key": "ashby:bjakcareer:80c2bfbf-b378-4d78-a8a6-14c3ee9399e2",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
@@ -764,65 +1118,103 @@
   {
     "key": "ashby:bjakcareer:51942404-008c-4ed5-909b-0fcf5385d620",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:8a774ef2-2bc0-46de-9634-ad66c86f685d",
+    "key": "ashby:bjakcareer:44864eda-b568-4b13-9778-a4c700e51974",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:3c336b39-c925-470c-baf9-a35dc3a173c7",
+    "key": "ashby:bjakcareer:5a751f4f-5500-486e-9e4c-b5b3c01998bc",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:e65db917-9284-424a-a9a0-9e89ce14d411",
+    "key": "ashby:bjakcareer:94ee1c94-4226-4d6e-a612-c72199549960",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "description",
-      "source_posted_at"
-    ]
-  },
-  {
-    "key": "ashby:bjakcareer:63f15948-58be-4f6b-b9a7-4b28bbe10161",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:5b6eb5cb-c32f-42e2-9391-49aaef7948a2",
+    "key": "ashby:bjakcareer:32ee7035-c970-45c2-bdfe-ff066e6a2465",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "description",
-      "source_posted_at"
-    ]
-  },
-  {
-    "key": "ashby:bjakcareer:e458d9c3-2b5d-4bca-82a1-443f8acde7b8",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:0f8b0bee-3945-45b2-a806-7d0a1a7a813c",
+    "key": "ashby:bjakcareer:029c9a88-5557-42c6-bd30-06d661d10ac7",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:cce82497-636b-4202-ace5-ddc927bd909a",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:d85885bf-04f2-4b5f-960b-5b80abf2d341",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:749db450-9a51-432e-a9e2-7b5b842dfcc3",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:9cf6e298-345a-458c-bd63-9318181de2e6",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:25ed48d1-bfe4-4424-9f91-040713e91fbc",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:97ee7f56-cac9-4e74-b028-62ea10a0dd32",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:34ebf242-d70e-41ce-abbb-e20a8cd0c730",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
@@ -830,7 +1222,7 @@
   {
     "key": "ashby:bjakcareer:c563c98f-ddc3-4462-bd9b-effed01448df",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
@@ -838,56 +1230,111 @@
   {
     "key": "ashby:bjakcareer:a2300b9c-6785-408e-80bf-a8c31c4b1fd3",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:4cdab9d8-a206-4bb3-bd52-2d2258ad1346",
+    "key": "ashby:bjakcareer:531563dc-299c-4af4-a087-f819c46e5136",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:d4797715-02ed-48ed-be26-4f999be7ccee",
+    "key": "ashby:bjakcareer:6af6067e-725b-4470-8805-d2af485f220b",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:7865c92f-d489-45db-b80b-b1c1708e930f",
+    "key": "ashby:bjakcareer:7ee5075e-cf35-4f31-a412-ba00878df489",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "description",
-      "source_posted_at"
-    ]
-  },
-  {
-    "key": "ashby:bjakcareer:f6b71628-f732-4c95-a244-90b9368f1378",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:07f76854-a2d8-4805-a601-3c73160e7169",
+    "key": "ashby:bjakcareer:dc4b8cd0-8464-412a-ba3c-52602783f070",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:95e23018-fdd5-4452-ac16-8fad8acd8c3b",
+    "key": "ashby:bjakcareer:3b5b671b-35b8-4086-95c8-0dbc75eee350",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:d9970948-f207-4f10-bf6e-3a296a34c998",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:da8b687b-bb3e-48a8-9f57-ccd18dbfad31",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:a6396c58-4788-452e-aa5d-10fb8891af1b",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:0192368f-1644-47a1-b298-cd914c1a0e75",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:bad51020-b60c-405c-bfd0-19df5f28e97e",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:75ab43a1-1850-4120-aa93-6445e8bdcd92",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:9c3e5966-1016-4405-bb88-dabf2bbcbf72",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:82ee2a4a-ac33-4db8-9750-488dade0f722",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
@@ -895,198 +1342,580 @@
   {
     "key": "ashby:bjakcareer:33414b78-80c4-443b-b2a5-6c32300e89b4",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:37fe98a9-8191-44b1-9d77-aa4cdc516d81",
+    "key": "ashby:bjakcareer:8a3ca850-8a8e-4bff-bad3-7a17df4ebf64",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:8cf85a6e-f5d1-4d3a-bc21-93bc5cb78389",
+    "key": "ashby:bjakcareer:567ed3ce-786f-4891-9446-b084ba19f923",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:ad56a787-9607-48d2-9be9-5bcbd62080c7",
+    "key": "ashby:bjakcareer:4c7db2d9-386a-4bc5-bfac-98a20a95ca63",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
-      "description",
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:592987fa-1569-4965-b059-e303d2ab5b2c",
+    "key": "ashby:bjakcareer:5adf545a-4f26-41f7-9111-95d2604416fe",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:9338dc10-3e55-43f7-b78c-8b6f2d4b8b92",
+    "key": "ashby:bjakcareer:7b74696f-8f3b-49a2-827d-36f0eeb3be8f",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "ashby:bjakcareer:2815a583-a0fe-40bc-90b9-40b42b725cb8",
+    "key": "ashby:bjakcareer:3c59ffd3-e414-40b0-83b3-914e2b87dd95",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "source_posted_at"
     ]
   },
   {
-    "key": "greenhouse:feverup:4128904101",
+    "key": "ashby:bjakcareer:bfd83ee7-3225-4e51-ad5f-2d3e7021c711",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:01e9a2c3-0e52-4a46-a9cf-0f90816cdd4b",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:049dfd99-defa-497f-b266-6c797b95a01b",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:46c9ce6c-0021-491b-ba1b-4b9c8fe73ac8",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:bf82f66d-d088-4a66-a30f-d5bbf439d82d",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:d4f3572f-835f-45a3-a2b0-0dfb94bb9e60",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:04a90cba-c404-484d-ae32-f9001fb0bd8b",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:85cb7bc9-06ce-4fd5-ae41-27ce0fe51b7a",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:cbe8922c-f75c-4bf1-bef4-b1db10d855e4",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:4c931d23-9b49-4f52-8bd0-56c407b272b4",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:60def69d-14bc-44e9-af57-2f87fb3a827e",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:b25dfd2e-b875-4a5a-8c33-77e522cb0d2f",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:10b34bc8-bdad-4650-a0eb-f3e2cb8a27cf",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:543e1620-c9d5-453b-8103-2ddc17e93bc7",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:4e7b3e1f-4f8a-49f5-b89a-5bc70ed7576b",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:709d9e9c-cc09-4f6f-9339-05a288bf5794",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:0a296d31-1640-4005-b6e2-9e35f832db5d",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:e43812db-42ae-41a8-b4a3-0785398da90f",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:1b83ec79-e65d-4cee-84fe-b5092007ad33",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:6aefcae8-b4ec-40a2-a32b-eba2828632d0",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:ebe6dccf-e244-4270-b046-3106f2b2e600",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:dccb97e4-1dd6-49d4-9ff2-c3d20ff26dce",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:b51045e5-f601-459f-8f84-61a7884556c4",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:3dd6bfd0-27be-40a2-bcbc-ebbe68689021",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:218f732b-29c8-466b-b817-47944e827e42",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:0274de8a-4ca0-4f68-b16f-a8beac7a2311",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:0f3d9d18-be23-4000-bb57-0c3ad86ddb3d",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:3580b965-4ac0-471e-8378-326a11484022",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:005df17b-ba2d-48f1-9728-c9a5cce7986c",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:bjakcareer:ace32ea7-6100-46d5-aca4-e27a7085137d",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_posted_at"
+    ]
+  },
+  {
+    "key": "ashby:lemfi:4291590d-2b78-4b80-8d8e-4274fd769356",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "location"
+    ]
+  },
+  {
+    "key": "ashby:lightspeedhq:e440e062-bd33-4f65-8ca2-c6e43d8da036",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T08:38:13.514972+00:00"
+    "at": "2026-11-16T09:38:08.594428+00:00"
   },
   {
-    "key": "greenhouse:feverup:4950804101",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T08:38:13.514972+00:00"
-  },
-  {
-    "key": "greenhouse:feverup:4950803101",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T08:38:13.514972+00:00"
-  },
-  {
-    "key": "smartrecruiters:junioradventuresgroup:6000000001579938",
+    "key": "greenhouse:feverup:4336373101",
     "kind": "NEW",
-    "at": "2026-11-16T08:38:13.514972+00:00"
+    "at": "2026-11-16T09:38:08.594428+00:00"
   },
   {
-    "key": "smartrecruiters:abbvie:3743990016866996",
+    "key": "greenhouse:feverup:5019385101",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:feverup:4967679101",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:feverup:4929496101",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:feverup:4749843101",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:feverup:5036549101",
     "kind": "NEW",
-    "at": "2026-11-16T08:38:13.514972+00:00"
+    "at": "2026-11-16T09:38:08.594428+00:00"
   },
   {
-    "key": "workday:cisco:2030466",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T08:38:13.514972+00:00"
-  },
-  {
-    "key": "workday:intel:JR0284556",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T08:38:13.514972+00:00"
-  },
-  {
-    "key": "workday:intel:JR0289156",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T08:38:13.514972+00:00"
-  },
-  {
-    "key": "workday:regeneron:R52851",
-    "kind": "NEW",
-    "at": "2026-11-16T08:38:13.514972+00:00"
-  },
-  {
-    "key": "greenhouse:klaviyo:7989325003",
+    "key": "greenhouse:feverup:5033071101",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:klaviyo:7991733003",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:klaviyo:8199415003",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:klaviyo:8199437003",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:klaviyo:7792539003",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:klaviyo:7855793003",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:newrelic:5469526008",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
-    "fields": [
-      "description",
-      "location",
-      "source_updated_at"
-    ]
-  },
-  {
-    "key": "greenhouse:wrike:4748784005",
-    "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:wrike:4748783005",
+    "key": "greenhouse:feverup:5033084101",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
       "description",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:zscaler:5277844007",
+    "key": "greenhouse:feverup:4718548101",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
-      "location",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:launchdarkly:7999676003",
+    "key": "greenhouse:feverup:4762891101",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "greenhouse:oliver:8346347",
     "kind": "CHANGED",
-    "at": "2026-11-16T08:38:13.514972+00:00",
+    "at": "2026-11-16T09:38:08.594428+00:00",
     "fields": [
-      "location",
-      "source_updated_at",
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:sonymusicentertainment:8879211002",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "greenhouse:sonymusicentertainment:8879175002",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "lever:dnb:e6fa23e5-347a-44b1-8bb3-92d108ad383e",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "description",
+      "description_state",
       "title"
+    ]
+  },
+  {
+    "key": "lever:dnb:a7b7e21a-2b58-4a3e-ac98-0895ade931dd",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "rippling:rippling:59e52cfd-9c3d-4160-b447-470cdef44197",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "rippling:rippling:961214b1-1249-46ea-9f91-2082c6459d7c",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000161760974",
+    "kind": "NEW",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000161753028",
+    "kind": "NEW",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "smartrecruiters:turnertownsend:744000158256392",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "ashby:montu-uk:861ef206-e483-495e-83fe-8cd9a13e1531",
+    "kind": "NEW",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "workday:abbott:31166770",
+    "kind": "NEW",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "workday:ntrs:R155900",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "workday:fiserv:R-10404449",
+    "kind": "REAPPEARED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "workday:fiserv:R-10406993",
+    "kind": "NEW",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "greenhouse:sumup:8855506002",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "greenhouse:sumup:8729788002",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "greenhouse:solarwinds:4746823005",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "description",
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:zscaler:5235393007",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T09:38:08.594428+00:00"
+  },
+  {
+    "key": "greenhouse:rubrik:7270376",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:8385208",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:8385222",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:8359500",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:8220011",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:8273808",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:8273834",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:8273717",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:8222564",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:8318044",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
+    ]
+  },
+  {
+    "key": "greenhouse:rubrik:7715043",
+    "kind": "CHANGED",
+    "at": "2026-11-16T09:38:08.594428+00:00",
+    "fields": [
+      "source_updated_at"
     ]
   }
 ]
