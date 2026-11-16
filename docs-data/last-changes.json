@@ -1,95 +1,65 @@
 [
   {
-    "key": "greenhouse:twilio:8325734",
+    "key": "greenhouse:airbnb:8288417",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T04:38:14.601420+00:00"
+    "at": "2026-11-16T05:38:04.091423+00:00"
   },
   {
-    "key": "greenhouse:anthropic:5431285008",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T04:38:14.601420+00:00"
+    "key": "greenhouse:gitlab:8940804002",
+    "kind": "NEW",
+    "at": "2026-11-16T05:38:04.091423+00:00"
+  },
+  {
+    "key": "ashby:snowflake:4144fb83-a7da-4fcd-8778-d23e018235ff",
+    "kind": "CHANGED",
+    "at": "2026-11-16T05:38:04.091423+00:00",
+    "fields": [
+      "description",
+      "source_posted_at"
+    ]
   },
   {
     "key": "greenhouse:deliveroo:8205846",
     "kind": "CHANGED",
-    "at": "2026-11-16T04:38:14.601420+00:00",
+    "at": "2026-11-16T05:38:04.091423+00:00",
     "fields": [
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:toast:6358896",
-    "kind": "NEW",
-    "at": "2026-11-16T04:38:14.601420+00:00"
-  },
-  {
-    "key": "greenhouse:sonymusicentertainment:8644294002",
+    "key": "ashby:elevenlabs:f1427164-3037-47d1-a768-11cfb87953ae",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T04:38:14.601420+00:00"
+    "at": "2026-11-16T05:38:04.091423+00:00"
   },
   {
     "key": "greenhouse:xai:5295932007",
-    "kind": "NEW",
-    "at": "2026-11-16T04:38:14.601420+00:00"
-  },
-  {
-    "key": "greenhouse:xai:5191142007",
     "kind": "CHANGED",
-    "at": "2026-11-16T04:38:14.601420+00:00",
+    "at": "2026-11-16T05:38:04.091423+00:00",
     "fields": [
-      "source_updated_at",
-      "title"
-    ]
-  },
-  {
-    "key": "lever:dnb:97dc50a9-6490-4cca-9a98-fdaaa7785cc7",
-    "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T04:38:14.601420+00:00"
-  },
-  {
-    "key": "lever:veeva:1f6a6da5-2f2f-4c58-871d-7e846505b789",
-    "kind": "CHANGED",
-    "at": "2026-11-16T04:38:14.601420+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "lever:weloglobal:89050f99-2c6f-4490-a763-9ddc81c19549",
-    "kind": "CHANGED",
-    "at": "2026-11-16T04:38:14.601420+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "lever:weloglobal:be895f15-0968-4889-a18e-331e62b77c40",
-    "kind": "CHANGED",
-    "at": "2026-11-16T04:38:14.601420+00:00",
-    "fields": [
-      "description"
-    ]
-  },
-  {
-    "key": "greenhouse:zscaler:5290020007",
-    "kind": "CHANGED",
-    "at": "2026-11-16T04:38:14.601420+00:00",
-    "fields": [
-      "source_updated_at",
-      "title"
-    ]
-  },
-  {
-    "key": "greenhouse:zscaler:5279066007",
-    "kind": "CHANGED",
-    "at": "2026-11-16T04:38:14.601420+00:00",
-    "fields": [
+      "context_candidate",
+      "description",
+      "location",
       "source_updated_at"
     ]
   },
   {
-    "key": "greenhouse:rubrik:8232109",
+    "key": "lever:veeva:9f186a91-90ba-4e38-b303-94bc392647e3",
     "kind": "REMOVED_FROM_FEED",
-    "at": "2026-11-16T04:38:14.601420+00:00"
+    "at": "2026-11-16T05:38:04.091423+00:00"
+  },
+  {
+    "key": "greenhouse:fivetran:7917346003",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T05:38:04.091423+00:00"
+  },
+  {
+    "key": "greenhouse:newrelic:5407547008",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T05:38:04.091423+00:00"
+  },
+  {
+    "key": "greenhouse:rubrik:8232825",
+    "kind": "REMOVED_FROM_FEED",
+    "at": "2026-11-16T05:38:04.091423+00:00"
   }
 ]
