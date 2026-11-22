@@ -14,7 +14,7 @@ class AshbyQuarantineTests(unittest.TestCase):
    records=ingest.normalize(S,{'jobs':[job('1'),job('2',title)]})
    self.assertEqual(len(records),1);self.assertEqual(records.quarantined_records,[{'id':'2','reason':'Job missing title'}])
  def test_missing_identity_still_fails_closed(self):
-  for malformed in ({'title':''},dict(job('1'),id=None),None):
+  for malformed in ({'title':''},dict(job('1'),id=None),dict(job('1',''),id=''),dict(job('1',''),id=True),dict(job('1',''),id=[]),None):
    with self.assertRaises(ValueError):ingest.normalize(S,{'jobs':[job('2'),malformed]})
  def test_unknown_title_schema_still_fails_closed(self):
   for title in (17,False,0,[],{}):
