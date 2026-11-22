@@ -84,6 +84,12 @@ def lever_description(j):
     if additional: sections.append(additional)
     return '\n\n'.join(sections)
 
+class NormalizedJobs(list):
+    """Valid jobs with explicit, stable-ID provider-record quarantine evidence."""
+    def __init__(self):
+        super().__init__()
+        self.quarantined_records = []
+
 def normalize(source, payload):
     ats=source['ats']
     if ats=='lever':
@@ -92,11 +98,20 @@ def normalize(source, payload):
     else:
         if not isinstance(payload,dict) or not isinstance(payload.get('jobs'),list): raise ValueError('Expected jobs array, schema drift not zero')
         jobs=payload['jobs']
-    normalized=[]
+    normalized=NormalizedJobs()
     for j in jobs:
         if not isinstance(j,dict) or j.get('id') is None: raise ValueError('Job missing stable id')
+        if ats == 'ashby' and (type(j['id']) not in (int, str) or not str(j['id']).strip()):
+            raise ValueError('Job missing stable id')
         title=j.get('title') if ats!='lever' else j.get('text')
-        if not title: raise ValueError('Job missing title')
+        if not title:
+            # A malformed Ashby post must not prevent valid posts refreshing.
+            # Its stable ID remains visible; ingest preserves unseen baseline
+            # jobs and does not advance full-source success while partial.
+            if ats == 'ashby' and (title is None or title == ''):
+                normalized.quarantined_records.append({'id': str(j['id']), 'reason': 'Job missing title'})
+                continue
+            raise ValueError('Job missing title')
         if ats=='greenhouse':
             loc=j.get('location',{}).get('name',''); description=j.get('content',''); url=j.get('absolute_url'); posted=None; updated=j.get('updated_at'); dtype='updated_at_is_not_posted_at'
         elif ats=='ashby':
