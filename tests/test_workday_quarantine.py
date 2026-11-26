@@ -9,7 +9,7 @@ class QuarantineTest(unittest.TestCase):
   with patch.object(ingest,'desc_enricher',None):return ingest.ingest([S],d,fetcher=lambda _:payload(rows))
  def test_one_bad_141_valid(self):
   rows=[job(i) for i in range(141)]+[{'bulletFields':['R00313152','Dublin']}]
-  v=ats_extra.normalize(S,payload(rows));self.assertEqual(len(v),141);self.assertEqual(v.quarantined_records,[{'id':'R00313152','reason':'Job missing title'}])
+  v=ats_extra.normalize(S,payload(rows));self.assertEqual(len(v),141);self.assertEqual(v.quarantined_records,[{'id':'R00313152','reason':'Job missing title','record_class':'SKELETAL_NO_TITLE_NO_PATH','recovered_location':'Dublin'}])
   with tempfile.TemporaryDirectory() as d:
    h=self.run_feed(d,rows);r=h['source_health'][0];self.assertEqual(r['status'],'DEGRADED_PARTIAL');self.assertEqual(r['postings_fetched'],142);self.assertEqual(r['valid_postings_count'],141);self.assertEqual(r['quarantined_count'],1);self.assertEqual(h['irish_active_raw'],141);self.assertIn('workday:accenture',h['degraded_sources']);self.assertIsNone(r['last_success_at']);self.assertFalse(h['standing_feed'])
  def test_all_bad_not_ok_zero(self):
