@@ -1,7 +1,10 @@
 """GET-only local employer-feed ingestion. No applications, mail or production writes."""
-import argparse, hashlib, json, pathlib, re, time, urllib.request, urllib.error
+import argparse, hashlib, json, pathlib, re, time, urllib.request, urllib.error, uuid
 from email.utils import parsedate_to_datetime
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+import ranking
+
+REVIEW_FIELDS = ('review_state', 'reviewed_at', 'review_note')
 
 IRISH = re.compile(r'\b(ireland|dublin|cork|galway|limerick|waterford|kilkenny|athlone|tralee|kildare|naas|leixlip|maynooth|drogheda|dundalk|letterkenny|sligo|cavan|ennis|shannon|castlebar|tullamore|mullingar|wexford|wicklow|carlow|nenagh|clonmel|dun laoghaire|dún laoghaire|ballincollig|swords|tallaght|bray|portlaoise|dungarvan|tipperary|meath|donegal|leopardstown)\b',re.I)
 NORTHERN = re.compile(r'\b(northern ireland|belfast|derry|antrim|newry)\b',re.I)
@@ -177,6 +180,10 @@ def ingest(sources, destination, fetcher=None):
                     receipt['http_status']=r.getcode();payload=json.load(r)
                 receipt['response_verified']=True
             receipt['pagination_state']=pagination_evidence(payload, source)
+            _proof=globals().get('pagination_proof_fn')
+            if _proof:
+                _p=_proof(payload, source, receipt['pagination_state'])
+                if _p: receipt['pagination_proof']=_p
             raw=payload if isinstance(payload,list) else payload.get('jobs') if isinstance(payload,dict) else None
             if isinstance(raw,list): receipt['postings_fetched']=len(raw)
             if receipt['pagination_state']=='INCOMPLETE': raise ValueError('Incomplete pagination: further page indicated; prior baseline retained')
@@ -195,6 +202,16 @@ def ingest(sources, destination, fetcher=None):
             for job in jobs:
                 key=job['key'];seen.add(key);h=fingerprint(job);previous=old['jobs'].get(key)
                 record=job|{'hash':h,'first_seen_at':previous['first_seen_at'] if previous else now,'last_seen_at':now,'last_check_at':now,'source_status':'OK','stale':False,'active':True}
+                # Human/agent review decisions persist across runs. A materially
+                # changed description invalidates an earlier verdict, because the
+                # evidence it rested on is gone; other edits keep it.
+                if previous:
+                    if previous.get('review_state') not in (None,'NOT_REVIEWED') and 'description' in changed_fields(previous,job):
+                        record['review_state']='NOT_REVIEWED';record['review_invalidated_at']=now;record['review_invalidated_reason']='description_changed'
+                    else:
+                        for k in REVIEW_FIELDS:
+                            if k in previous: record[k]=previous[k]
+                record['last_changed_at']=now if (not previous or changed_fields(previous,job)) else previous.get('last_changed_at',previous.get('first_seen_at',now))
                 state['jobs'][key]=record
                 if not previous:
                     changes.append({'key':key,'kind':'NEW','at':now});receipt['new_raw_count']+=1
@@ -223,8 +240,18 @@ def ingest(sources, destination, fetcher=None):
             health.append(receipt|{'source':sid,'status':'ERROR','error':str(e),'last_success_at':previous_source.get('last_success_at'),'seconds':round(time.monotonic()-start,3)})
     state['checked_at']=now
     active=[j for j in state['jobs'].values() if j['active'] and j['irish_location_match']]
-    summary={'checked_at':now,'source_health':health,'new_count':sum(c['kind']=='NEW' for c in changes),'changes_count':sum(c['kind']!='CONTENT_SCHEMA_BASELINE' for c in changes),'schema_baseline_count':sum(c['kind']=='CONTENT_SCHEMA_BASELINE' for c in changes),'irish_active_raw':len(active),'remote_location_pending':sum(j['active'] and j.get('remote_ireland_eligibility_unverified',False) for j in state['jobs'].values()),'context_candidates_unreviewed':sum(j['context_candidate'] for j in active),'standing_feed':False,'coverage':str(len(sources))+' explicit employer boards only. No whole-board/global coverage claim.'}
-    summary.update(source_receipt_schema_version=2,
+    # Remote-country eligibility is a review state, never an exclusion: broad
+    # remote roles stay queued as REMOTE_COUNTRY_REVIEW_PENDING until a review
+    # resolves whether the employer allows Ireland.
+    remote_pending=[j for j in state['jobs'].values() if j['active'] and not j['irish_location_match'] and j.get('remote_ireland_eligibility_unverified')]
+    queue=[dict(j,eligibility_review_state='IRELAND_LOCATION_MATCHED') for j in active]+[dict(j,eligibility_review_state='REMOTE_COUNTRY_REVIEW_PENDING') for j in remote_pending]
+    queue=ranking.rank_queue(queue)
+    unreviewed=[j for j in queue if j.get('review_state','NOT_REVIEWED')=='NOT_REVIEWED']
+    oldest=min((j['first_seen_at'] for j in unreviewed),default=None)
+    summary={'checked_at':now,'run_id':uuid.uuid4().hex,'expected_interval_seconds':3600,'fresh_until':(datetime.fromisoformat(now)+timedelta(seconds=5400)).isoformat(),'freshness_rule':'A cached copy older than fresh_until, or one whose run_id repeats across polls, is stale and must not be treated as current.','source_health':health,'new_count':sum(c['kind']=='NEW' for c in changes),'changes_count':sum(c['kind']!='CONTENT_SCHEMA_BASELINE' for c in changes),'schema_baseline_count':sum(c['kind']=='CONTENT_SCHEMA_BASELINE' for c in changes),'irish_active_raw':len(active),'remote_location_pending':sum(j['active'] and j.get('remote_ireland_eligibility_unverified',False) for j in state['jobs'].values()),'context_candidates_unreviewed':sum(j['context_candidate'] for j in active),'standing_feed':False,'coverage':str(len(sources))+' explicit employer boards only. No whole-board/global coverage claim.'}
+    summary.update(fit_counts={'raw_irish_active':len(active),'remote_country_review_pending':len(remote_pending),'verified_fit':sum(j.get('review_state')=='VERIFIED_FIT' for j in queue),'verified_unfit':sum(j.get('review_state')=='VERIFIED_UNFIT' for j in queue),'not_reviewed':len(unreviewed)},
+                   review_backlog={'unreviewed_count':len(unreviewed),'oldest_unreviewed_first_seen_at':oldest,'oldest_unreviewed_age_days':round((datetime.fromisoformat(now)-datetime.fromisoformat(oldest)).total_seconds()/86400,1) if oldest else 0})
+    summary.update(source_receipt_schema_version=3,
                    degraded_sources=[h['source'] for h in health if h['status'] in ['ERROR','BACKOFF','DEGRADED_PARTIAL']],
                    pagination_unverified_sources=[h['source'] for h in health if h['pagination_state']=='NOT_VERIFIED'],
                    qualification_state='NOT_ASSESSED',qualified_count=None)
@@ -235,7 +262,7 @@ def ingest(sources, destination, fetcher=None):
     state['journal']=(prior_events+changes)[-5000:]
     state['source_health']=health
     state['summary']=summary
-    for name,value in [('state.json',state),('raw-irish-queue.json',active),('health.json',summary),('last-changes.json',changes)]:
+    for name,value in [('state.json',state),('raw-irish-queue.json',queue),('health.json',summary),('last-changes.json',changes)]:
         tmp=dest/(name+'.tmp');tmp.write_text(json.dumps(value,ensure_ascii=False,indent=2));tmp.replace(dest/name)
     tmp=dest/'changes.jsonl.tmp';tmp.write_text('\n'.join(json.dumps(c) for c in state['journal'])+'\n');tmp.replace(dest/'changes.jsonl')
     return summary
