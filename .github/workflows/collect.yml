@@ -18,12 +18,12 @@ jobs:
       - uses: actions/checkout@v4
         timeout-minutes: 5
         with:
-          ref: main
+          ref: ${{ github.ref_name }}
           fetch-depth: 1
       - name: refresh queued run base
         run: |
-          git fetch --depth=1 --no-tags origin main
-          git reset --hard origin/main
+          git fetch --depth=1 --no-tags origin ${{ github.ref_name }}
+          git reset --hard origin/${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -46,10 +46,10 @@ jobs:
           git config user.name "ie-jobs-collector-bot"
           git config user.email "actions@github.com"
           # Keep generated output outside the tracked tree while moving to the
-          # latest main. This preserves unrelated commits without merging JSON.
+          # latest branch head. This preserves unrelated commits without merging JSON.
           for attempt in 1 2 3; do
-            git fetch --depth=1 --no-tags origin main
-            git reset --hard origin/main
+            git fetch --depth=1 --no-tags origin ${{ github.ref_name }}
+            git reset --hard origin/${{ github.ref_name }}
             mkdir -p docs-data state
             cp out/raw-irish-queue.json out/last-changes.json out/health.json docs-data/
             gzip -9 -c out/state.json > state/state.json.gz
@@ -58,7 +58,7 @@ jobs:
               exit 0
             fi
             git commit -m "hourly collector update $(date -u +%Y-%m-%dT%H:%MZ)"
-            if git push origin HEAD:main; then
+            if git push origin HEAD:${{ github.ref_name }}; then
               exit 0
             fi
             sleep "$((attempt * 2))"

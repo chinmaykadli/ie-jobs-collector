@@ -80,7 +80,79 @@ def smartrecruiters_pagination_evidence(payload):
     return 'COMPLETE_EXPLICIT' if complete else 'INCOMPLETE'
 
 
+CONTINUATION_KEYS = ('hasMore', 'has_more', 'nextPage', 'next_page', 'nextCursor',
+                     'next', 'cursor', 'nextUrl', 'next_page_url', 'paging',
+                     'continuationToken', 'continuation')
+
+# Providers whose public board endpoint returns the whole board in one response,
+# documented as a full list with no paging parameters. The proof is structural:
+# the envelope matches that contract, no continuation metadata is present, and
+# every row carries a distinct stable ID. Duplicated rows or continuation fields
+# fail closed to INCOMPLETE; an unexpected envelope stays NOT_VERIFIED.
+FULL_LIST_CONTRACTS = {
+    'ashby': {'envelope': 'dict:jobs+apiVersion', 'ids': lambda j: j.get('id'),
+              'docs': 'https://developers.ashbyhq.com/docs/public-job-posting-api'},
+    'lever': {'envelope': 'top-level array', 'ids': lambda j: j.get('id'),
+              'docs': 'https://github.com/lever/postings-api/'},
+    'gem': {'envelope': 'top-level array', 'ids': lambda j: j.get('id') or j.get('internal_job_id'),
+            'docs': 'https://api.gem.com/job_board/v0/'},
+    'rippling': {'envelope': 'top-level array', 'ids': lambda j: j.get('uuid'),
+                 'docs': 'https://api.rippling.com/platform/api/ats/v1/'},
+    'workable': {'envelope': 'dict:jobs+name', 'ids': lambda j: j.get('shortcode') or j.get('id'),
+                 'docs': 'https://apply.workable.com/api/v1/widget/accounts/'},
+}
+
+
+def full_list_pagination(payload, source):
+    """Returns (state, proof|None) for single-response full-list providers."""
+    if not source:
+        return None, None
+    contract = FULL_LIST_CONTRACTS.get(source.get('ats'))
+    if contract is None:
+        return None, None
+    if contract['envelope'].startswith('dict'):
+        if not isinstance(payload, dict) or not isinstance(payload.get('jobs'), list):
+            return 'NOT_VERIFIED', None
+        rows = payload['jobs']
+        if source.get('ats') == 'ashby' and not payload.get('apiVersion'):
+            return 'NOT_VERIFIED', None
+        if source.get('ats') == 'workable' and not isinstance(payload.get('name'), str):
+            return 'NOT_VERIFIED', None
+        continuation = [k for k in CONTINUATION_KEYS if payload.get(k)]
+    else:
+        if not isinstance(payload, list):
+            return 'NOT_VERIFIED', None
+        rows = payload
+        continuation = []
+    if continuation:
+        return 'INCOMPLETE', None
+    ids = [contract['ids'](j) if isinstance(j, dict) else None for j in rows]
+    valid = all(type(jid) in (int, str) and str(jid).strip() for jid in ids)
+    distinct = len({str(jid) for jid in ids})
+    if not valid or distinct != len(rows):
+        return 'INCOMPLETE', None
+    proof = {'method': 'PROVIDER_FULL_LIST_CONTRACT',
+             'envelope': contract['envelope'],
+             'rows': len(rows),
+             'distinct_stable_ids': distinct,
+             'continuation_fields_present': False,
+             'api_reference': contract['docs']}
+    return 'COMPLETE_EXPLICIT', proof
+
+
+def pagination_proof(payload, source, state):
+    """Receipt detail for a COMPLETE_EXPLICIT verdict from the full-list path."""
+    if state != 'COMPLETE_EXPLICIT':
+        return None
+    _state, proof = full_list_pagination(payload, source)
+    return proof
+
+
 def pagination_evidence(payload, source=None):
+    if source and source.get('ats') in FULL_LIST_CONTRACTS:
+        state, _proof = full_list_pagination(payload, source)
+        if state is not None:
+            return state
     if source and source.get('ats') == 'smartrecruiters':
         return smartrecruiters_pagination_evidence(payload)
     if source and source.get('ats') == 'greenhouse':
@@ -133,14 +205,24 @@ def normalize(source, payload):
             loc = (j.get('workLocation') or {}).get('label', '')
             posted, dtype, desc, upd = None, 'not_provided', '', None
         else:
-            jid = (j.get('bulletFields') or [None])[0] or j.get('externalPath'); title = j.get('title')
+            bf = j.get('bulletFields') or []
+            jid = (bf + [None])[0] or j.get('externalPath'); title = j.get('title')
             base = source['url'].split('/wday/')[0]; site = source['url'].split('/cxs/')[1].split('/')[1]
             url = base + '/' + site + j['externalPath'] if j.get('externalPath') else None
-            loc = j.get('locationsText') or ''
+            # Skeletal Workday rows (no locationsText) still carry the location
+            # label as bulletFields[1]; recover it instead of dropping it.
+            loc = j.get('locationsText') or (str(bf[1]) if len(bf) > 1 and bf[1] else '')
             posted, dtype, desc, upd = j.get('postedOn'), 'relative_text_not_a_date', '', None
         if jid is None: raise ValueError('Job missing stable id')
         if ats == 'workday' and (not title or not j.get('externalPath')):
-            quarantine.append({'id': str(jid), 'reason': 'Job missing title' if not title else 'Missing authoritative job link'})
+            rec = {'id': str(jid), 'reason': 'Job missing title' if not title else 'Missing authoritative job link'}
+            if not title and not j.get('externalPath'):
+                # Skeletal record: the board serves only a stable ID and a
+                # location label. Title and owning path are not recoverable
+                # from the feed; keep the evidence so the role stays findable.
+                rec['record_class'] = 'SKELETAL_NO_TITLE_NO_PATH'
+                if loc: rec['recovered_location'] = loc
+            quarantine.append(rec)
             continue
         if not title: raise ValueError('Job missing title')
         if not url or not url.startswith('https://'): raise ValueError('Missing authoritative job link')
@@ -176,6 +258,7 @@ def _merge_dupes(res):
     return out
 
 I.normalize, I.pagination_evidence = normalize, pagination_evidence
+I.pagination_proof_fn = pagination_proof
 
 def run(sources, out):
     """All sources, including Workday, go through ingest's own fetch, receipts and backoff path."""
