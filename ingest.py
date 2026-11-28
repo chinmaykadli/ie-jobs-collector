@@ -30,7 +30,7 @@ def retry_delay(error, default=3600):
             except (ValueError,TypeError): pass
     return default
 
-LANES = re.compile(r'\b(operations?|operational|project|program(me)?|pmo|business|strategy|strategic|analyst|coordinat\w*|implementation|onboarding|customer|client|enablement|supply|procurement|planning|quality|process|partnership|commercial|founder|chief of staff|account|revenue)\b', re.I)
+LANES = re.compile(r'\b(operations?|operational|project|program(me)?|pmo|business|strategy|strategic|analyst|coordinat\w*|implementation|onboarding|customer|client|enablement|supply|procurement|planning|quality|process|partnership|commercial|founder|chief of staff|account|revenue|sales|technical support|graduate)\b', re.I)
 
 def remote_ireland_pending(loc, ireland=False):
     if ireland or NORTHERN.search(loc): return False
