@@ -7,3 +7,7 @@ a=argparse.ArgumentParser();a.add_argument("--sources",default="sources.json");a
 
 import supplemental_discovery
 supplemental_discovery.run(args.output)
+
+import agency_feed
+subprocess.run(["python3", "agency_feed.py", "--test"], check=True)
+agency_feed.run(args.output)

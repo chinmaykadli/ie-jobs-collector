@@ -22,7 +22,9 @@ if __name__ == '__main__':
         health = json.loads(Path('docs-data/health.json').read_text())
     except (OSError, ValueError):
         health = {}
-    skip = already_published(health, dt.datetime.now(dt.timezone.utc))
+    # Explicit branch validation must exercise collection, not replay main's hourly guard.
+    branch_test = os.environ.get('GITHUB_EVENT_NAME') == 'workflow_dispatch' and os.environ.get('GITHUB_REF_NAME', 'main') != 'main'
+    skip = False if branch_test else already_published(health, dt.datetime.now(dt.timezone.utc))
     with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
         output.write(f'skip={str(skip).lower()}\n')
     print('Collector skipped: this UTC hour already has published data.' if skip else 'No published data for this UTC hour; collecting.')
