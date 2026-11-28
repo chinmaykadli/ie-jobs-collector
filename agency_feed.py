@@ -72,7 +72,7 @@ def parse_detail(raw,url):
         if title.lower() in ('job description','job details','vacancy'):
             titles=re.search(r'<title[^>]*>(.*?)</title>',raw,re.S|re.I)
             title=tidy(Page(titles.group(1)).text) if titles else title_slug(url)
-        return dict(title=title,description=text,location='',location_review_state='LOCATION_UNRESOLVED',context_candidate=bool(LANES.search(title+' '+text)),employer='UNRESOLVED_AGENCY_CLIENT',posted_at=None)
+        return dict(title=title,description=text,description_evidence='UNSTRUCTURED_PAGE_TEXT_NOT_VERIFIED_JD',location='',location_review_state='LOCATION_UNRESOLVED',context_candidate=bool(LANES.search(title+' '+text)),employer='UNRESOLVED_AGENCY_CLIENT',posted_at=None)
     title=html.unescape(data.get('title') or '')
     desc=tidy(Page(html.unescape(data.get('description') or '')).text)
     if not title or not desc:raise ValueError('JobPosting lacks title/description')
@@ -89,7 +89,7 @@ def parse_detail(raw,url):
     # Unknown, remote and foreign-looking rows remain retained for review, never auto-excluded.
     ls='IRISH_LOCATION_CLAIM_REQUIRES_REVIEW' if irish else 'LOCATION_UNRESOLVED_OR_NON_IRISH_REVIEW'
     org=data.get('hiringOrganization') or {}; employer=org.get('name') if isinstance(org,dict) else None
-    return dict(title=title,description=desc,location=location,location_review_state=ls,context_candidate=bool(LANES.search(title+' '+desc)),employer=employer or 'UNRESOLVED_AGENCY_CLIENT',posted_at=data.get('datePosted'))
+    return dict(title=title,description=desc,description_evidence='STRUCTURED_JOBPOSTING',location=location,location_review_state=ls,context_candidate=bool(LANES.search(title+' '+desc)),employer=employer or 'UNRESOLVED_AGENCY_CLIENT',posted_at=data.get('datePosted'))
 
 def eligible_for_detail(job,now):
     checked=job.get('detail_checked_at')
@@ -99,7 +99,16 @@ def select_details(jobs,now,cap):
     pending=[j for j in jobs if eligible_for_detail(j,now) and (not j.get('next_attempt_at') or j['next_attempt_at']<=now)]
     # Oldest-attempt first ensures generic/nonlane URLs and old legacy skipped records get read.
     # Lane words break ties only, never eliminate candidates.
-    return sorted(pending,key=lambda j:(j.get('last_attempt_at',''),not bool(LANES.search(title_slug(j['job_url']))),j.get('first_seen_at',''),j['job_url']))[:cap]
+    ordered=sorted(pending,key=lambda j:(j.get('last_attempt_at',''),not bool(LANES.search(title_slug(j['job_url']))),j.get('first_seen_at',''),j['job_url']))
+    buckets={}
+    for job in ordered:buckets.setdefault(job.get('agency') or U.urlparse(job['job_url']).netloc,[]).append(job)
+    result=[]
+    while buckets and len(result)<cap:
+        for agency in list(buckets):
+            result.append(buckets[agency].pop(0))
+            if not buckets[agency]:del buckets[agency]
+            if len(result)>=cap:break
+    return result
 
 def run(destination,sources=None,cap=40,crawler=crawl,detail_fetch=None):
     out=pathlib.Path(destination);out.mkdir(parents=True,exist_ok=True);sp=out/'state.json'
@@ -154,6 +163,10 @@ class Tests(unittest.TestCase):
         with self.assertRaises(ValueError):sitemap_links('<html>Access denied</html>')
     def test_foreign_never_irish(self):
         d={'@type':'JobPosting','title':'Support','description':'Business Dublin clients','jobLocation':{'address':{'addressLocality':'London','addressCountry':'GB'}}};r=parse_detail('<script type="application/ld+json">'+json.dumps(d)+'</script>','https://x/jobs/1');self.assertNotEqual(r['location_review_state'],'IRISH_LOCATION_CLAIM_REQUIRES_REVIEW')
+    def test_agency_fairness(self):
+        now='2026-11-28T00:00:00+00:00'
+        jobs=[{'job_url':'https://a.ie/jobs/sales'+str(i),'agency':'a.ie'} for i in range(50)]+[{'job_url':'https://z.ie/jobs/graduate','agency':'z.ie'}]
+        self.assertEqual({j['agency'] for j in select_details(jobs,now,2)},{'a.ie','z.ie'})
     def test_path_language_not_blanket_excluded(self):self.assertTrue(job_url('https://x.ie/en-us/jobs/sales-graduate'))
 
 if __name__=='__main__':
